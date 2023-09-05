@@ -1,0 +1,21 @@
+---
+baseURL: "https://example.org/"
+languageCode: "en-us"
+title: "Martin-Luther-Gemeinde Bad Schwartau"
+
+menus:
+  main:
+    - name: "Home"
+      pageRef: "/"
+      weight: 10
+    - name: "Posts"
+      pageRef: "/posts"
+      weight: 20
+    - name: "Tags"
+      pageRef: "/tags"
+      weight: 30
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.116.0"
