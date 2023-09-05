@@ -7,6 +7,58 @@
 > dieses Projekts zu verfolgen und Unklarheiten so weit es geht
 > zu klären.
 
+## 2023-09-05 19:36 (MtLam)
+
+Ich habe mich entschlossen, dem Raymond-Credo zu folgen, was
+Code-Veröffentlichung angeht. In _"The Cathedral and the Bazaar"_ hat Eric
+Raymond es so formuliert:
+
+> _Release early. Release often. And always listen to your customers._
+
+Das heißt: Alles immer ganz früh raus, jeden kleinen Fortschritt gleich online
+stellen und zeitnah auf alles Feedback eingehen, das ich von KlBgm oder StOtt
+bekomme &ndash; oder wer sonst noch irgendwann konstruktives Feedback geben
+will.
+
+Damit ich schnell vorankomme und immer was vorzeigen kann, habe ich mich &ndash;
+fürs erste zumindest &ndash; gegen ein Theme wie
+[Paige](https://hugothemesfree.com/paige-hugo-theme/)
+entschieden und werde stattdessen die Basis-Formatierungen mit
+[Tailwind](https://tailwindcss.com/)
+vornehmen. Schon weil ich mich bei _Tailwind_ nicht mehr sonderlich einarbeiten
+muss. Später können wir gerne ein "professionelles" Theme verwenden, aber für
+die ersten Schritte reicht _Tailwind_ absolut aus.
+
+Ein weiteres Credo soll sein: _"Erst der Inhalt, dann die Schönheit!"_ Das
+heißt: Erst wenn die Texte und die Bilder alle auf der Webseite sind (oder sagen
+wir: 95% davon), erst dann lohnt es sich, das Design (Layout, Farben,
+Schriftarten usw.) in Angriff zu nehmen &ndash; umso mehr als KlBgm sich mit
+anderen zusammen über Änderungen in Inhalt, Layout und zusätzliche Features noch
+weitere Gedanken machen will. Lohnt sich nicht, alles gleich picobello
+durchzustylen -- um dann von der "Kommission" gesagt zu bekommen: "Alles super,
+aber wir wollen es lieber so und so haben." Dann sind womöglich mehrere
+Arbeitstage für die Katz gewesen.
+
+Infolgedessen werden die ersten Formatierungen alle sehr schlicht und monochrom
+(schwarzweiß) sein. Über die richtigen Farben für Boxen, Buttons und Leisten wie
+die Navigationsleiste kann dann später entschieden werden.
+
+## 2023-09-05 09:45 (KlBgm)
+
+Vielen Dank MtLam für die Grundlagenarbeit!
+Ich bin jetzt auch bei GitHub angemeldet. Mir scheint das eine gute Möglichkeit
+zu sein, gemeinsam an der HP zu arbeiten und diese dann auch relativ leicht zu
+pflegen. Jedenfalls kann ich so ohne große Programmierkenntnisse Texte schreiben
+und Änderungen einpflegen.
+
+#### Zum Vorgehen:
+
+@MtLam: Du hattest ja ein Migrationstool von Joomla auf Jamstack gefunden. Wie
+wäre es, wenn Du damit einmal ein paar Seiten migrist. Dann könnten wir sehen,
+wie das aussieht, Veränderungen vornehmen und die Zusammenarbeit üben. Vorher
+jedoch sollten StOtt und ich uns in Rücksprache mit anderen Gedanken machen,
+welche Veränderungen wir uns bei der HP wünschen (Inhalt, Layout etc...)
+
 ## 2023-09-04 08:35:57
 
 Projektbeginn. MtLam hat das Projekt auf GitHub erstellt, so dass es
@@ -30,14 +82,3 @@ werden kann.
     grafische Oberfläche, die er sich wünscht und würde beim Speichern sofort das
     Projekt updaten und über das Update auch gleich veröffentlichen. Drei Fliegen
     mit einer Klappe!
-
-## 2023-09-05 09:45 - von KlBgm
-
-Vielen Dank MtLam für die Grundlagenarbeit!
-Ich bin jetzt auch bei GitHub angemeldet. Mir scheint das eine gute Möglichkeit zu sein, gemeinsam an der HP zu arbeiten und diese dann auch relativ leicht zu pflegen. Jedenfalls kann ich so ohne große Programmierkenntnisse Texte schreiben und Änderungen einpflegen.
-
-
-#### Zum Vorgehen:
-@MtLam: Du hattest ja ein Migrationstool von Joomla auf Jamstack gefunden. Wie wäre es, wenn Du damit einmal ein paar Seiten migrist. Dann könnten wir sehen, wie das aussieht, Veränderungen vornehmen und die Zusammenarbeit üben.
-Vorher jedoch sollten StOtt und ich uns in Rücksprache mit anderen Gedanken machen, welche Veränderungen wir uns bei der HP wünschen (Inhalt, Layout etc...)
-
