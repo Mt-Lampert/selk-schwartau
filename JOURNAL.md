@@ -30,3 +30,14 @@ werden kann.
     grafische Oberfläche, die er sich wünscht und würde beim Speichern sofort das
     Projekt updaten und über das Update auch gleich veröffentlichen. Drei Fliegen
     mit einer Klappe!
+
+## 2023-09-05 09:45 - von KlBgm
+
+Vielen Dank MtLam für die Grundlagenarbeit!
+Ich bin jetzt auch bei GitHub angemeldet. Mir scheint das eine gute Möglichkeit zu sein, gemeinsam an der HP zu arbeiten und diese dann auch relativ leicht zu pflegen. Jedenfalls kann ich so ohne große Programmierkenntnisse Texte schreiben und Änderungen einpflegen.
+
+
+#### Zum Vorgehen:
+@MtLam: Du hattest ja ein Migrationstool von Joomla auf Jamstack gefunden. Wie wäre es, wenn Du damit einmal ein paar Seiten migrist. Dann könnten wir sehen, wie das aussieht, Veränderungen vornehmen und die Zusammenarbeit üben.
+Vorher jedoch sollten StOtt und ich uns in Rücksprache mit anderen Gedanken machen, welche Veränderungen wir uns bei der HP wünschen (Inhalt, Layout etc...)
+
