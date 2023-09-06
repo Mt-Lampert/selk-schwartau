@@ -1,7 +1,8 @@
-{{- with resources.Get "css/main.css" }}
-  {{- if eq hugo.Environment "development" }}
-    <link rel="stylesheet" href="{{ .RelPermalink }}">
-  {{- else }}
+{{- if eq hugo.Environment "development" }}
+<!-- <link rel="stylesheet" href="{{ .RelPermalink }}"> -->
+  <script src="https://cdn.tailwindcss.com" ></script>
+{{- else }}
+  {{- with resources.Get "styles.css" }}
     {{- with . | minify | fingerprint }}
       <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
     {{- end }}

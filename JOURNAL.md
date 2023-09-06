@@ -7,6 +7,24 @@
 > dieses Projekts zu verfolgen und Unklarheiten so weit es geht
 > zu klären.
 
+## 2023-09-06 19:20 (MtLam)
+
+Habe jetzt nach einigen Mühen Tailwind endlich so weit eingerichtet bekommen,
+dass ich damit die Seiten formatieren kann. Ist gleich nach dem ersten
+Einrichten immer noch ein bisschen nervig, weil ich bei jeder Layout-Änderung
+die _Tailwind_-App durchlaufen lassen muss, damit die neuen Formatierungen auch
+im Browser sichtbar werden. Beim Experimentieren kostet das wirklich Nerven.
+Aber wenn die Formatierungen dann irgendwann etabliert sind, wird auch das
+Geschichte sein. 
+
+__[UPDATE 20:13]:__ Ich habe eine Lösung gefunden! Da Experimente nur auf dem
+Hugo-Live-Server passieren, habe ich für den jetzt bestimmt, dass er sich die 
+_Tailwind_-Klassen von der CDN-Version holt wie in der 
+[offiziellen Doku](https://tailwindcss.com/docs/installation/play-cdn)
+beschrieben. Damit bin ich jetzt auch "in Echtzeit" absolut flexibel mit
+_Tailwind._ Hurra! (Die genauen Einstellungen stehen in
+`/themes/tw_basic/layouts/partials/head/css.html`)
+
 ## 2023-09-05 19:36 (MtLam)
 
 Ich habe mich entschlossen, dem Raymond-Credo zu folgen, was
