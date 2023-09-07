@@ -7,6 +7,14 @@
 > dieses Projekts zu verfolgen und Unklarheiten so weit es geht
 > zu klären.
 
+## 2023-09-07 18:32 (MtLam)
+
+StOtt hat es mir möglich gemacht, das Projekt zu Testzwecken online zu stellen!
+Bin restlos begeistert von den neuen Möglichkeiten! Die genaue Webadresse muss
+aber bis auf weiteres autorisierten Mitarbeitern vorbehalten bleiben, solange
+das Projekt noch nicht offiziell ist. Deshalb kann ich sie hier leider nicht
+veröffentlichen.
+
 ## 2023-09-06 22:22 (MtLam)
 
 Die Arbeit mit Markdown bedeutet für den Einsatz von _Tailwind,_, dass ich
