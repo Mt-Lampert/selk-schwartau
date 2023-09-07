@@ -7,6 +7,36 @@
 > dieses Projekts zu verfolgen und Unklarheiten so weit es geht
 > zu klären.
 
+## 2023-09-06 22:22 (MtLam)
+
+Die Arbeit mit Markdown bedeutet für den Einsatz von _Tailwind,_, dass ich
+für einige Standardformate feste Formatierungen bereitstellen muss. Das betrifft
+vor allem:
+
+- "Normale Überschriften" (H1 bis H5)
+- Links (`<a></a>`)
+- Listen (wie diese hier)
+- Panorama-Bilder, die die volle Breite ausfüllen. (In Markdown mit
+  `![titel](url)` umschrieben)
+
+Für besondere Elemente innerhalb der Markdown-Beiträge (z.B. Bilder mit
+Bildunterschriften, Einbindung von Videos, Google Calendar usw.) werde ich 
+[Shortcodes](https://gohugo.io/templates/shortcode-templates/)
+bereitstellen. Deren Gebrauch muss ich dann natürlich für alle Autoren
+dokumentieren &ndash; am besten irgendwie online.
+
+## 2023-09-06 20:31 (MtLam)
+
+> "Ist es nicht idiotisch, monatelang an einem Roman zu schreiben, wenn man an 
+> jeder Straßenecke für drei Dollar einen kaufen kann? &ndash; _Mark Twain_
+
+Abgewandelt auf das Projekt: "Ist es nicht idiotisch, sich tagelang mit
+__JOOMLA__ und einem Migrations-Tool aus dem Netz herumzuärgern und sich dann
+wochenlang mit Korrekturarbeiten zu plagen, wenn man die Inhalte einfach aus der
+bestehenden Webseite in die Hugo-Vorlagen kopieren kann?
+
+Irgendwie schon, nicht wahr?
+
 ## 2023-09-06 19:20 (MtLam)
 
 Habe jetzt nach einigen Mühen Tailwind endlich so weit eingerichtet bekommen,
@@ -53,7 +83,7 @@ wir: 95% davon), erst dann lohnt es sich, das Design (Layout, Farben,
 Schriftarten usw.) in Angriff zu nehmen &ndash; umso mehr als KlBgm sich mit
 anderen zusammen über Änderungen in Inhalt, Layout und zusätzliche Features noch
 weitere Gedanken machen will. Lohnt sich nicht, alles gleich picobello
-durchzustylen -- um dann von der "Kommission" gesagt zu bekommen: "Alles super,
+durchzustylen &ndash; um dann von der "Kommission" gesagt zu bekommen: "Alles super,
 aber wir wollen es lieber so und so haben." Dann sind womöglich mehrere
 Arbeitstage für die Katz gewesen.
 
@@ -77,7 +107,7 @@ wie das aussieht, Veränderungen vornehmen und die Zusammenarbeit üben. Vorher
 jedoch sollten StOtt und ich uns in Rücksprache mit anderen Gedanken machen,
 welche Veränderungen wir uns bei der HP wünschen (Inhalt, Layout etc...)
 
-## 2023-09-04 08:35:57
+## 2023-09-04 08:35:57 (MtLam)
 
 Projektbeginn. MtLam hat das Projekt auf GitHub erstellt, so dass es
 theoretisch von allen Mitarbeitern heruntergeladen und vielleicht ergänzt
@@ -87,7 +117,7 @@ werden kann.
 
 - Auf welchem Wege kommen wir (RML + Mitarbeiter) am schnellsten zu erwünschten
   Ergebnissen. D.h. was muss wann in welcher Reihenfolge erledigt werden?
-  Das wird erst mal ein, zwei Tage Orientierung und Planung bedeuten -- **ohne**
+  Das wird erst mal ein, zwei Tage Orientierung und Planung bedeuten &ndash; **ohne**
   dass die Webseite wirklich vorankommt.
 - Es hat sich herausgestellt, dass alle "handverlesenen Mitarbeiter" (README.md)
   einen eigenen Github-Account brauchen, um hier wirklich mitarbeiten zu können.
