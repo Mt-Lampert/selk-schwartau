@@ -2,7 +2,11 @@
 module.exports = {
   content: ["content/**/*.md", "layouts/**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      'font-family': {
+        body: [ "Helvetica Neue", "Helvetica", 'sans-serif', 'Arial' ],
+      }
+    },
   },
   plugins: [],
 }
