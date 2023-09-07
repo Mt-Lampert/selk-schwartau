@@ -9,10 +9,29 @@
 
 ## TODO &mdash; Die nächsten Schritte:
 
-- [ ] Die derzeitige Webseite mit Hugo aufbauen und online stellen. Nicht weil sie
-      so toll gelungen ist, sondern weil wir das ausprobieren und üben müssen.
-- [ ] Wenn sich irgendwann ein guter Workflow etabliert hat, können wir die einzelnen 
-      Schritte mit _Make_ automatisieren.
+## 2023-09-07 23:31
+
+Nach hartem Kampf mit absoluten, relativen und vor allen Dingen nicht
+funktionierenden Pfadangaben hab ich es doch tatsächlich noch hinbekommen,
+die Pfade zu richten und zu einigen Erkenntnissen zu gelangen:
+
+1. Es wirkt sich aus, dass dieses Projekt in einem Unterverzeichnis der Hauptseite 
+   beheimatet ist. Sowas scheint für Hugo irgendwie nicht vorgesehen zu sein. Es
+   erstellt seine Pfade immer relativ zum Wurzelverzeichnis der Webseite.
+0. Wir müssen also __von Hand__ dafür sorgen, dass am Ende die richtigen Pfade
+   an der richtigen Stelle stehen. Das geschieht an zwei Orten:
+   - Innerhalb des _Themes_ müssen wir selber darauf achten, `/das-unterverzeichnis/`
+     bei den Pfadangaben nicht zu vergessen, z.B. bei Bildern oder bei Links.
+   - Auch bei Bilern und Links im Content-Bereich darf `/das-unterverzeichnis/`
+     nicht fehlen!
+0. Und noch etwas: die `baseURL`-Einstellung in `hugo.yaml` wirkt sich nur auf das
+   `/content`-Verzeichnis aus, nicht auf Sachen, die im _Theme_ festgelegt wurden.
+
+Es wird wahrscheinlich nicht der letzte Kampf gewesen sein, den wir auf diesem
+Feld zu kämpfen haben. 
+
+Ich habe bei diesem Arbeitsgang übrigens auch mit _Make_ gearbeitet. War eine
+große Hilfestellung!
 
 
 ## 2023-09-07 21:15 (MtLam)
