@@ -7,6 +7,33 @@
 > dieses Projekts zu verfolgen und Unklarheiten so weit es geht
 > zu klären.
 
+## TODO &mdash; Die nächsten Schritte:
+
+- [ ] Die derzeitige Webseite mit Hugo aufbauen und online stellen. Nicht weil sie
+      so toll gelungen ist, sondern weil wir das ausprobieren und üben müssen.
+- [ ] Wenn sich irgendwann ein guter Workflow etabliert hat, können wir die einzelnen 
+      Schritte mit _Make_ automatisieren.
+
+
+## 2023-09-07 21:15 (MtLam)
+
+Habe jetzt meine ersten Schritte mit dem Seitenlayout gemacht. Das wichtiste waren
+folgende Erkenntnisse:
+
+- Große Projektpläne lohnen sich nicht. Einfach Schritt für Schritt die nächste
+  Seite und die nächste Seite und die nächste Seite mit Liebe zum Detail fertig
+  zu machen bringt eindeutig bessere Ergebnisse.
+- Der "Top-Down-Approach" hat sich beim Aufbau des Layouts gelohnt.
+    1. `/layouts/_default/baseof.html` bearbeiten und formatieren.
+    2. Die einzelnen _partials_ innerhalb von `baseof.html` bearbeiten und
+       formatieren.
+    3. Auf der Content-Ebene weiterarbeiten.
+- Individuelle Anpassungen an _Tailwind_ in `tailwind.config.js` (betrifft z.B.
+  die Standardeinstellungen für Überschriften, Links usw.) werden von der
+  CDN-Version von _Tailwind_ ignoriert. CDN folgt immer den Werkseinstellungen
+- Erfreulich war die Responsivität von _Tailwind_ und wie einfach man die Inhalte
+  auf verschiedene Bildschirmgrößen anpassen kann -- im Groben jedenfalls.
+
 ## 2023-09-07 18:32 (MtLam)
 
 StOtt hat es mir möglich gemacht, das Projekt zu Testzwecken online zu stellen!
