@@ -9,7 +9,58 @@
 
 ## TODO &mdash; Die nächsten Schritte:
 
-## 2023-09-07 23:31
+- [ ] Hugo _Page Bundles_ studieren. (Siehe Eintrag von 2023-09-07 19:22.)
+- [ ] Projekt in konkrete _Sections_ und _Page Bundles_ aufteilen
+- [ ] Die einzelnen _Sections_ Schritt für Schritt implementieren.
+
+
+## 2023-09-07 19:22 (MtLam)
+
+Es ist an dieser Stelle Zeit, ein paar erklärende Worte über die
+Projektorganisation zu verlieren.
+
+Ich bin an einem Punkt angekommen, wo ich die ersten Seiten bzw. _Sections_ in
+das Projekt einfließen lasse, und zwar in Form von _Page Bundles_ &ndash; ein
+Feature, bei dem mich Hugo in aller Form unterstützen will. Das kann ich aber
+nur, wenn ich das Konzept hinter beiden Begriffen vollständig verstanden habe.
+So viel habe ich jedenfalls bereits verstanden:
+
+1. Eine _Section_ ist einfach eine Unterabteilung. In der aktuellen
+  _selk-schwartau_-Seite kann man die _Sections_ an den Überschriften in der Navbar
+  erkennen.  Da gibt es eine _section_ "Start" (könnte auch "Home" heißen), eine
+  _section_ "Über Uns", eine _section_ "Kalender" usw.
+0. In Hugo soll jede _Section_ ihr eigenes Verzeichnis bekommen, und
+  wenn es nötig ist, lassen sich _Sections_ auch wieder in Unter-_Sections_ und 
+  auf Dateiebene in entsprechende Unterverzeichnisse aufteilen. Diese 
+  _Section_-Verzeichnisse nennt die Hugo-Dokumentation _Page Bundles._
+0. Jede (Unter-)_Section_ mit ihrem Unterverzeichnis enthält bzw. kann enthalten:
+    - ihre eigene kleine "Homepage" als Übersichtsseite (Pflicht! Es muss im
+      _content_-Verzeichnis eine `_index.md` und im _layout_ eine `index.html`
+      geben. Fehlt die `index.html`, bedient sich Hugo für das Layout bei der
+      `index.html` der übergeordneten _Section._)
+    - ihre eigenen Einzelbeiträge (Single Pages)
+    - ihre eigenen Bilder (_jpg, png, webp_) 
+    - ihre eigenen Medien (Videos, Audios, Präsentationen) 
+    - ihre eigenen Drucksachen und Download-Pakete (PDFs und ZIPs) 
+    - eine eigene Menüliste für die Navbar (Hugo trägt die Menülisten dann alle
+      für die Navbar zusammen!)
+
+Der langen Liste kurzer Sinn: Ohne klare Organisation erzeugen all diese Zutaten
+ab einer bestimmten Projektgröße einen sehr schwer verdaulichen Projektsalat.
+Deshalb halte ich es für angebracht, mir _genau jetzt_ anzuschauen, welche
+Hilfestellung mir Hugo für die Organisation dieses Projekts helfen anbietet --
+und wie ich dann im _Page Bundle_ auf die _Page Resources_ zugreifen kann.
+Das ist extrem wichtig -- auch für unsere "freien Autoren", die wissen müssen, 
+an welcher Stelle sie ihre Beiträge (mit Bildern, Medien, PDFs etc.) ablegen
+sollen, damit sie schnell und unkompliziert an der richtigen Stelle auf der Webseite
+erscheinen können.
+
+MtLam zieht sich also für das Wochenende zum Studium zurück. Dann geht es weiter
+mit der Migration.
+
+
+
+## 2023-09-07 23:31 (MtLam)
 
 Nach hartem Kampf mit absoluten, relativen und vor allen Dingen nicht
 funktionierenden Pfadangaben hab ich es doch tatsächlich noch hinbekommen,
@@ -21,17 +72,29 @@ die Pfade zu richten und zu einigen Erkenntnissen zu gelangen:
 0. Wir müssen also __von Hand__ dafür sorgen, dass am Ende die richtigen Pfade
    an der richtigen Stelle stehen. Das geschieht an zwei Orten:
    - Innerhalb des _Themes_ müssen wir selber darauf achten, `/das-unterverzeichnis/`
-     bei den Pfadangaben nicht zu vergessen, z.B. bei Bildern oder bei Links.
-   - Auch bei Bilern und Links im Content-Bereich darf `/das-unterverzeichnis/`
+     bei den Pfadangaben nicht zu vergessen, z.B. bei Bildern oder bei Links
+     oder bei Assets.
+   - Auch bei Bildern und Links im Content-Bereich darf `/das-unterverzeichnis/`
      nicht fehlen!
-0. Und noch etwas: die `baseURL`-Einstellung in `hugo.yaml` wirkt sich nur auf das
-   `/content`-Verzeichnis aus, nicht auf Sachen, die im _Theme_ festgelegt wurden.
+0. Die `baseURL`-Einstellung in `hugo.yaml` wirkt sich nur auf das
+   `/content`-Verzeichnis aus, nicht auf Sachen, die im _Theme_ festgelegt wurden. 
+   Wenn wir dort allerdings `/das-unterverzeichnis/` einfügen, kann das unangenehme
+   Konsequenzen haben, nämlich ...
+0. ... dass unser Hugo-Live-Server einige Pfade nicht mehr findet. Deshalb
+   muss er wie im folgenden Beispiel aufgerufen werden:
 
-Es wird wahrscheinlich nicht der letzte Kampf gewesen sein, den wir auf diesem
-Feld zu kämpfen haben. 
+```bash
+$ hugo server -b 'http://localhost' -D --disableFastRender
+```
 
-Ich habe bei diesem Arbeitsgang übrigens auch mit _Make_ gearbeitet. War eine
-große Hilfestellung!
+Mit `-b http://localhost` wird der Eintrag `baseURL` in `hugo.yaml` ignoriert und durch 
+`http://localhost` ersetzt. Das könnte eventuell auch für das _Makefile_
+interessant werden. Und überhaupt _Make:_ Das war eine super Idee, um ätzende
+Arbeitsgänge zu automatisieren. Leider habe ich noch keinen Weg gefunden, um das
+regelmäßige Update auf dem FTP-Server mit _Make_ zu automatisieren.
+
+Es wird wahrscheinlich nicht der letzte Kampf gewesen sein, den wir mit Pfaden
+zu kämpfen haben. Fortsetzung folgt. 😕
 
 
 ## 2023-09-07 21:15 (MtLam)
