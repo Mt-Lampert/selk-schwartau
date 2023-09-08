@@ -8,9 +8,9 @@
     <header>
       {{ partial "header.html" . }}
     </header>
-    <main class="pt-8 pb-20 px-4">
-      {{ block "main" . }}{{ end }}
-    </main>
+
+    {{ block "main" . }}{{ end }}
+
     <footer class="bg-stone-300 p-4 text-center">
       {{ partial "footer.html" . }}
     </footer>

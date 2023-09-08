@@ -1,0 +1,13 @@
+{{ define "main" }}
+<main class="mt-8 mb-20 flex flex-col md:flex-row justify-between md:items-stretch gap-4">
+  <div class="text-center pt-2 md:w-56 bg-amber-200 md:grow-0">
+    1st column
+  </div>
+  <div class="flex-1">
+    {{ .Content }}    
+  </div>
+  <div class="text-center pt-2 md:w-56 bg-amber-200 md:grow-0">
+    3rd column
+  </div>
+</main>
+{{ end }}
