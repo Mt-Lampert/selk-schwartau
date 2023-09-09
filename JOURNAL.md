@@ -48,9 +48,9 @@ So viel habe ich jedenfalls bereits verstanden:
 Der langen Liste kurzer Sinn: Ohne klare Organisation erzeugen all diese Zutaten
 ab einer bestimmten Projektgröße einen sehr schwer verdaulichen Projektsalat.
 Deshalb halte ich es für angebracht, mir _genau jetzt_ anzuschauen, welche
-Hilfestellung mir Hugo für die Organisation dieses Projekts helfen anbietet --
+Hilfestellung mir Hugo für die Organisation dieses Projekts anbietet &ndash;
 und wie ich dann im _Page Bundle_ auf die _Page Resources_ zugreifen kann.
-Das ist extrem wichtig -- auch für unsere "freien Autoren", die wissen müssen, 
+Das ist extrem wichtig &ndash; auch für unsere "freien Autoren", die wissen müssen, 
 an welcher Stelle sie ihre Beiträge (mit Bildern, Medien, PDFs etc.) ablegen
 sollen, damit sie schnell und unkompliziert an der richtigen Stelle auf der Webseite
 erscheinen können.
