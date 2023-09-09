@@ -13,9 +13,43 @@
 - [ ] Projekt in konkrete _Sections_ und _Page Bundles_ aufteilen
 - [ ] Die einzelnen _Sections_ Schritt für Schritt implementieren.
 
-## 2023-09-08 18:04 (MtLam)
+## 2023-09-09 21:39 (MtLam)
 
-### [UPDATE zu 2023-09-07 23:31]:
+Ein weiteres Experiment ist geglückt. Ich habe meine ersten Gehversuche mit 
+_Page Bundles_ erfolgreich abgeschlossen, indem ich ein Bild aus dem _Page
+Bundle_ erfolgreich auf der Seite angezeigt bekommen habe.
+
+Der Trick ist die relative Pfadangabe `./images/my-image.jpg`. Der `'.'` steht
+hier (in guter Unix/Linux-Tradition) für _das aktuelle Verzeichnis,_ in diesem
+Fall für das Verzeichnis, in dem die Markdown-Datei liegt. Und so funktioniert es
+mit allen Verweisen auf das Dateien im aktuellen _Page Bundle._
+
+#### HTML im Markdown erlauben
+
+Standardmäßig erlaubt Hugo _kein_ HTML im Markdown. Wahrscheinlich, um eventuelles
+[Cross-Site
+Scripting](https://www.security-insider.de/was-ist-cross-site-scripting-xss-a-699660/)
+von vornherein auszuschließen. Noble Absicht, stört mich aber sehr, wenn ich 
+bei der Gestaltung der Webseite herumprobieren will.
+
+Um mir das Leben wenigstens für das _'development'_ zu erleichtern, habe ich
+folgende Änderung vorgenommen:
+
+```yaml
+--- 
+# file: /config/development/hugo.yaml
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+```
+
+Damit stand Hugo meiner Experimentierfreude nicht länger im Weg.
+
+
+## 2023-09-09 18:04 (MtLam)
+
+#### [UPDATE zu 2023-09-07 23:31]:
 
 Meine Studien haben erste Früchte gezeitigt. Ich habe durch das Anlegen eines
 `/config`-Verzeichnisses das Dilemma mit der "richtigen" Pfadangabe aufgelöst.
@@ -24,7 +58,7 @@ lokalen Hugo-Live-Server, und eine andere Konfiguration für _'production'_, als
 für die Online-Version. Konfigurationen, die für beide Anwendungsfälle wirksam
 sein sollen, finden sich in `/config/_default`. 
 
-### Neu: SFTP mit Filezilla
+#### Neu: SFTP mit Filezilla
 
 Auch für das Hochladen hat sich erfreuliches getan. Ich habe ein grafisches
 Upload-Programm installiert, mit dem ich ohne Gedöns schnell und automatisch über
@@ -33,7 +67,7 @@ meine Nerven nachhaltig. Bin sehr dankbar dafür.
 
 
 
-## 2023-09-07 19:22 (MtLam)
+## 2023-09-08 19:22 (MtLam)
 
 Es ist an dieser Stelle Zeit, ein paar erklärende Worte über die
 Projektorganisation zu verlieren.

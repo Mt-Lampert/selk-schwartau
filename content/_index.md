@@ -8,5 +8,8 @@ draft: false
 
 Das ist ein bisschen Dummy-Inhalt für die Startseite.
 
+Und hier folgt ein eingebauter Shortcode, um ein Bild anzuzeigen.
 
-
+<div class="flex flex-col justify-center items-center py-4">
+  <img src="./images/SchnackMAHL500.jpg" alt="SchnackMahl" class="inline-block" width="200" >
+</div>

@@ -1,2 +1,8 @@
 ---
 baseURL: "http://localhost"
+
+# needed to allow raw html in Markdown.
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
