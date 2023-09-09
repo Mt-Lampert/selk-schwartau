@@ -13,6 +13,25 @@
 - [ ] Projekt in konkrete _Sections_ und _Page Bundles_ aufteilen
 - [ ] Die einzelnen _Sections_ Schritt für Schritt implementieren.
 
+## 2023-09-08 18:04 (MtLam)
+
+### [UPDATE zu 2023-09-07 23:31]:
+
+Meine Studien haben erste Früchte gezeitigt. Ich habe durch das Anlegen eines
+`/config`-Verzeichnisses das Dilemma mit der "richtigen" Pfadangabe aufgelöst.
+Es gibt jetzt eine spezielle Konfiguration für _'development'_, also für meinen
+lokalen Hugo-Live-Server, und eine andere Konfiguration für _'production'_, also
+für die Online-Version. Konfigurationen, die für beide Anwendungsfälle wirksam
+sein sollen, finden sich in `/config/_default`. 
+
+### Neu: SFTP mit Filezilla
+
+Auch für das Hochladen hat sich erfreuliches getan. Ich habe ein grafisches
+Upload-Programm installiert, mit dem ich ohne Gedöns schnell und automatisch über
+SFTP (FTP im SSH-Tunnel) Updates auf dem Webserver vornehmen kann. Das schont
+meine Nerven nachhaltig. Bin sehr dankbar dafür.
+
+
 
 ## 2023-09-07 19:22 (MtLam)
 
