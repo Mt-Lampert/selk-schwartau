@@ -35,7 +35,7 @@ So viel habe ich jedenfalls bereits verstanden:
   _Section_-Verzeichnisse nennt die Hugo-Dokumentation _Page Bundles._
 0. Jede (Unter-)_Section_ mit ihrem Unterverzeichnis enthält bzw. kann enthalten:
     - ihre eigene kleine "Homepage" als Übersichtsseite (Pflicht! Es muss im
-      _content_-Verzeichnis eine `_index.md` und im _layout_ eine `index.html`
+      _content_-Verzeichnis eine `index.md` und im _layout_ eine `index.html`
       geben. Fehlt die `index.html`, bedient sich Hugo für das Layout bei der
       `index.html` der übergeordneten _Section._)
     - ihre eigenen Einzelbeiträge (Single Pages)
