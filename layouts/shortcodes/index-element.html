@@ -1,0 +1,25 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+<div class="flex flex-col items-center mt-16">
+  <figure class="flex flex-col justify-center" style="max-width: 80%;">
+{{ with .Get "link" }}
+  <a href='{{ . }}'>
+    <img src='{{ $src }}' alt='{{ $alt }}' class="inline-block">
+  </a>
+{{ else }}
+  <img src='{{ $src }}' alt='{{ $alt }}' class="inline-block">
+{{ end }}
+
+{{ with .Get "caption" }}
+  <figcaption>{{ . }}</figcaption>
+{{ end }}
+  </figure>
+{{ with .Get "title"}}
+  <h2 class="font-semibold text-lg text-center mt-6 mb-4">{{ . }}</h2>
+{{ end }}
+{{ with .Inner }}
+  <div class="px-16">
+  {{ . }}
+  </div>
+{{ end}}
+</div>

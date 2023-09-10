@@ -13,6 +13,19 @@
 - [ ] Projekt in konkrete _Sections_ und _Page Bundles_ aufteilen
 - [ ] Die einzelnen _Sections_ Schritt für Schritt implementieren.
 
+## 2023-09-10 23:11 (MtLam)
+
+Es ist vollbracht! Die Startseite ist mit Hugo, Markdown und Tailwind vorläufig
+fertig gestellt!
+
+Ganz besonders freut mich der Umstand, dass ich _Page Bundles,_ an den Sidebars
+_Partials_ sowie einen anspruchsvollen _Shortcode_ zu einem recht gelungenen
+Ganzen zusammnführen konnte.
+
+Wenn es jetzt auch noch online genau so aussieht, war das ein Riesenschritt nach
+vorn!
+
+
 ## 2023-09-10 12:23 (MtLam)
 
 Im `head.html`-Partial unseres Themes und im _Makefile_ sorgten ein paar Fehler
