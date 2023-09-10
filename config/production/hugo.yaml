@@ -1,2 +1,3 @@
 ---
 baseURL: "https://www.selk-schwartau.de/hugo-jamstack-d43a1"
+disableKinds: [ 'RSS' ]

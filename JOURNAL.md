@@ -9,9 +9,16 @@
 
 ## TODO &mdash; Die nächsten Schritte:
 
-- [ ] Hugo _Page Bundles_ studieren. (Siehe Eintrag von 2023-09-07 19:22.)
+- [x] Hugo _Page Bundles_ studieren. (Siehe Eintrag von 2023-09-07 19:22.)
 - [ ] Projekt in konkrete _Sections_ und _Page Bundles_ aufteilen
 - [ ] Die einzelnen _Sections_ Schritt für Schritt implementieren.
+
+## 2023-09-10 12:23 (MtLam)
+
+Im `head.html`-Partial unseres Themes und im _Makefile_ sorgten ein paar Fehler
+für unbrauchbares CSS. Das habe ich korrigiert. Außerdem habe ich dafür gesorgt, 
+das die Inhalte "minifiziert" und damit schneller übertragbar werden.
+
 
 ## 2023-09-09 21:39 (MtLam)
 
@@ -24,13 +31,17 @@ hier (in guter Unix/Linux-Tradition) für _das aktuelle Verzeichnis,_ in diesem
 Fall für das Verzeichnis, in dem die Markdown-Datei liegt. Und so funktioniert es
 mit allen Verweisen auf das Dateien im aktuellen _Page Bundle._
 
+Ressourcen, die global "von überall her" erreichbar sein sollen, sind dagegen im 
+`/static`-Ordner am besten aufgehoben und dann über das Root-Verzeichnis `'/'`
+zu erreichen.
+
 #### HTML im Markdown erlauben
 
 Standardmäßig erlaubt Hugo _kein_ HTML im Markdown. Wahrscheinlich, um eventuelles
 [Cross-Site
 Scripting](https://www.security-insider.de/was-ist-cross-site-scripting-xss-a-699660/)
-von vornherein auszuschließen. Noble Absicht, stört mich aber sehr, wenn ich 
-bei der Gestaltung der Webseite herumprobieren will.
+von vornherein auszuschließen. Das ist eine noble Absicht, stört mich aber sehr,
+wenn ich bei der Gestaltung der Webseite herumprobieren will.
 
 Um mir das Leben wenigstens für das _'development'_ zu erleichtern, habe ich
 folgende Änderung vorgenommen:
