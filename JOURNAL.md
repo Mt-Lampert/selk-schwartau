@@ -13,6 +13,32 @@
 - [ ] Projekt in konkrete _Sections_ und _Page Bundles_ aufteilen
 - [ ] Die einzelnen _Sections_ Schritt für Schritt implementieren.
 
+## 2023-09-11 01:03 (MtLam)
+
+Ein paar SEHR wichtige Updates:
+
+1. Bei Ressourcen aus dem `/static`-Ordner müssen wir bei diesem Projekt darauf
+   achten, dass wir beim absoluten Pfad die _baseURL_ nicht vergessen, also z.B.
+   bei Images `src="{{ site.BaseURL }}/images/my-image.jpg"` verwenden. 
+2. `$ hugo --minify` zerschießt uns unsere `src=`-Angaben bei Images. Also
+   lieber darauf verzichten!
+3. _Tailwind CLI_ reagiert in diesem Projekt nur auf verwendete Klassen, die im
+   _Theme_ verwendet werden. Heißt also für uns: Wirklich __ALLE__ Layouts und
+   Layout-Elemente müssen wir in diesem Projekt ins _Theme_ verschieben.
+4. Auch Shortcodes werden von Hugo weggelöscht, weil sie HTML ins Markup
+   schreiben.  Deshalb muss folgende Einstellung vom `development` ins
+   `_default` befördert werden. Siehe Codebeispiel unten.
+
+```yaml
+--- 
+# file: /config/_default/hugo.yaml
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+```
+
+
 ## 2023-09-10 23:11 (MtLam)
 
 Es ist vollbracht! Die Startseite ist mit Hugo, Markdown und Tailwind vorläufig

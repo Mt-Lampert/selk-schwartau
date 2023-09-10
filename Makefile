@@ -5,7 +5,7 @@ TARGET_CSS = '/home/perrin/Documents/selk-schwartau/themes/tw_basic/assets/style
 
 build: build_styles
 	rm -rf ./public/*
-	hugo --minify
+	hugo
 
 build_styles:
 	cd $(THEME_DIR) && \

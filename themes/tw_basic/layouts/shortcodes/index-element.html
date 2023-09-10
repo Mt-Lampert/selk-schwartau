@@ -4,10 +4,10 @@
   <figure class="flex flex-col justify-center" style="max-width: 80%;">
 {{ with .Get "link" }}
   <a href='{{ . }}'>
-    <img src='{{ $src }}' alt='{{ $alt }}' class="inline-block">
+    <img src="{{ $src }}" alt="{{ $alt }}" class="inline-block">
   </a>
 {{ else }}
-  <img src='{{ $src }}' alt='{{ $alt }}' class="inline-block">
+  <img src="{{ $src }}" alt="{{ $alt }}" class="inline-block">
 {{ end }}
 
 {{ with .Get "caption" }}

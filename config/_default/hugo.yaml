@@ -2,3 +2,9 @@
 languageCode: "en-us"
 title: "Martin-Luther-Gemeinde Bad Schwartau"
 theme: "tw_basic"
+
+# needed to allow raw html (including Shortcodes!) in Markdown.
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
