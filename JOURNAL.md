@@ -10,8 +10,47 @@
 ## TODO &mdash; Die nächsten Schritte:
 
 - [x] Hugo _Page Bundles_ studieren. (Siehe Eintrag von 2023-09-07 19:22.)
-- [ ] Projekt in konkrete _Sections_ und _Page Bundles_ aufteilen
-- [ ] Die einzelnen _Sections_ Schritt für Schritt implementieren.
+- [x] Projekt in konkrete _Sections_ und _Page Bundles_ aufteilen
+
+
+## 2023-09-12 18:53 (MtLam)
+
+Habe damit begonnen, die _Section_ "About" zu implementieren. Das war wieder
+gespickt mit neuen Herausforderungen:
+
+1. Wenn ich ein spezielles Layout für bestimmte _Single Pages_ benötige, kann ich
+   es wie folgt im _Front Matter_ anfordern:
+
+    ```yaml
+    ---
+    layout: "special"
+    ---
+    ```
+
+    In diesem Fall muss folgende Datei existieren: 
+    `/layout/my-section/special.html`. Mit `my-section` ist natürlich gemeint
+    der Name der aktuellen _Section,_ in der ich arbeite.
+
+2. Jaja, die Pfadangaben: Der Zugriff auf Ressourcen hat bei _Single Pages_
+   ebenfalls seine besonderen Eigenheiten.  Wenn ich in einer _Single Page_ z.B.
+   auf eine Bild-Datei im _Section_-eigenen `images`-Verzeichnis zugreifen will,
+   muss ich es wie folgt tun:
+
+    ```yaml
+    ---
+    image: "../images/my-image.jpg"
+    ---
+    ```
+    ```markdown
+    ![My image](../images/my-other-image.jpg)
+    ```
+
+    `'../images'` bedeutet eigentlich: "Geh ein Verzeichnis nach oben und such
+    dort nach dem `images`-Vezeichnis. Ich kann mir nicht erklären, welche Logik
+    Hugo damit verfolgt, aber so muss man es machen. Sonst findet Hugo die
+    Bild-Datei nicht! :weary:
+
+
 
 ## 2023-09-12 15:12 (MtLam)
 
