@@ -20,6 +20,8 @@ Eine vollständige Lösung für Galerie steht allerdings noch aus. In diese Lös
 will ich aber auch noch nicht so viel investieren, weil das Dinge sind, die
 eventuell noch ganz über den Haufen geworfen werden können.
 
+Habe 'About' als neue _Section_ angelegt. Die Listen-Layout war zufriedenstellend.
+
 ## 2023-09-11 01:03 (MtLam)
 
 Ein paar SEHR wichtige Updates:
