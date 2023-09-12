@@ -1,0 +1,31 @@
+{{ define "main" }}
+{{ $next := printf "/about/%s" .Params.next }}
+{{ $prev := cond (ne .Params.prev "/") (printf "/about/%s" .Params.prev) "/about/" }}
+<div class="py-8">
+  <h1 class="text-center font-semibold text-xl">{{ .Title }}</h1>
+
+  <div class="flex flex-row justify-between mt-12 px-12 rml-text-in-flex">
+    <div class="w-2/3 order-1">{{ .Content }}</div>
+    <div class="flex flex-col justify-baseline">
+      <img src="{{ .Params.image }}" alt="Some Pic">
+    </div>
+  </div>
+
+  {{ with .Params.schedule }}
+  <h2 class="font-semibold text-xl text-center pt-12 pb-8">Die nächsten Termine</h2>
+
+  <div class="flex justify-center items-center">
+    <img src="{{ site.BaseURL}}/images/under_construction_-_300x300.png" alt="">
+  </div>
+  {{ end }}
+
+  <div class="flex flex-row justify-around mt-8">
+    <div>
+      <a href="{{ $prev }}"><button class="py-2 px-8 bg-stone-300 hover:bg-stone-50 hover:border rounded-full text-stone-900">Prev</button></a>
+    </div>
+    <div>
+      <a href="{{ $next }}"><button class="py-2 px-8 bg-stone-300 hover:bg-stone-50 hover:border rounded-full text-stone-900">Next</button></a>
+    </div>
+  </div>
+</div>
+{{ end }}
