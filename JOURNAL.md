@@ -13,6 +13,13 @@
 - [ ] Projekt in konkrete _Sections_ und _Page Bundles_ aufteilen
 - [ ] Die einzelnen _Sections_ Schritt für Schritt implementieren.
 
+## 2023-09-12 15:12 (MtLam)
+
+Der Kopfteil der Webseite wurde übergangsweise mit der Jahreslosung aufgewertet.
+Eine vollständige Lösung für Galerie steht allerdings noch aus. In diese Lösung
+will ich aber auch noch nicht so viel investieren, weil das Dinge sind, die
+eventuell noch ganz über den Haufen geworfen werden können.
+
 ## 2023-09-11 01:03 (MtLam)
 
 Ein paar SEHR wichtige Updates:
