@@ -1,6 +1,8 @@
 {{ define "main" }}
-{{ $next := printf "/about/%s" .Params.next }}
-{{ $prev := cond (ne .Params.prev "/") (printf "/about/%s" .Params.prev) "/about/" }}
+{{ $next := printf "%s/about/%s" site.BaseURL .Params.next }}
+{{ $prev := cond (ne .Params.prev "/") 
+      (printf "%s/about/%s" site.BaseURL .Params.prev) 
+      (printf "%s/about/%s" site.BaseURL .Params.prev ) }}
 <div class="py-8">
   <h1 class="text-center font-semibold text-xl">{{ .Title }}</h1>
 

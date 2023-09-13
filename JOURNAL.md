@@ -9,9 +9,34 @@
 
 ## TODO &mdash; Die nächsten Schritte:
 
-- [x] Hugo _Page Bundles_ studieren. (Siehe Eintrag von 2023-09-07 19:22.)
-- [x] Projekt in konkrete _Sections_ und _Page Bundles_ aufteilen
+- [ ] AlpineJS im Crashkurs lernen (2-3 Tage)
+- [ ] AlpineJS in das Projekt integrieren
+- [ ] Mit Hilfe von AlpineJS eine neue Navigationsleiste aufbauen.
 
+## 2023-09-13 07:28 MtLam
+
+Auf der _development_-Ebene funktioniert alles recht gut, aber an dieser Stelle
+ist es wohl wieder einmal an der Zeit, mich zwei, drei Tage weiter zu bilden,
+bevor mich das Gelernte dann umso produktiver bei der Arbeit an diesem Projekt
+macht. 
+
+Es geht um [AlpineJS](https://alpinejs.dev/), einen mehr als würdigen Nachfolger
+von [JQuery](https://jquery.com), der mir auf Javascript-Ebene genau so helfen
+wird wie _Tailwind_ auf CSS-Ebene. (JQuery macht das Javascript in der
+JOOMLA-Version dieser Webseite, wird aber seit 2016 nicht mehr aktiv
+weiterentwickelt und kann deshalb für extreme Sicherheitslücken auf
+Javascript-Ebene sorgen.) 
+
+Im Projekt wird Javascript und damit _AlpineJS_ vor allem dafür sorgen, dass es
+Spaß machen wird, die Navigationsleiste zu benutzen. 
+
+> _Vergessen Sie nie, dass der Mensch den Computer als
+> magisches Spielzeug betrachtet, ganz besonders, wenn der Computer 
+> vollständig in seine Hand passt. 
+> &mdash; Rich Harris, Erfinder des Svelte-Frameworks._
+
+Warum ist das nötig? Weil meine Rezensoren die Seiten irgendwie ansteuern müssen
+können, die ich online stelle und die sie sich anschauen sollen.
 
 ## 2023-09-12 18:53 (MtLam)
 
