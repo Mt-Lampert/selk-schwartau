@@ -9,9 +9,21 @@
 
 ## TODO &mdash; Die nächsten Schritte:
 
-- [ ] AlpineJS im Crashkurs lernen (2-3 Tage)
-- [ ] AlpineJS in das Projekt integrieren
 - [ ] Mit Hilfe von AlpineJS eine neue Navigationsleiste aufbauen.
+
+## 2023-09-13 20:40
+
+- [x] AlpineJS im Crashkurs lernen (2-3 Tage)
+- [x] AlpineJS in das Projekt integrieren
+- [x] Mit Hilfe von AlpineJS eine neue Navigationsleiste aufbauen.
+
+Diese beiden Sachen waren das Einfachste von allen. _AlpineJS_ ist noch
+einfacher als ich im ersten Moment dachte. Und die Installation war auch einfach
+-- allerdings nur, wenn man das npm-Paket auf Projektebene installiert, nicht
+nicht auf Theme-Ebene. Mal wieder ein Pfadproblem ... :weary:
+
+Und dann ist es mir tatsächlich in vergleichsweise kurzer Zeit gelungen, die
+neue Navbar zumindest auf der ersten Ebene aufzubauen. Jawollski!
 
 ## 2023-09-13 07:28 MtLam
 
