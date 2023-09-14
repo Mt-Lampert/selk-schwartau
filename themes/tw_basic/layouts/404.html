@@ -1,0 +1,10 @@
+{{ define "main" }}
+{{ $imgSrc := printf "%s/%s" site.BaseURL "images/under_construction_-_600x337.png" }}
+<main id="main">
+  <div class="mb-8 flex flex-col justify-center space-y-8">
+    <p class="flex justify-center"><img src="{{ $imgSrc }}" alt="Under Construction"></p>
+    <h1 class="font-bold text-2xl text-center">Ist noch nicht. Muss noch!</a></h1>
+    <p class="text-center">Zurück zur <a href="{{ site.BaseURL }}">Startseite</a></p>
+  </div>
+</main>
+{{ end }}
