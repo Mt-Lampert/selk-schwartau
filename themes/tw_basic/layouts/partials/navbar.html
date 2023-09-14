@@ -2,7 +2,7 @@
   <!-- container  -->
   <div class="container flex flex-col lg:flex-row lg:justify-between">
     <div class="flex justify-between">
-      <a  class="block pr-40 lg:self-center lg:pr-12 p-2 text-xl font-bold uppercase tracking-wider" href="{{ site.BaseURL }}">The</a>
+      <a  class="block pr-40 lg:self-center lg:pr-12 p-2 text-xl font-bold uppercase tracking-wider" href="{{ site.BaseURL }}">The Logo</a>
       <!-- hamburger button -->
       <button class="lg:hidden inline-flex  ml-auto my-auto justify-center items-center border h-8 w-8 rounded-md outline-none focus:outline-none" x-on:click="showmenu = !showmenu">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -14,7 +14,38 @@
     <!-- The Menu -->
     <div class="flex-grow lg:flex  lg:justify-end py-2" x-bind:class="{'hidden': !showmenu}">
       <ul class="flex flex-col lg:flex-row lg:w-auto mt-2 lg:mt-0 lg:space-x-2">
-        <li><a class="flex px-4 py-2 font-medium hover:bg-stone-700 hover:text-stone-300" href="{{ site.BaseURL }}about">Über Uns</a></li>
+        <!-- has 2nd level -->
+        <li class="relative" x-data="{ dropdown: false }">
+          <a href="{{ site.BaseURL }}about">
+            <button class="
+              flex 
+              px-4 py-2 
+              font-medium 
+              hover:bg-stone-700 
+              hover:text-stone-300 
+              outline-none focus:outline-none"
+            
+              x-on:mouseover="dropdown = true"
+            >
+              Über uns
+            </button>
+          </a>
+          <!-- dropdown menu -->
+          <div class="flex flex-col absolute left-8 bg-stone-700 rounded-md w-64" x-show="dropdown" x-on:click.away="dropdown = false">
+            <ul class="relative">
+              <li class="pl-2 py-2 hover:bg-stone-400"><a href="{{ site.BaseURL }}about">Miteinander Lebendig Glauben</a></li>
+              <li class="pl-2 py-2 hover:bg-stone-400"><a href="{{ site.BaseURL }}about/unser-bekenntnis">Unser Bekenntnis</a></li>
+              <li class="pl-2 py-2 hover:bg-stone-400"><a href="{{ site.BaseURL }}about/unsere-gottesdienste">Unsere Gottesdienste</a></li>
+              <li class="pl-2 py-2 hover:bg-stone-400"><a href="{{ site.BaseURL }}about/spirit-of-joy">Unser Gospelchor Spirit of Joy</a></li>
+              <li class="pl-2 py-2 hover:bg-stone-400"><a href="{{ site.BaseURL }}about/gemeindekreise">Unsere Gemeindekreise</a></li>
+              <li class="pl-2 py-2 hover:bg-stone-400"><a href="{{ site.BaseURL }}about/pastor">Unser Pastor</a></li>
+              <li class="pl-2 py-2 hover:bg-stone-400"><a href="{{ site.BaseURL }}about/vorstand">Unser Kirchevorstand</a></li>
+              <li class="pl-2 py-2 hover:bg-stone-400"><a href="{{ site.BaseURL }}about/orgel">Unsere Orgel</a></li>
+              <li class="pl-2 py-2 hover:bg-stone-400"><a href="{{ site.BaseURL }}about/selk">Unsere Kirche, die SELK</a></li>
+            </ul>
+          </div>
+          <!-- dropdown menu<< -->
+        </li>
         <li><a class="flex px-4 py-2 font-medium hover:bg-stone-700 hover:text-stone-300" href="{{ site.BaseURL }}calendar">Veranstaltungen</a></li>
         <li><a class="flex px-4 py-2 font-medium hover:bg-stone-700 hover:text-stone-300" href="{{ site.BaseURL }}aktuell">Aktuell</a></li>
         <li><a class="flex px-4 py-2 font-medium hover:bg-stone-700 hover:text-stone-300" href="{{ site.BaseURL }}ferienhaus">Ferienhaus</a></li>

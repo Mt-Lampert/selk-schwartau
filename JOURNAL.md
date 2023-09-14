@@ -9,7 +9,11 @@
 
 ## TODO &mdash; Die nächsten Schritte:
 
-- [ ] Mit Hilfe von AlpineJS eine neue Navigationsleiste aufbauen.
+
+## 2023-09-14 02:31
+
+ALLES FERTIG mit der neuen Navbar! Nicht alle Einträge, aber alle Funktionalität. 
+Jetzt funktionieren auch Unter-Menüs! Das lange Arbeiten hat sich gelohnt.
 
 ## 2023-09-13 20:40
 
