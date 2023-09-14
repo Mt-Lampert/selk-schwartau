@@ -7,10 +7,14 @@
 > dieses Projekts zu verfolgen und Unklarheiten so weit es geht
 > zu klären.
 
+
 ## TODO &mdash; Die nächsten Schritte:
 
+- [x] Die schon existierenden Seiten "responsive" machen, sofern sie es nicht schon sind.
+- [x] Weiter an den Einzelseiten aus dem Paket _About/Über Uns_ arbeite.
 
-## 2023-09-14 02:31
+
+## 2023-09-14 11:31
 
 ALLES FERTIG mit der neuen Navbar! Nicht alle Einträge, aber alle Funktionalität. 
 Jetzt funktionieren auch Unter-Menüs! Das lange Arbeiten hat sich gelohnt.
