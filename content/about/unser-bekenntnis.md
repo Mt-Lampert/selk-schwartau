@@ -2,8 +2,8 @@
 title: "Unser Bekenntnis"
 date: 2023-09-12T15:59:04+02:00
 image: "../images/Glaubensbekenntnis-250.JPG"
-prev: "/"
-next: "unsere-gottesdienste"
+prev: "../"
+next: "../unsere-gottesdienste"
 layout: "right-image"
 draft: false
 ---
