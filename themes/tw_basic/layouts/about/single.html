@@ -1,8 +1,29 @@
-<h1 class="text-center font-semibold text-xl">{{ .Title }}</h1>
+{{ define "main" }}
+{{ $next := printf "%s/about/%s" site.BaseURL .Params.next }}
+{{ $prevUrl := "" }}
+{{ $nextUrl := "" }}
+{{ $prevClasses := "px-2 py-1 rounded-lg bg-inherit border border-stone-300 text-stone-300"}}
+{{ $nextClasses := $prevClasses }}
+{{ if .Params.prev }}
+  {{ $prevClasses = "py-1 px-2 bg-stone-300 hover:bg-stone-50 hover:border rounded-lg text-stone-900"}}      
+  {{ $prevUrl = .Params.prev }}
+{{ end }}
+{{ if .Params.next }}
+  {{ $nextClasses = "py-1 px-2 bg-stone-300 hover:bg-stone-50 hover:border rounded-lg text-stone-900"}}      
+  {{ $nextUrl = .Params.next }}
+{{ end }}
+<div class="pb-8 px-8">
+  <h1 class="text-center font-semibold text-2xl py-8">{{ .Title }}</h1>
 
-<div class="flex flex-row justify-between">
-  <div class="w-2/3 order-1">{{ .content }}</div>
-  <div class="flex flex-col justify-center">
-    <img src="{{ .Params.image }}" alt="Some Pic">
+{{ .Content }}
+
+  <div class="flex flex-row justify-around mt-8">
+    <div>
+      <a href="{{ $prevUrl }}"><button class="{{ $prevClasses }}">Prev</button></a>
+    </div>
+    <div>
+      <a href="{{ $nextUrl }}"><button class="{{ $nextClasses }}">Next</button></a>
+    </div>
   </div>
 </div>
+{{ end }}

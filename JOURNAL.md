@@ -10,10 +10,29 @@
 
 ## TODO &mdash; Die nächsten Schritte:
 
-- [x] Die schon existierenden Seiten "responsive" machen, sofern sie es nicht schon sind.
 - [x] Weiter an den Einzelseiten aus dem Paket _About/Über Uns_ arbeiten.
 
+
+## 2023-09-15 19:17 (Mt-Lam)
+
+Die nächste Seite ("Spirit-of-Joy")  ist fertig! Dieses Mal bin ich nicht den
+Weg übers _Layout_ gegangen, sondern habe im _Theme_ einen (recht
+anspruchsvollen) _Shortcode_ definiert (`/layouts/shortcodes/img-right.html`).
+Dieser _Shortcode_ macht es möglich, ein Bild rechts neben einen Text zu legen,
+ohne die Seitenformatierung zu vergewaltigen! Das gilt auch dann noch, wenn die
+Seite vom Handy oder von einem Tablet aus besucht wird!
+
+Das Ergebnis kann sich sehen lassen, denke ich, und dieser Weg hat noch einen
+zusätzlichen Vorteil &ndash; er macht Autoren flexibler. Jeder freie Autor kann
+mit `{{% img-right src="my-image"}}` dieses Feature nutzen, und das Ergebnis
+sollte genau so aussehen wie beim Chefdesigner.
+
+Content-Datei zur Ansicht: `/content/about/spirit-of-joy.md`
+
 ## 2023-09-15 12:56 (Mt-Lam)
+
+- [x] Die schon existierenden Seiten "responsive" machen, sofern sie es nicht
+      schon sind.
 
 Habe die Handy-Version der bestehenden Seiten korrigiert und ein wenig hübscher
 gemacht. Außerdem habe ich die interne Navigation verbessert.
