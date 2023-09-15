@@ -2,6 +2,7 @@
 title: "Über Uns"
 date: 2023-09-12T10:09:16+02:00
 image: "./images/MLG-Logo-_250.png"
+next: "./unser-bekenntnis"
 draft: false
 ---
 
