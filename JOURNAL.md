@@ -11,15 +11,19 @@
 ## TODO &mdash; Die nächsten Schritte:
 
 - [x] Die schon existierenden Seiten "responsive" machen, sofern sie es nicht schon sind.
-- [x] Weiter an den Einzelseiten aus dem Paket _About/Über Uns_ arbeite.
+- [x] Weiter an den Einzelseiten aus dem Paket _About/Über Uns_ arbeiten.
 
+## 2023-09-15 12:56 (Mt-Lam)
 
-## 2023-09-14 11:31
+Habe die Handy-Version der bestehenden Seiten korrigiert und ein wenig hübscher
+gemacht. Außerdem habe ich die interne Navigation verbessert.
+
+## 2023-09-14 11:31 (Mt-Lam)
 
 ALLES FERTIG mit der neuen Navbar! Nicht alle Einträge, aber alle Funktionalität. 
 Jetzt funktionieren auch Unter-Menüs! Das lange Arbeiten hat sich gelohnt.
 
-## 2023-09-13 20:40
+## 2023-09-13 20:40 (Mt-Lam)
 
 - [x] AlpineJS im Crashkurs lernen (2-3 Tage)
 - [x] AlpineJS in das Projekt integrieren
@@ -33,7 +37,7 @@ nicht auf Theme-Ebene. Mal wieder ein Pfadproblem ... :weary:
 Und dann ist es mir tatsächlich in vergleichsweise kurzer Zeit gelungen, die
 neue Navbar zumindest auf der ersten Ebene aufzubauen. Jawollski!
 
-## 2023-09-13 07:28 MtLam
+## 2023-09-13 07:28 (MtLam)
 
 Auf der _development_-Ebene funktioniert alles recht gut, aber an dieser Stelle
 ist es wohl wieder einmal an der Zeit, mich zwei, drei Tage weiter zu bilden,

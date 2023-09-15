@@ -3,8 +3,8 @@ title: "Unsere Gottesdienste"
 date: 2023-09-12T20:05:13+02:00
 image: "../images/wir-feiern-gottesdienst300.png"
 layout: "left-image"
-prev: "unser-bekenntnis"
-next: "spirit-of-joy"
+prev: "../unser-bekenntnis"
+next: "../spirit-of-joy"
 schedule: "yes"
 draft: false
 ---
