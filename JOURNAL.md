@@ -12,6 +12,42 @@
 
 - [x] Weiter an den Einzelseiten aus dem Paket _About/Über Uns_ arbeiten.
 
+## 2023-09-16 19:43 (Mt-Lam)
+
+Und schon wieder ein Seite geschafft! Dieses Mal die Seite über die
+Gemeindekreise. Das war ein größeres Unternehmen, weil ich hier ein riesiges JPEG durch echtes
+HTML und CSS ersetzen musste.
+
+Warum musste das sein? Weil das riesige JPEG nicht responsiv ist und auf dem Handy
+auf gut Deutsch einfach nur :poop: aussieht. Die jetzige Lösung ___ist___ resonsiv!
+
+### Besondere Anmerkungen
+
+1. Ich musste mehrere _Shortcodes_ definieren, um die Seite auch im Markdown
+   gestaltbar zu machen. Das hat sehr gut funktioniert, ist aber "sehr
+   technisch" geworden (siehe `/content/about/gemeindekreise.md`). Wenn es sehr
+   technisch wird, werde ich für Autoren und Mitarbeiter im _Wiki_ ausführlich
+   dokumentieren müssen, wie sie mit den Shortcodes umgehen müssen, wenn sie
+   damit das gleiche erreichen wollen wie ich.
+2. Auch im _Front Matter_ der Gemeidekreis-Seite gibt es einige Dinge, die der
+   Aufklärung für Uneingeweihte bedürfen. Hugo macht beim Bau von Webseiten
+   unglaublich viel möglich, keine Frage, aber "intuitiv" kann man seinen _modus
+   operandi_ wirklich nicht nennen. Die Möglichkeiten, die es bietet, wiegen
+   diesen "Makel" für mich aber mehr als auf!
+3. Die benötigten Bilder wurden mir dankenswerterweise zur Verfügung gestellt.
+   Zwei habe ich allerdings durch freie
+   [Unsplash](https://unsplash.com)-Bilder ersetzt: `bible_250x.png` für den
+   Bibelkreis und `fireplace.png` für die Kaminabende.
+4. Mit Hilfe von [GraphicsMagick](http://www.graphicsmagick.org/) war es sehr
+   leicht, alle Bilder auf eine einheitliche Breite von 250px zu skalieren.
+   Folgende Kommandozeilen genügten. 
+
+    ```bash
+    # dir: /content/about/images/gk/
+    $ gm mogrify -resize 250x *.jpg
+    $ gm mogrify -resize 250x *.png
+    ```
+   
 
 ## 2023-09-15 19:17 (Mt-Lam)
 

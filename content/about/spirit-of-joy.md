@@ -3,6 +3,7 @@ title: "Spirit of Joy"
 date: 2023-09-15T16:45:10+02:00
 layout: "single.html"
 prev: "../unsere-gottesdienste"
+next: "../gemeindekreise"
 draft: false
 ---
 
