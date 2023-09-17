@@ -1,16 +1,27 @@
-{{- if eq hugo.Environment "development" }}
-<!-- <link rel="stylesheet" href="{{ .RelPermalink }}"> -->
-  <script src="https://cdn.tailwindcss.com" ></script>
-{{- else }}
-  {{- with resources.Get "styles.css" }}
-    {{- with . | minify }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}" >
-    {{- end }}
-  {{- end }}
-{{- end }}
 <style>
   body {
     font-family: 'Helvetica Neue', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+    font-weight: bold !important ;
+    padding-top: 1em !important ;
+    padding-bottom: 1em !important ;
+  }
+
+
+  h1 {
+    font-size: 1.5rem !important;
+  }
+  h2 {
+    font-size: 1.25 rem !important ;
+  }
+  h3 {
+    font-size: 1rem !important;
+  }
+
+  p + p {
+    padding-top: 1em !important;
   }
 
   p > a {
@@ -56,3 +67,13 @@
     list-style-type: disc;
   }
 </style>
+{{- if eq hugo.Environment "development" }}
+<!-- <link rel="stylesheet" href="{{ .RelPermalink }}"> -->
+  <script src="https://cdn.tailwindcss.com" ></script>
+{{- else }}
+  {{- with resources.Get "styles.css" }}
+    {{- with . | minify }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}" >
+    {{- end }}
+  {{- end }}
+{{- end }}
