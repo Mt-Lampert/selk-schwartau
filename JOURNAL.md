@@ -12,14 +12,29 @@
 
 - [x] Weiter an den Einzelseiten aus dem Paket _About/Über Uns_ arbeiten.
 
-## 2023-09-16 19:43 (Mt-Lam)
+## 2023-09-17 20:51 (MtLam)
+
+Mehrere Meilensteine sind geschafft: Die Seiten über den Pastor, den
+Küchenvorstand und die Orgel der Martin-Luther-Gemeinde. 
+
+Ein wichtiger Meilenstein war die Erstellung des _wide-pic_-Shortcodes.
+Damit ist es möglich, ein einzelnes großes Bild zentral über die komplette
+Breite einer Seite anzuzeigen, und zwar so, dass das Bild immer zentriert 
+auf der Seite erscheint. 
+
+Die Arbeit war dieses Mal um einiges leichter wegen der vielen Vorarbeiten
+(shortcodes, partials, Layouts), an die ich jetzt einfch anknüpfen konnte.
+Das wird auch die kommende Arbeit sehr beschleuniigen!
+
+## 2023-09-16 19:43 (MtLam)
 
 Und schon wieder ein Seite geschafft! Dieses Mal die Seite über die
 Gemeindekreise. Das war ein größeres Unternehmen, weil ich hier ein riesiges JPEG durch echtes
 HTML und CSS ersetzen musste.
 
 Warum musste das sein? Weil das riesige JPEG nicht responsiv ist und auf dem Handy
-auf gut Deutsch einfach nur :poop: aussieht. Die jetzige Lösung ___ist___ resonsiv!
+auf gut Deutsch einfach nur :poop: aussieht. Die jetzige Lösung ___ist___
+responsiv!
 
 ### Besondere Anmerkungen
 
@@ -49,7 +64,7 @@ auf gut Deutsch einfach nur :poop: aussieht. Die jetzige Lösung ___ist___ reson
     ```
    
 
-## 2023-09-15 19:17 (Mt-Lam)
+## 2023-09-15 19:17 (MtLam)
 
 Die nächste Seite ("Spirit-of-Joy")  ist fertig! Dieses Mal bin ich nicht den
 Weg übers _Layout_ gegangen, sondern habe im _Theme_ einen (recht
@@ -65,7 +80,7 @@ sollte genau so aussehen wie beim Chefdesigner.
 
 Content-Datei zur Ansicht: `/content/about/spirit-of-joy.md`
 
-## 2023-09-15 12:56 (Mt-Lam)
+## 2023-09-15 12:56 (MtLam)
 
 - [x] Die schon existierenden Seiten "responsive" machen, sofern sie es nicht
       schon sind.
@@ -73,12 +88,12 @@ Content-Datei zur Ansicht: `/content/about/spirit-of-joy.md`
 Habe die Handy-Version der bestehenden Seiten korrigiert und ein wenig hübscher
 gemacht. Außerdem habe ich die interne Navigation verbessert.
 
-## 2023-09-14 11:31 (Mt-Lam)
+## 2023-09-14 11:31 (MtLam)
 
 ALLES FERTIG mit der neuen Navbar! Nicht alle Einträge, aber alle Funktionalität. 
 Jetzt funktionieren auch Unter-Menüs! Das lange Arbeiten hat sich gelohnt.
 
-## 2023-09-13 20:40 (Mt-Lam)
+## 2023-09-13 20:40 (MtLam)
 
 - [x] AlpineJS im Crashkurs lernen (2-3 Tage)
 - [x] AlpineJS in das Projekt integrieren

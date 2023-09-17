@@ -1,0 +1,6 @@
+{{ $src := .Get "image" }}
+{{ $alt := .Get "alt" }}
+
+<div class="flex flex-row py-6 justify-center items-center">
+  <img src="{{ $src }}" alt="{{ $alt }}" class="inline-block">
+</div>
