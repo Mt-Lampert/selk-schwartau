@@ -8,7 +8,7 @@ draft: false
 ---
 
 {{% img-right 
-  src="../images/vorstand-300.jpg"
+  image="../images/vorstand-300.jpg"
   alt="KV"
   %}}
 Zur Leitungsstruktur jeder Gemeinde der SELK gehört ein gewählter

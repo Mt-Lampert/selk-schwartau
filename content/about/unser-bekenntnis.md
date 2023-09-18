@@ -1,10 +1,9 @@
 ---
 title: "Unser Bekenntnis"
 date: 2023-09-12T15:59:04+02:00
-image: "../images/Glaubensbekenntnis-250.JPG"
 prev: "../"
 next: "../unsere-gottesdienste"
-layout: "right-image"
+layout: "narrow"
 draft: false
 ---
 <!-- 
@@ -15,14 +14,14 @@ draft: false
            "right-image" ausgewählt werden.           
 -->
 
-
-
+{{% img-right image="../images/Glaubensbekenntnis-250.JPG" alt="bekenntnis" %}}
 Wir glauben an den Dreieinigen Gott,\
-den Vater, der uns und die ganze Welt erschaffen hat und uns erhält; \
+den Vater, der die ganze Welt erschaffen hat und uns erhält; \
 den Sohn, der uns durch seinen Opfertod \
 am Kreuz erlöst hat und uns ewiges Leben schenkt;\
 den Heiligen Geist, der uns Glauben schenkt\
 und geistliche Gaben gibt.
+{{% /img-right %}}
 
 Im Glauben an den Dreieinigen Gott sind wir verbunden mit Christen auf der ganzen Welt. Unsere Gemeindeordnung drückt das so aus:
 

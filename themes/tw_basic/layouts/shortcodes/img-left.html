@@ -1,4 +1,4 @@
-{{ $src := .Get "src" }}
+{{ $src := .Get "image" }}
 {{ $alt := printf "Image %s" (.Get "alt") }}
 {{ $rawTitle := .Get "title" }}
 {{ $matches := findRE `^/` $src }}

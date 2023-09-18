@@ -10,7 +10,7 @@ draft: false
 {{< abstand >}}
 
 {{% img-left 
-  src="../images/gk/schnackmahl.png"  
+  image="../images/gk/schnackmahl.png"  
   alt="Schnack-Mahl" 
   title="SchnackMahl"
 %}}
@@ -22,7 +22,7 @@ Kontakt: Anna Bebensee | 0173-2188806
 {{< abstand >}}
 
 {{% img-right 
-  src="../images/gk/spirit-of-joy_250.jpg"  
+  image="../images/gk/spirit-of-joy_250.jpg"  
   alt="spirit-of-joy" 
   title="Spirit of Joy"
 %}}
@@ -34,7 +34,7 @@ Kontakt: Nathanael Kläs | 0162-2100600 | kantor@selk-schwartau.de
 {{< abstand >}}
 
 {{% img-left 
-  src="../images/gk/entdecker-club.jpg"  
+  image="../images/gk/entdecker-club.jpg"  
   alt="entdecker-club" 
   title="Entdecker-Club"
 %}}
@@ -46,7 +46,7 @@ Kontakt: Klaus Bergmann | 0451-21559 | pastor@selk-schwartau.de
 {{< abstand >}}
 
 {{% img-right 
-  src="../images/gk/piepmaetze.jpg"  
+  image="../images/gk/piepmaetze.jpg"  
   alt="Piepmätze" 
   title="Piepmätze"
 %}}
@@ -58,7 +58,7 @@ Kontakt: Sandra Juckenack | 0152-523828720
 {{< abstand >}}
 
 {{% img-left 
-  src="../images/gk/jugendkreis.png"  
+  image="../images/gk/jugendkreis.png"  
   alt="seniorenkreis" 
   title="Seniorenkreis"
 %}}
@@ -70,7 +70,7 @@ Kontakt: Klaus Bergmann | 0451-21559 | pastor@selk-schwartau.de
 {{< abstand >}}
 
 {{% img-right 
-  src="../images/gk/bible_250x.png"  
+  image="../images/gk/bible_250x.png"  
   alt="bible" 
   title="Bibelstunde"
 %}}
@@ -82,7 +82,7 @@ Kontakt: Hannsjürgen Müller | 04563-478036
 {{< abstand >}}
 
 {{% img-left 
-  src="../images/gk/brot-bibel.jpg"  
+  image="../images/gk/brot-bibel.jpg"  
   alt="gute-b(r)otschaft" 
   title="Die gute B(r)otschaft"
 %}}
@@ -94,7 +94,7 @@ Kontakt: Klaus Bergmann | 0451-21559 | pastor@selk-schwartau.de
 {{< abstand >}}
 
 {{% img-right 
-  src="../images/gk/fireplace.png"  
+  image="../images/gk/fireplace.png"  
   alt="kaminabend" 
   title="Kaminabend"
 %}}
@@ -106,7 +106,7 @@ Kontakt: Susanne Griep | 0451-208714
 {{< abstand >}}
 
 {{% img-left 
-  src="../images/gk/kindergottesdienst.jpg"  
+  image="../images/gk/kindergottesdienst.jpg"  
   alt="kg-team" 
   title="Kindergottesdienst-Team"
 %}}
