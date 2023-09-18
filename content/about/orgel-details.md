@@ -9,7 +9,7 @@ draft: false
 
 {{< wide-pic image="../images/orgel/orgel-manual_600.jpg" alt="Orgel-Manual" >}}
 
-Sie wollen wirklich alles über unsere Orgel wissen? Sehr gerne! Hier sind die
+Sie möchten wirklich alles über unsere Orgel wissen? Sehr gerne! Hier sind die
 Details:
 
 - __Erstes Manual:__ Hauptwerk, Tastenumfang C-g‘‘‘, zunächst 5 Register:

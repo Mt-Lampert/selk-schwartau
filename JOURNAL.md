@@ -10,6 +10,20 @@
 
 ## TODO &mdash; Die nächsten Schritte:
 
+## 2023-09-18 16:16 (MtLam)
+
+Im Zuge der jüngsten Erkenntnisse habe ich beschlossen, die Arbeit mit Bildern
+nur noch über _Shortcodes_ zu machen und nicht mehr über Layouts. _Shortcodes_
+erreichen genau das gleiche wie Layouts, lassen uns aber viel mehr Flexibilität.
+In einem Layout ist man gefangen wie in einem Käfig, im Shortcode sperrt man nur
+ein einziges Bild und ein bisschen Text in einen Käfig.
+
+Und noch etwas: Ich weiß jetzt, warum _floats_ bei Web-Designern so verhasst sind
+&ndash; sie rauben uns die Kontrolle über den "umfließenden" Text. Wenn der
+Browser neben dem Bild noch Platz für zwei kurze Wörter findet, quetscht er die
+zwei kurzen Wörter neben das Bild! Einfach weil er es kann! Da lob ich mir doch
+die festen Bild- und Text-Container, zu denen _Flexbox_ oder _CSS Grid_ mich
+zwingen!
 
 ## 2023-09-18 09:01 (MtLam)
 

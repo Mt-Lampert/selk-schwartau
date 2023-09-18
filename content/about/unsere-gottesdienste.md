@@ -1,15 +1,16 @@
 ---
 title: "Unsere Gottesdienste"
 date: 2023-09-12T20:05:13+02:00
-image: "../images/wir-feiern-gottesdienst300.png"
-layout: "left-image"
+layout: "single"
 prev: "../unser-bekenntnis"
 next: "../spirit-of-joy"
 schedule: "yes"
 draft: false
 ---
 
-# Wir feiern Gottesdienst
+
+{{% img-left image="../images/wir-feiern-gottesdienst300.png" alt="WfG-Logo" %}}
+## Wir feiern Gottesdienst
 
 Das ist der Leitsatz der Martin-Luther-Kirchengemeinde. Er macht deutlich, dass die Gemeinde nicht nur im Miterleben, sondern auch im Mitgestalten aktiv beteiligt ist.
 
@@ -19,3 +20,4 @@ Die Chöre und auch Vorsänger, Lektoren und Abendmahlshelfer haben ihre festen 
 - Wir hören das Wort Gottes, Worte des Lebens und bekennen mit der ganzen Christenheit den Glauben der Kirche.
 - Wir feiern das Heilige Mahl und empfangen Christi Leib und Blut zur Vergebung der Sünden und Stärkung des Glaubens.
 - Wir empfangen den Segen Gottes, die Zusage seiner Gegenwart in unserem Alltag.
+{{% /img-left %}}
