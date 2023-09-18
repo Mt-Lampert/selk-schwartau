@@ -10,7 +10,23 @@
 
 ## TODO &mdash; Die nächsten Schritte:
 
+
+## 2023-09-18 09:01 (MtLam)
+
 - [x] Weiter an den Einzelseiten aus dem Paket _About/Über Uns_ arbeiten.
+
+Mit dem Abschluss der Seite über "Unsere Kirche, die SELK" ist die Arbeit an
+dieser _Section_ abgeschlossen!
+
+Ich habe wieder einen neuen _Shortcode_ erstellt: `image-in-p`, und er fügt ein
+Bild als "fließendes Objekt" in einen Text ein.
+
+Profitiert haben davon die Seiten "Unser Pastor" und "Unsere Kirche". Ärgerlich
+war nur, dass meine Version von _Tailwind_ die Klassen `float-right` bzw.
+`float-left` nicht akzeptiert hat (die ich für diesen _Shortcode_ brauchte) und
+ich sie "von Hand" nachreichen musste.
+
+Aber am Ende ging ja alle gut!
 
 ## 2023-09-17 20:51 (MtLam)
 

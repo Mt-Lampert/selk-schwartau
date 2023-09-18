@@ -1,0 +1,8 @@
+{{ $src := .Get "image" }}
+{{ $alt := .Get "alt" }}
+{{ $position := .Get "pos" }}
+{{ $imgClasses := printf "inline-block px-4 pb-4 md:pb-0 float-%s" $position }}
+<div>
+  <img src="{{ $src }}" alt="{{ $alt }}" class="{{ $imgClasses }}">
+  {{ .Inner }}
+</div>

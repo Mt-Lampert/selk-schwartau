@@ -7,21 +7,25 @@ next: "../vorstand"
 draft: false
 ---
 
-{{% img-left 
-  src="../images/klaus-bergmann-2023__300.jpg"
+{{< abstand >}}
+{{% image-in-p 
+  image="../images/klaus-bergmann-2023__200.jpg"
   alt="KlBgm"
-%}}
+  pos="left"
+  %}}
 Mein Name ist Klaus Bergmann. Seit 2016 bin ich Pastor der
 Martin-Luther-Gemeinde Bad Schwartau. Der Dienst in dieser Gemeinde macht mir
-große Freude. Neben den laufenden Aufgaben meines Pfarramtes (wie z.B.
+große Freude. Neben dem Pfarramt (beinhaltet 
 Gottesdienstleitung, Seelsorge, Fortbildung von Mitarbeitern, Leitung einiger
 Gemeindegruppen) habe ich mir folgende Schwerpunkte in der Gemeindearbeit
 gesetzt:
-{{% /img-left %}}
+
+{{% /image-in-p %}}
+
 
 ## Missionarischer Gemeindedienst
 
-Altbischof Dr. Roth prägte das Motto "nach außen öffnen, nach innen stärken" -
+Altbischof Dr. Roth prägte das Motto "nach außen öffnen, nach innen stärken" &ndash;
 eine gute Leitlinie für die Gemindearbeit. In Gottesdiensten, bei
 Gemeindekreisen und durch persönliche Gespräche stärken wir uns untereinander im
 Glauben an Jesus Christus. Bei evangelistischen Veranstantaltungen wie Gospel +
@@ -44,7 +48,7 @@ und aufgewachsen. Nach dem Abitur an der
 Theologie an der [Lutherischen Theologischen Hochschule](http://www.lthh-oberursel.de/)
 in Oberursel, dem [Concordia Theological Seminary](http://www.ctsfw.edu/) in Ft. Wayne 
 (USA) und der [Georg-August-Universität](http://www.theologie.uni-goettingen.de/) in 
-Göttingen. Meine Vikariatszeit absolvierte ich an der 
+Göttingen. Meine Vikarszeit absolvierte ich an der 
 [Christuskirche Melsungen](http://www.selk-melsungen.de/). Von 1996 bis 2015 war ich 
 Pastor der [St. Michaelsgemeinde Wolfsburg](http://www.selk-wolfsburg.de/)-Westhagen 
 und von 2009 bis 2015 auch noch Pastor der 
@@ -63,4 +67,4 @@ Pastor Klaus Bergmann \
 Kaltenhöfer Str. 42 \
 23611 Bad Schwartau \
 Tel.: 0451&ndash;21559 (Pfarramt) \
-`pastor(at)selk-schwartau.de`
+pastor[at]selk-schwartau.de
