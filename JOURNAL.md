@@ -10,25 +10,50 @@
 
 ## TODO &mdash; Die nächsten Schritte (MtLam)
 
+- [ ] Aus den Skizzen und Notizen von KlBgm richtige Wireframes und technische
+  Anweisungen herausdestillieren. Dann weiterarbeiten.
 - [ ] Arbeitspläne für die einzelnen Schritte ausarbeiten, die noch anstehen.
   „Wenn du nicht weißt, was du als nächstes machen sollst &ndash; mach erst
   eine Liste und dann einen Plan.“
+- [ ] _Überarbeitung der globalen Kopfzeile_ auf die Form, die KlBgm in seiner
+  Skizze vorgestellt hat. Im Zweifelsfall lassen sich die Menüpunkte auf dem PC
+  auch in _zwei_ Reihen anordnen. Müsste mit Flexbox und _flex-wrap_ gehen.
+    - Außerdem das allgemeine große Bild (im Moment Jahreslosung) aus dem
+      Kopfbereich in den _Main_-Bereich verschieben. Das wird einen speziellen
+      Arbeitsplan erfordern, weil diese Umstellung bei vielen einzelnen Seiten 
+      vorgenommen werden muss. 
+- [ ] Ausarbeitung der Fußzeile gemäß der Skizze von KlBgm. Wie ich schon in
+  der Besprechung sagte: Die Fußzeile hat alles, was auf keiner Seite fehlen
+  darf, das aber wirklich nur die Leute sehen sollen, die ausdrücklich danach
+  suchen.
+    - Die Fußzeile wird ein „Karten-Rack“ werden mit drei Karten nebeneinander
+      auf dem Desktop und untereinander auf dem Handy. Wird wieder eine
+      Flexbox-Lösung werden.
 - [ ] _Google Iframes._ Google Calendar und Google Maps werden mit `<iframe>`
   in der Original-Webseite eingebunden. Wenn ich Glück habe, brauche ich
-  die Iframes aus der Original-Webseite für das gleiche Ergebnisnur in die
+  die Iframes aus der Original-Webseite für das gleiche Ergebnis nur in die
   Hugo-Vorlagen hineinzukopieren.
+    - Stellt sich heraus: Das wird doch nicht so einfach, weil die Sache auch
+      „responsive“ sein soll. Auf dem Handy darf der IFrame nur 250px breit
+      sein, auf dem Desktop soll er die ganze Breite einnehmen. Das geht aber,
+      wenn man den IFrame in einen responsiven Container einbettet.
+    - Ganz allgemein stellt sich die Frage, ob man auf dem Handy den Iframe
+      nicht gleich durch einen passenden Link ersetzen sollte. Aber vielleicht
+      geht dann ja alles durch Wischen vom aktuellen Tag auf den folgenden und 
+      darauf folgenden Tag.
 - [ ] Ein Konzept für lokale JavaScript-Dateien ausarbeiten. Das wird wichtig
   werden, um [GlideJS](https://glidejs.com/) individuell auf einzelne Seiten
   zuzuschneidern; verschiedene Seiten werden verschiedene Konfigurationen
   brauchen. Man könnte die entsprechende JavaScript-Datei jeweils im 
   _Front Matter_ der einzelnen Seite vermerken und sie dann im Layout abrufen.
-- [ ] Aus den Skizzen und Notizen von KlBgm richtige Wireframes und technische
-  Anweisungen herausdestillieren. Dann weiterarbeiten.
+- [ ] _Startseite._ Bevor ich irgendwas als „druckreif“ verkaufe, muss ich erst
+  mehrere gestalterische Möglichkeiten durchspielen.
 - [ ] Ein paar provisorische Bilder für verschiedene Seiten aus dem Netz
   zusammensuchen. (z.B. [Unsplash](https://unsplash.com)) Je blödsinniger und
   peinlicher die sind, desto mehr Mühe werden sich die Kollegen geben, um
   passendere Bilder für mich zu finden. Die Maße müssen allerdings gleich am
   Anfang stimmen.
+
 
 
 
