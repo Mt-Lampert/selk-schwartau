@@ -8,7 +8,32 @@
 > zu klären.
 
 
-## TODO &mdash; Die nächsten Schritte:
+## TODO &mdash; Die nächsten Schritte (MtLam)
+
+- [ ] Arbeitspläne für die einzelnen Schritte ausarbeiten, die noch anstehen.
+  „Wenn du nicht weißt, was du als nächstes machen sollst &ndash; mach erst
+  eine Liste und dann einen Plan.“
+- [ ] _Google Iframes._ Google Calendar und Google Maps werden mit `<iframe>`
+  in der Original-Webseite eingebunden. Wenn ich Glück habe, brauche ich
+  die Iframes aus der Original-Webseite für das gleiche Ergebnisnur in die
+  Hugo-Vorlagen hineinzukopieren.
+- [ ] Ein Konzept für lokale JavaScript-Dateien ausarbeiten. Das wird wichtig
+  werden, um [GlideJS](https://glidejs.com/) individuell auf einzelne Seiten
+  zuzuschneidern; verschiedene Seiten werden verschiedene Konfigurationen
+  brauchen. Man könnte die entsprechende JavaScript-Datei jeweils im 
+  _Front Matter_ der einzelnen Seite vermerken und sie dann im Layout abrufen.
+- [ ] Aus den Skizzen und Notizen von KlBgm richtige Wireframes und technische
+  Anweisungen herausdestillieren. Dann weiterarbeiten.
+- [ ] Ein paar provisorische Bilder für verschiedene Seiten aus dem Netz
+  zusammensuchen. (z.B. [Unsplash](https://unsplash.com)) Je blödsinniger und
+  peinlicher die sind, desto mehr Mühe werden sich die Kollegen geben, um
+  passendere Bilder für mich zu finden. Die Maße müssen allerdings gleich am
+  Anfang stimmen.
+
+
+
+
+
 
 ## 2023-09-18 16:16 (MtLam)
 
