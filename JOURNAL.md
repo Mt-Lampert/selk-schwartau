@@ -55,7 +55,13 @@
   Anfang stimmen.
 
 
+## 2023-10-14 18:08 (MtLam)
 
+Die erste Überarbeitung der Kopfzeile ist soweit abgeschlossen. Ich habe auch
+das große Bild aus dem Kopfteil herausgenommen.
+
+Auf der Startseite habe ich außerdem die Sidebars weggenommen. Ihr Inhalt kommt
+jetzt in den Fußteil. Der muss allerdings noch gemacht werden 
 
 
 

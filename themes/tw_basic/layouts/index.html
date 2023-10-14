@@ -1,10 +1,13 @@
 {{ define "main" }}
-<main class="mt-8 h-full flex flex-col md:flex-row justify-between md:items-stretch gap-4">
-  {{ partial "index_left_sidebar.html" . }}
+<main class="mt-8 h-full">
+  <div class="flex flex-col justify-center items-center py-8">
+    <div class="bg-stone-100 flex justify-center shadow-xl">
+      <img class="inline-block" src="{{ site.BaseURL }}{{ .Params.BigPic }}" alt="The Big Picture">
+    </div>
+  </div>
   <div class="flex-1 rml-center pb-8">
     <h1 class="font-semibold text-3xl text-center mb-8">{{ .Title }}</h1>
     {{ .Content }}    
   </div>
-  {{ partial "index_right_sidebar.html" . }}
 </main>
 {{ end }}
