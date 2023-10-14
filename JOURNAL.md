@@ -10,18 +10,11 @@
 
 ## TODO &mdash; Die nächsten Schritte (MtLam)
 
-- [ ] Aus den Skizzen und Notizen von KlBgm richtige Wireframes und technische
+- [x] Aus den Skizzen und Notizen von KlBgm richtige Wireframes und technische
   Anweisungen herausdestillieren. Dann weiterarbeiten.
 - [ ] Arbeitspläne für die einzelnen Schritte ausarbeiten, die noch anstehen.
   „Wenn du nicht weißt, was du als nächstes machen sollst &ndash; mach erst
   eine Liste und dann einen Plan.“
-- [ ] _Überarbeitung der globalen Kopfzeile_ auf die Form, die KlBgm in seiner
-  Skizze vorgestellt hat. Im Zweifelsfall lassen sich die Menüpunkte auf dem PC
-  auch in _zwei_ Reihen anordnen. Müsste mit Flexbox und _flex-wrap_ gehen.
-    - Außerdem das allgemeine große Bild (im Moment Jahreslosung) aus dem
-      Kopfbereich in den _Main_-Bereich verschieben. Das wird einen speziellen
-      Arbeitsplan erfordern, weil diese Umstellung bei vielen einzelnen Seiten 
-      vorgenommen werden muss. 
 - [ ] Ausarbeitung der Fußzeile gemäß der Skizze von KlBgm. Wie ich schon in
   der Besprechung sagte: Die Fußzeile hat alles, was auf keiner Seite fehlen
   darf, das aber wirklich nur die Leute sehen sollen, die ausdrücklich danach
@@ -54,8 +47,27 @@
   passendere Bilder für mich zu finden. Die Maße müssen allerdings gleich am
   Anfang stimmen.
 
+## 2023-10-14 21:16 (MtLam)
+
+- [x] _Google Iframes._ Google Calendar mit `<iframe>` in der Original-Webseite
+  einbinden. Wenn ich Glück habe, brauche ich die Iframes aus der
+  Original-Webseite für das gleiche Ergebnis nur in die Hugo-Vorlagen
+  hineinzukopieren.
+
+Das hat viel besser funktioniert als ich ursprünglich dachte! Ich konnte im
+_IFrame_ Höhe und Breite einstellen, und der _IFrame_ selbst war so
+konfiguriert, dass er sich immer in den Vorgaben seines _containers_ bewegt
+hat. Damit hat dann auch alles auf der Handy-Version geklappt!
 
 ## 2023-10-14 18:08 (MtLam)
+
+- [x] _Überarbeitung der globalen Kopfzeile_ auf die Form, die KlBgm in seiner
+  Skizze vorgestellt hat. Im Zweifelsfall lassen sich die Menüpunkte auf dem PC
+  auch in _zwei_ Reihen anordnen. Müsste mit Flexbox und _flex-wrap_ gehen.
+    - Außerdem das allgemeine große Bild (im Moment Jahreslosung) aus dem
+      Kopfbereich in den _Main_-Bereich verschieben. Das wird einen speziellen
+      Arbeitsplan erfordern, weil diese Umstellung bei vielen einzelnen Seiten 
+      vorgenommen werden muss. 
 
 Die erste Überarbeitung der Kopfzeile ist soweit abgeschlossen. Ich habe auch
 das große Bild aus dem Kopfteil herausgenommen.
