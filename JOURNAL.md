@@ -9,12 +9,6 @@
 
 
 ## TODO &mdash; Die nächsten Schritte (MtLam)
-
-- [x] Aus den Skizzen und Notizen von KlBgm richtige Wireframes und technische
-  Anweisungen herausdestillieren. Dann weiterarbeiten.
-- [ ] Arbeitspläne für die einzelnen Schritte ausarbeiten, die noch anstehen.
-  „Wenn du nicht weißt, was du als nächstes machen sollst &ndash; mach erst
-  eine Liste und dann einen Plan.“
 - [ ] Ausarbeitung der Fußzeile gemäß der Skizze von KlBgm. Wie ich schon in
   der Besprechung sagte: Die Fußzeile hat alles, was auf keiner Seite fehlen
   darf, das aber wirklich nur die Leute sehen sollen, die ausdrücklich danach
@@ -22,6 +16,12 @@
     - Die Fußzeile wird ein „Karten-Rack“ werden mit drei Karten nebeneinander
       auf dem Desktop und untereinander auf dem Handy. Wird wieder eine
       Flexbox-Lösung werden.
+
+- [x] Aus den Skizzen und Notizen von KlBgm richtige Wireframes und technische
+  Anweisungen herausdestillieren. Dann weiterarbeiten.
+- [x] Arbeitspläne für die einzelnen Schritte ausarbeiten, die noch anstehen.
+  „Wenn du nicht weißt, was du als nächstes machen sollst &ndash; mach erst
+  eine Liste und dann einen Plan.“
 - [ ] _Google Iframes._ Google Calendar und Google Maps werden mit `<iframe>`
   in der Original-Webseite eingebunden. Wenn ich Glück habe, brauche ich
   die Iframes aus der Original-Webseite für das gleiche Ergebnis nur in die

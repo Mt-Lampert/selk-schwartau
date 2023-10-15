@@ -12,8 +12,23 @@
   {{ $nextClasses = "py-1 px-2 bg-stone-300 hover:bg-stone-50 hover:border rounded-lg text-stone-900"}}      
   {{ $nextUrl = .Params.next }}
 {{ end }}
+
+{{ $bigPic := "" }}
+{{ $alt := printf "%s Big Picture" .Title }}
+{{ if .Params.BigPic }}
+{{   if eq (slice .Params.BigPic 0 1) '/' }}
+{{     $bigPic = printf "%s%s" .site.BaseURL $bigPic  }}
+{{   else }}
+{{     $bigPic = printf "../images/%s" .Params.BigPic }}
+{{   end }}
+{{ end }}
+
 <div class="pb-8 px-8">
   <h1 class="text-center font-semibold text-2xl py-8">{{ .Title }}</h1>
+
+  <div class="py-8 flex justify-center items-center w-full">
+    <img src="{{ $bigPic }}" alt="{{ $alt }}">
+  </div>
 
 {{ .Content }}
 
