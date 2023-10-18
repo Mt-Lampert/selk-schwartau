@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   alpinejs:
-    specifier: ^3.13.0
-    version: 3.13.0
+    specifier: ^3.13.2
+    version: 3.13.2
 
 packages:
 
@@ -21,8 +21,8 @@ packages:
     resolution: {integrity: sha512-oJ4F3TnvpXaQwZJNF3ZK+kLPHKarDmJjJ6jyzVNDKH9md1dptjC7lWR//jrGuLdek/U6iltWxqAnYOu8gCiOvA==}
     dev: false
 
-  /alpinejs@3.13.0:
-    resolution: {integrity: sha512-7FYR1Yz3evIjlJD1mZ3SYWSw+jlOmQGeQ1QiSufSQ6J84XMQFkzxm6OobiZ928SfqhGdoIp2SsABNsS4rXMMJw==}
+  /alpinejs@3.13.2:
+    resolution: {integrity: sha512-WzojeeN082kLZznGI1HAuP8yFJSWqJ1fGdz2mUjj45H4y0XwToE7fFqtI3mCPRR+BpcSbxT/NL+FyPnYAWSltw==}
     dependencies:
       '@vue/reactivity': 3.1.5
     dev: false
