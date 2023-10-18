@@ -38,13 +38,11 @@
 
 @media screen and (min-width: 1024px) {
   .footer-grid {
-    grid-template-rows: repeat(2, auto);
-    grid-template-columns: repeat(3, 1fr);
+    jusitifiy-content: center;
+    align-center: start;
 
-    grid-template-areas:
-      "f-addr f-don f-imp"
-      "f-addr f-eps f-dat"
-    ;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 }
 
@@ -77,10 +75,10 @@
 
 <div class="footer-grid">
   <!-- Address tile -->
-  <div class="text-left pl-2 f-address">
+  <div class="text-left f-address">
     <p>
       Martin-Luther-Gemeinde<br>
-      Selbstst. Ev-Luth. Kirche (SELK)<br>
+      <span style="font-size:.9em">Selbst. Ev-Luth. Kirche (SELK)</span><br>
       Kaltenhöfer Straße 42<br>
       Tel: (0451) 21559<br>
       info[at]selk-schwartau.de
@@ -89,14 +87,14 @@
 
   <!-- Donation Tile -->
   <div class="pt-4 f-donate">
-    <img src="./images/SpendenButton.png" alt="Spendenbutton" width="200">
+    <img src="/images/SpendenButton.png" alt="Spendenbutton" width="200">
   </div>
 
   <!-- Epistle Tile -->
   <div class="text-center mt-8 f-epistle">
-    <h2 class="font-semibold text-sm pb-4">Unser Gemeindebrief als PDF</h2>
+    <h2 class="font-semibold text-sm pb-4">Unser Gemeindebrief (PDF)</h2>
     <div class="">
-      <img src="./images/Gemeindebrief-09-23.png" alt="Gemeindebrief" width="200">
+      <img src="/images/Gemeindebrief-09-23.png" alt="Gemeindebrief" width="200">
     </div>
   </div>
 
