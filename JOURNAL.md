@@ -47,6 +47,34 @@
   passendere Bilder für mich zu finden. Die Maße müssen allerdings gleich am
   Anfang stimmen.
 
+
+## 2023-10-18 19:25 (MtLam)
+
+Wieder ein Meilenstein geschafft! Ich habe die Fußzeile jetzt so weit, dass das
+Design abgeschlossen ist! Die Änderungen sind sogar schon online und können
+unter der üblichen Adresse abgerufen werden.
+
+Dieses Design war wirklich eine ganz harte Nuss und hat mich sehr viel
+Herumprobieren gekostet &ndash; bis dahin, dass ich um Hilfe von außen anfragen
+musste. Das Kreuz in der Fußzeile soll natürlich das Altarkreuz in der Kirche
+darstellen, und das jetzige SVG wird irgendwann auch noch mal gegen das
+„richtige“ Kreuz ausgetauscht werden. Aber als Provisorium ist es gut genug,
+glaube ich. 
+
+Um meiner Informationspflicht Genüge zu tun: die „Spirit-of-Joy“-Seite ist im
+Moment die einzige Seite, die schon ein „Großes Zentralbild“ hat &ndash; es war
+das einzige passende, das ich bislang in meinem Bilder-Fundus zur Verfügung
+hatte. Aber so wird die Idee mit einem Zentralbild, glaube ich, immerhin
+deutlich.
+
+Natürlich gibt es noch Nacharbeiten zu erledigen. Da ich die ‚Sidebars‘ durch
+die große Fußzeile ersetzt habe, sind die Textzeilen bei fast allen Seiten über
+100 Zeichen lang geworden. Das ist sehr anstrengend für die Augen und wird noch
+angepasst werden. Und es gibt noch einige Schönheitskorrekturen mehr, die
+anstehen. Aber ein großer Fortschritt wurde erzielt, und ein ganz schwieriger
+Arbeitsgang ist erst mal vom Tisch. Das feier ich ein bisschen.
+
+
 ## 2023-10-18 06:16 (MtLam)
 
 Ich habe mit Ronas freundlicher Unterstützung einen ersten Entwurf für die
