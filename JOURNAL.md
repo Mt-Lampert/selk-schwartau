@@ -47,6 +47,26 @@
   passendere Bilder für mich zu finden. Die Maße müssen allerdings gleich am
   Anfang stimmen.
 
+## 2023-10-18 06:16 (MtLam)
+
+Ich habe mit Ronas freundlicher Unterstützung einen ersten Entwurf für die
+Fußzeile hinbekommen. Das Problem war, dass das Bild vom Gemeindebrief die
+Grid-Strukturen völlig zerrissen hat. Jetzt habe ich das hoffentlich fürs Erste
+gelöst.
+
+
+## 2023-10-15 11:16 (MtLam)
+
+Weil ich ein passendes Bild in der „Requisite“ gefunden habe, habe ich eine
+Einzelseite vorgezogen. „Spirit-of-Joy“ hat jetzt ein großes Bild als Aufmacher
+&ndash; das gleiche Bild wie bei den „10 Jahren Adi Kläs“ als Chorleiter.
+
+War ein bisschen Arbeit, weil es verschiedene Quellen geben für das Bild geben
+kann. Im Normalfall sollte das Bild aus dem `images`-Ordner des
+Content-Verzeichnisses kommen. Manchmal kommen aber auch Bilder aus dem
+`/static/images/`-Verzeichnis zum Zug. Der Code in `single.html` will dem
+Rechnung tragen.
+
 ## 2023-10-14 21:16 (MtLam)
 
 - [x] _Google Iframes._ Google Calendar mit `<iframe>` in der Original-Webseite
