@@ -93,6 +93,80 @@
   float-left {
     float: left;
   }
+
+.footer-grid {
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  grid-template-columns: 1fr;
+  justify-items: center;
+
+  grid-template-areas: 
+    "f-addr"
+    "f-don"
+    "f-eps"
+    "f-imp"
+    "f-dat"
+  ;
+
+}
+
+/* No cross on mobiles */
+@media screen and (max-width: 767px) {
+  .f-mittelkreuz {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-grid {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    align-items: baseline;
+    justify-items: center;
+
+    grid-template-areas:
+      "f-addr f-cross f-cross f-eps"
+      "f-addr f-cross f-cross f-eps"
+      "f-don  f-imp   f-imp   f-dat"
+    ;
+    padding-top: 5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-grid {
+    jusitifiy-content: center;
+    align-center: start;
+
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+
+.f-address {
+  grid-area: f-addr;
+}
+
+.f-donate {
+  grid-area: f-don;
+}
+
+.f-epistle {
+  grid-area: f-eps;
+}
+
+.f-impressum { 
+  grid-area: f-imp
+}
+
+.f-datenschutz {
+  grid-area: f-dat;
+}
+
+.f-mittelkreuz {
+  grid-area: f-cross
+}
 </style>
 {{- if eq hugo.Environment "development" }}
 <!-- <link rel="stylesheet" href="{{ .RelPermalink }}"> -->
