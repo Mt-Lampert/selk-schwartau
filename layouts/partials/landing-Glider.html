@@ -1,0 +1,35 @@
+{{ $images := readDir "/static/images/gallery" }}
+
+<link href="/css/glide.core.min.css" rel="stylesheet">
+<style></style>
+
+<div class="glide">
+  <div class="glide__track" data-glide-el="track">
+    <div class="glide__slides">
+{{  range $images }}
+{{    $src := printf "/images/gallery/%s" .Name }}
+{{    $alt := printf "Pic %s" .Name }}
+      <div class="flex flex-col justify-center items-center glide__slide">
+        <img src="{{ $src }}" alt="{{ $alt }}">
+      </div>
+{{  end }}
+    </div>
+  </div>
+  <div class="flex flex-row justify-center gap-12 items-center py-4 glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+  </div>
+</div>
+
+
+<script>
+const config = {
+  type: 'carousel',
+  autoplay: 10500,
+  animationDuration: 1500,
+}
+new Glide('.glide', config).mount()
+</script>
+
+
+
