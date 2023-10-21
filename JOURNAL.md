@@ -9,44 +9,45 @@
 
 
 ## TODO &mdash; Die nächsten Schritte (MtLam)
-- [ ] Ausarbeitung der Fußzeile gemäß der Skizze von KlBgm. Wie ich schon in
-  der Besprechung sagte: Die Fußzeile hat alles, was auf keiner Seite fehlen
-  darf, das aber wirklich nur die Leute sehen sollen, die ausdrücklich danach
-  suchen.
-    - Die Fußzeile wird ein „Karten-Rack“ werden mit drei Karten nebeneinander
-      auf dem Desktop und untereinander auf dem Handy. Wird wieder eine
-      Flexbox-Lösung werden.
 
-- [x] Aus den Skizzen und Notizen von KlBgm richtige Wireframes und technische
-  Anweisungen herausdestillieren. Dann weiterarbeiten.
-- [x] Arbeitspläne für die einzelnen Schritte ausarbeiten, die noch anstehen.
-  „Wenn du nicht weißt, was du als nächstes machen sollst &ndash; mach erst
-  eine Liste und dann einen Plan.“
-- [ ] _Google Iframes._ Google Calendar und Google Maps werden mit `<iframe>`
-  in der Original-Webseite eingebunden. Wenn ich Glück habe, brauche ich
-  die Iframes aus der Original-Webseite für das gleiche Ergebnis nur in die
-  Hugo-Vorlagen hineinzukopieren.
-    - Stellt sich heraus: Das wird doch nicht so einfach, weil die Sache auch
-      „responsive“ sein soll. Auf dem Handy darf der IFrame nur 250px breit
-      sein, auf dem Desktop soll er die ganze Breite einnehmen. Das geht aber,
-      wenn man den IFrame in einen responsiven Container einbettet.
-    - Ganz allgemein stellt sich die Frage, ob man auf dem Handy den Iframe
-      nicht gleich durch einen passenden Link ersetzen sollte. Aber vielleicht
-      geht dann ja alles durch Wischen vom aktuellen Tag auf den folgenden und 
-      darauf folgenden Tag.
-- [ ] Ein Konzept für lokale JavaScript-Dateien ausarbeiten. Das wird wichtig
-  werden, um [GlideJS](https://glidejs.com/) individuell auf einzelne Seiten
-  zuzuschneidern; verschiedene Seiten werden verschiedene Konfigurationen
-  brauchen. Man könnte die entsprechende JavaScript-Datei jeweils im 
-  _Front Matter_ der einzelnen Seite vermerken und sie dann im Layout abrufen.
-- [ ] _Startseite._ Bevor ich irgendwas als „druckreif“ verkaufe, muss ich erst
-  mehrere gestalterische Möglichkeiten durchspielen.
 - [ ] Ein paar provisorische Bilder für verschiedene Seiten aus dem Netz
   zusammensuchen. (z.B. [Unsplash](https://unsplash.com)) Je blödsinniger und
   peinlicher die sind, desto mehr Mühe werden sich die Kollegen geben, um
   passendere Bilder für mich zu finden. Die Maße müssen allerdings gleich am
   Anfang stimmen.
 
+
+## 2023-10-21 19:04 (MtLam)
+
+Habe den _Iframe_ für _Google Maps_ im Fußteil durch einen einfachen Link
+ersetzt, der bei _Google Maps_ direkt zur Martin-Luther-Gemeinde führt. Nach
+einer Güterabwägung schien mir das die beste Lösung zu sein. Hauptgedanke: Der
+Mini-Kartenausschnitt im _Iframe_ ist so dürftig, dass er unterm Strich sowieso
+nur als Link für die „richtige“ Google-Maps-Darstellung benutzt wird. Das kann
+man doch vereinfachen!
+
+
+
+## 2023-10-21 18:27 (MtLam)
+
+Nachdem ich in den letzten beiden Tagen mit [GlideJS](https://glidejs.com/)
+experimentiert habe, konnte ich jetzt auf der Startseite das große Bild durch
+das Bilderkarussell ersetzen! Wieder ein Riesenfortschritt! Einige Einzelheiten
+gibt es aber anzumerken:
+
+1. Ich habe dafür gesorgt, dass die Karussell-Einheit _vollständing_ in einem
+   eigenen _Partial_ „verpackt“ ist. D.h. bei Bedarf kann dieses Partial
+   jederzeit auch in eine andere Seite eingebaut werden. Das _Partial_ heißt in
+   diesem Fall `landing-Glider.html`, weil es speziell für die _Landing Page_
+   entwickelt wurde.
+0. Mit ganz besonderer Freude erfüllt es mich, dass diese _Glider_-Einheit
+   rein _dateibasiert_ arbeitet. Das heißt: Nur die Bilddateien in
+   `/static/images/gallery/` entscheiden darüber, welche Bilder in welcher
+   Reihenfolge im Karussell erscheinen. Damit ist das Karussell nicht abhängig
+   von irgendwelchen Einstellungen, die ich irgendwo im Code oder in einer
+   Datei im `/data`-Verzeichnis ablegen und immer wieder auf den neuesten Stand
+   bringen muss. Bilddateien in diesem Verzeichnis einfügen, austauschen,
+   entfernen genügt! (Hauptsache, die Bildabmessungen bleiben gleich!!)
 
 ## 2023-10-18 19:25 (MtLam)
 
