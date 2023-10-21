@@ -11,3 +11,7 @@ tw:
 	cd $(THEME_DIR) && \
 	npx tailwindcss -i $(SOURCE_CSS) -o $(TARGET_CSS) ;\
 	cd $(ROOT)
+
+md-preview:
+	grip ./JOURNAL.md 8888
+
