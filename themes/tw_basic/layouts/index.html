@@ -1,10 +1,6 @@
 {{ define "main" }}
 <main class="mt-8 h-full">
-  <div class="flex flex-col justify-center items-center py-8">
-    <div class="bg-stone-100 flex justify-center shadow-xl">
-      <img class="inline-block" src="{{ site.BaseURL }}{{ .Params.BigPic }}" alt="The Big Picture">
-    </div>
-  </div>
+ {{ partial "landing-Glider.html" . }}
   <div class="flex-1 rml-center pb-8">
     <h1 class="font-semibold text-3xl text-center mb-8">{{ .Title }}</h1>
 
