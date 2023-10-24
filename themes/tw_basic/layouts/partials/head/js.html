@@ -1,4 +1,4 @@
-<script src="/js/glide.min.js"></script> 
+<script src="{{ site.BaseURL }}/js/glide.min.js"></script> 
 {{- with resources.Get "js/main.js" }}
   {{- if eq hugo.Environment "development" }}
     {{- with . | js.Build }}

@@ -1,13 +1,13 @@
 {{ $images := readDir "/static/images/gallery" }}
 
-<link href="/css/glide.core.min.css" rel="stylesheet">
+<link href="{{ site.BaseURL }}/css/glide.core.min.css" rel="stylesheet">
 <style></style>
 
 <div class="glide">
   <div class="glide__track" data-glide-el="track">
     <div class="glide__slides">
 {{  range $images }}
-{{    $src := printf "/images/gallery/%s" .Name }}
+{{    $src := printf "%s/images/gallery/%s" site.BaseURL .Name }}
 {{    $alt := printf "Pic %s" .Name }}
       <div class="flex flex-col justify-center items-center glide__slide">
         <img src="{{ $src }}" alt="{{ $alt }}">

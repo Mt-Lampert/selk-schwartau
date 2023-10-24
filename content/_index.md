@@ -2,7 +2,6 @@
 title: "Unser Zentrum"
 date: 2023-09-07T22:10:10+02:00
 draft: false
-BigPic: "/images/gallery/2023Jahreslosung_900.jpg"
 ---
 
 {{< index-element 
