@@ -1,6 +1,8 @@
-<div class="flex flex-col lg:flex-row lg:items-center">
+<div class="flex flex-col lg:flex-row lg:items-center lg:justify-between">
   <div class="w-full lg:w-1/3 flex flex-col justify-center items-center py-4 px-8">
-    <img src="{{ site.BaseURL }}/images/MLG-Logo-_250.png" alt="MLG-Logo" class="inline-block">
+    <a href="{{ site.BaseURL }}">
+      <img src="{{ site.BaseURL }}/images/MLG-Logo-_250.png" alt="MLG-Logo" class="inline-block">
+    </a> 
   </div>
   
   {{ partial "navbar" .}}

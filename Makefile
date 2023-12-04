@@ -7,6 +7,9 @@ build: tw
 	rm -rf ./public/*
 	hugo
 
+dev:
+	hugo server -D --disableFastRender
+
 tw:
 	cd $(THEME_DIR) && \
 	npx tailwindcss -i $(SOURCE_CSS) -o $(TARGET_CSS) ;\
