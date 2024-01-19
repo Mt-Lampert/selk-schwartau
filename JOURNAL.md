@@ -61,7 +61,67 @@
   - [x] Unsere Orgel bleibt, wie sie ist.
   
   
-  
+## 2024-01-19 19:46 (MtLam)
+
+Ein gesegnetes und frohes Neues! Ich habe die Arbeit wieder aufgenommen, und
+konnte einen trefflichen Erfolg verzeichnen.
+
+- [x] Das Bild `miteinander-lebendig-glauben_16-9.png` auf `900x` verkleinern.
+- [x] Die Seite `_index.md`  mit dem Bild 
+    `miteinander-lebendig-glauben_16-9.png` online stellen („Mitinander Lebendig Glauben“).
+
+Um den Erfolg zu verstehen, muss man das _Front Matter_ der Datei
+`content/about/_index.md` und die Rolle dieser Datei im `about`-Verzeichnis ein
+wenig beleuchten.
+
+Der Dateiname `_index.md` liefert Hugo zwei wichtige Signale:
+
+1. Hier findest du den Inhalt für den Endpoint `/about/`.
+0. Betrachte diese Datei als „Inhaltsverzeichnis“ für alles, was in `/about/`
+   sonst noch an Seiten vorhanden ist. Ein Inhaltsverzeichnis ist
+   logischerweise immer eine Liste. Folglich geht Hugo erst einmal davon aus,
+   dass hier das Layout `/layouts/about/list.html`
+
+Im _Front Matter_ steht das aber ausdrücklich anders:
+
+```yaml
+title: "Über Uns"
+date: 2023-09-12T10:09:16+02:00
+layout: "single"
+next: "./unser-bekenntnis"
+BigPic: "miteinander-lebendig-glauben__16x9.png"
+draft: false
+```
+
+Als Layout ist da ausdrücklich `"single"` angegeben. Hugo soll also
+ausdrücklich `layouts/about/single.html` für die Formatierung heranziehen.
+
+Und damit ergibt sich ein Problem: `BigPic` bekommt in `single.html` einen
+Suchpfad angegeben, der mit `../` beginnt – und damit im Endpoint `/about/` das
+Bilder-Verzeichnis verfehlt!
+
+nach längerem Suchen habe ich in `single.html` dann diese Lösung eingebaut:
+
+```
+{{ if .Params.BigPic }}
+{{   if eq (slice .Params.BigPic 0 1) '/' }}
+{{     $bigPic = printf "%s%s" .site.BaseURL $bigPic  }}
+{{   else if eq .File.BaseFileName "_index" }}
+{{     $bigPic = printf "images/%s" .Params.BigPic }}
+{{   else }}
+{{     $bigPic = printf "../images/%s" .Params.BigPic }}
+{{   end }}
+{{ end }}
+```
+
+Der entscheidende Schritt findet sich in den Zeilen 4 und 5. Diese Zeilen
+bedeuten auf Deutsch: _Wenn der Dateiname der Contentdatei gleich_ `_index`
+_plus Endung ist, lass den Bilderpfad für_ `BigPic` _mit_ `images/` _beginnen
+und nicht wie in allen anderen Fällen (_`else`_) mit_ `../images` _(Z. 7)._
+
+Entscheidend war, die Variable `.File.BaseFileName` in der Hugo-Dokumentation zu finden. Das hat Stunden gedauert. Aber am Ende fand ich die Seite dann [hier](https://gohugo.io/methods/page/file/#basefilename).
+
+
 
 ## 2023-10-21 19:04 (MtLam)
 

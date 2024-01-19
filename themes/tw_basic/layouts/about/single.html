@@ -18,6 +18,8 @@
 {{ if .Params.BigPic }}
 {{   if eq (slice .Params.BigPic 0 1) '/' }}
 {{     $bigPic = printf "%s%s" .site.BaseURL $bigPic  }}
+{{   else if eq .File.BaseFileName "_index" }}
+{{     $bigPic = printf "images/%s" .Params.BigPic }}
 {{   else }}
 {{     $bigPic = printf "../images/%s" .Params.BigPic }}
 {{   end }}
