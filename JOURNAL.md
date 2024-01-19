@@ -10,12 +10,58 @@
 
 ## TODO &mdash; Die nächsten Schritte (MtLam)
 
-- [ ] Ein paar provisorische Bilder für verschiedene Seiten aus dem Netz
-  zusammensuchen. (z.B. [Unsplash](https://unsplash.com)) Je blödsinniger und
-  peinlicher die sind, desto mehr Mühe werden sich die Kollegen geben, um
-  passendere Bilder für mich zu finden. Die Maße müssen allerdings gleich am
-  Anfang stimmen.
+- [x] die Materialien von Klaus noch einmal herunterladen
+- [x] die richtige Schrift in Fedora installieren (Helvetica Neue)
+- [ ] Die geänderten Seiten von Klaus mit den neuen Bildern in die Seite
+  einbinden und sie dann online stellen
+  - [ ] Das Bild `miteinander-lebendig-glauben_16-9.png` auf `900x` verkleinern.
+  - [ ] Die Seite `_index.md`  mit dem Bild 
+        `miteinander-lebendig-glauben_16-9.png` online stellen („Mitinander Lebendig Glauben“).
 
+  - [ ] Das Bild `Glaubensbekenntnis_16-9.jpg` auf `900x` verkleinern.
+  - [ ] Die Seite `unser-bekenntnis.md`  mit dem Bild
+        `Glaubensbekenntnis_16-9.jpg` online stellen
+  
+  - [ ] Das Bild `unsere_SELK_16-9.jpg` auf `900x` verkleinern.
+  - [ ] Die Seite  --Seite--  mit dem Bild `unsere_SELK_16-9.jpg` online stellen
+  
+  - [ ] Das Bild `unsere_Gottesdienste_16-9.jpg` auf `900x` verkleinern.
+  - [ ] Die Seite `unsere-gottesdienste.md`  mit dem Bild
+    `unsere_Gottesdienste_16-9.jpg` online stellen
+  
+  - [ ] Das Bild --dateiname-- auf ---angebrachte Größe--- verkleinern.
+  - [ ] Die Seite --Seite--  mit dem Bild --dateiname-- online stellen
+  
+  - [ ] Das Bild `unser_Pastor_16-9.jpg` auf `900x` verkleinern.
+  - [ ] Die Seite `unser-pastor.md`  mit dem Bild `unser_Pastor_16-9.jpg` online stellen
+  
+  - [ ] Das Bild `unser_Kantor_16-9.jpg` auf ---angebrachte Größe--- verkleinern.
+  - [ ] Die Seite `unser-kantor.md`  mit dem Bild `unser_Kantor_16-9.jpg` erstellen
+    und dann online stellen
+  
+  - [ ] Das Bild `unser_Kirchenvorstand_16.9.jpg` auf ---angebrachte Größe--- verkleinern.
+  - [ ] Die Seite `unser-kirchenvorstand.md`  mit dem Bild
+    `unser_Kirchenvorstand_16.9.jpg` neu erstellen und dann online stellen
+
+  - [ ] Das Bild `unsere_Gemeindekreise_16-9.jpg` auf ---angebrachte Größe--- verkleinern.
+  - [ ] Die Seite `gemeindekreise.md`  mit dem Bild
+    `unsere_Gemeindekreise_16-9.jpg` online stellen
+  
+  - [ ] Das Bild `unser_Gospelchor_16_9.jpg` auf ---angebrachte Größe--- verkleinern.
+  - [ ] Die Seite `spirit-of-joy.md`  mit dem Bild `unser_Gospelchor_16_9.jpg`
+    online stellen
+  
+  - [ ] Folgende Bilder bearbeiten:
+    - `unser_Kirchgebaeude-außen_16-9.jpg` zu `unser_gotteshaus-aussen_16-9.jpg` umbenennen und auf ---angebrachte Größe--- verkleinern.
+    - `unser_Kirchgebaeude-innen_16-9.jpg` zu `unser_gotteshaus-innen_16-9.jpg` umbenennen und auf ---angebrachte Größe--- verkleinern.
+    - `unser_gemeindezentrum_16-9.jpg` auf ---angebrachte Größe--- verkleinern.
+    - `unser_Kirchgebaeude-innen_16-9.jpg` zu `unser_gotteshaus-innen_16-9.jpg` umbenennen und auf ---angebrachte Größe--- verkleinern.
+ - [ ] Die Seite `gotteshaus.md`  mit den geänderten Bildern  online stellen
+  
+  - [x] Unsere Orgel bleibt, wie sie ist.
+  
+  
+  
 
 ## 2023-10-21 19:04 (MtLam)
 
