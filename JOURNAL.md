@@ -16,14 +16,7 @@
   einbinden und sie dann online stellen
   
   - [ ] Das Bild `unsere_SELK_16-9.jpg` auf `900x` verkleinern.
-  - [ ] Die Seite  --Seite--  mit dem Bild `unsere_SELK_16-9.jpg` online stellen
-  
-  - [ ] Das Bild `unsere_Gottesdienste_16-9.jpg` auf `900x` verkleinern.
-  - [ ] Die Seite `unsere-gottesdienste.md`  mit dem Bild
-    `unsere_Gottesdienste_16-9.jpg` online stellen
-  
-  - [ ] Das Bild --dateiname-- auf ---angebrachte Größe--- verkleinern.
-  - [ ] Die Seite --Seite--  mit dem Bild --dateiname-- online stellen
+  - [ ] Die Seite  `unsere-kirche.md`  mit dem Bild `unsere_SELK_16-9.jpg` online stellen
   
   - [ ] Das Bild `unser_Pastor_16-9.jpg` auf `900x` verkleinern.
   - [ ] Die Seite `unser-pastor.md`  mit dem Bild `unser_Pastor_16-9.jpg` online stellen
@@ -53,6 +46,22 @@
   
   - [x] Unsere Orgel bleibt, wie sie ist.
   
+## 2024-01-20 12:06 (MtLam)
+
+__Erledigt:__
+
+- [x] Das Bild `unsere_Gottesdienste_16-9.jpg` auf `900x` verkleinern.
+- [x] Die Seite `unsere-gottesdienste.md`  mit dem Bild
+  `unsere_Gottesdienste_16-9.jpg` online stellen
+
+Auch hier habe ich die Bilddatei umbenannt (`unsere_gottesdienste__16x9.jpg`).
+Allerdings muss ich sagen: So wie das Bild gerade aussieht, finde ich es
+„extrem sub-optimal“ (um einem derben Ausdruck auszuweichen). 
+
+___Persönliche Anmerkung MtLam:___ Ganz ehrlich fände ich ein Bild mit einer
+vollen Kirche an dieser Stelle besser. Ist zwar schade um die gestalterische
+Arbeit, die in dieses „Kunstwerk“ hineingesteckt wurde, aber dafür ist es auch
+echt in die Jahre gekommen!
 
 ## 2024-01-20 11:29 (MtLam)
 
