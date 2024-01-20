@@ -80,7 +80,7 @@ Der Dateiname `_index.md` liefert Hugo zwei wichtige Signale:
 0. Betrachte diese Datei als „Inhaltsverzeichnis“ für alles, was in `/about/`
    sonst noch an Seiten vorhanden ist. Ein Inhaltsverzeichnis ist
    logischerweise immer eine Liste. Folglich geht Hugo erst einmal davon aus,
-   dass hier das Layout `/layouts/about/list.html`
+   dass hier das Layout `/layouts/about/list.html` Verwendung finden soll.
 
 Im _Front Matter_ steht das aber ausdrücklich anders:
 
@@ -100,7 +100,7 @@ Und damit ergibt sich ein Problem: `BigPic` bekommt in `single.html` einen
 Suchpfad angegeben, der mit `../` beginnt – und damit im Endpoint `/about/` das
 Bilder-Verzeichnis verfehlt!
 
-nach längerem Suchen habe ich in `single.html` dann diese Lösung eingebaut:
+Nach längerem Suchen habe ich in `single.html` dann diese Lösung eingebaut:
 
 ```
 {{ if .Params.BigPic }}
