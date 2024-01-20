@@ -14,13 +14,6 @@
 - [x] die richtige Schrift in Fedora installieren (Helvetica Neue)
 - [ ] Die geänderten Seiten von Klaus mit den neuen Bildern in die Seite
   einbinden und sie dann online stellen
-  - [ ] Das Bild `miteinander-lebendig-glauben_16-9.png` auf `900x` verkleinern.
-  - [ ] Die Seite `_index.md`  mit dem Bild 
-        `miteinander-lebendig-glauben_16-9.png` online stellen („Mitinander Lebendig Glauben“).
-
-  - [ ] Das Bild `Glaubensbekenntnis_16-9.jpg` auf `900x` verkleinern.
-  - [ ] Die Seite `unser-bekenntnis.md`  mit dem Bild
-        `Glaubensbekenntnis_16-9.jpg` online stellen
   
   - [ ] Das Bild `unsere_SELK_16-9.jpg` auf `900x` verkleinern.
   - [ ] Die Seite  --Seite--  mit dem Bild `unsere_SELK_16-9.jpg` online stellen
@@ -43,7 +36,7 @@
   - [ ] Die Seite `unser-kirchenvorstand.md`  mit dem Bild
     `unser_Kirchenvorstand_16.9.jpg` neu erstellen und dann online stellen
 
-  - [ ] Das Bild `unsere_Gemeindekreise_16-9.jpg` auf ---angebrachte Größe--- verkleinern.
+  - [ ] Das Bild `unsere_Gemeindekreise_16-9.jpg` auf `900x` px verkleinern.
   - [ ] Die Seite `gemeindekreise.md`  mit dem Bild
     `unsere_Gemeindekreise_16-9.jpg` online stellen
   
@@ -60,6 +53,19 @@
   
   - [x] Unsere Orgel bleibt, wie sie ist.
   
+
+## 2024-01-20 11:29 (MtLam)
+
+__Erledigt:__
+
+- [x] Das Bild `Glaubensbekenntnis_16-9.jpg` auf `900x` verkleinern.
+- [x] Die Seite `unser-bekenntnis.md`  mit dem Bild
+    `Glaubensbekenntnis_16-9.jpg` online stellen
+
+Am Ende habe ich die Bild-Datei in `unser_bekenntnis__16x9.jpg` umbenannt und
+eingebunden. Für die kurze Bekenntnisformel habe ich den _Shortcode_
+`central-box` neu erstellt. Kann sein, dass ich da noch ein paar Formatierungen
+ändern  muss, aber soweit ist es erst mal OK.
   
 ## 2024-01-19 19:46 (MtLam)
 
