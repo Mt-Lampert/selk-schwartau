@@ -53,9 +53,9 @@
   
   - [ ] Folgende Bilder bearbeiten:
     - `unser_Kirchgebaeude-außen_16-9.jpg` zu `unser_gotteshaus-aussen_16-9.jpg` umbenennen und auf ---angebrachte Größe--- verkleinern.
-    - `unser_Kirchgebaeude-innen_16-9.jpg` zu `unser_gotteshaus-innen_16-9.jpg` umbenennen und auf ---angebrachte Größe--- verkleinern.
+    - `unser_Kirchgebaeude-innen1_16-9.jpg` zu `unser_gotteshaus-lara_16-9.jpg` umbenennen und auf ---angebrachte Größe--- verkleinern.
     - `unser_gemeindezentrum_16-9.jpg` auf ---angebrachte Größe--- verkleinern.
-    - `unser_Kirchgebaeude-innen_16-9.jpg` zu `unser_gotteshaus-innen_16-9.jpg` umbenennen und auf ---angebrachte Größe--- verkleinern.
+    - `unser_Kirchgebaeude-innen2_16-9.jpg` zu `unser_gotteshaus-leer_16-9.jpg` umbenennen und auf ---angebrachte Größe--- verkleinern.
  - [ ] Die Seite `gotteshaus.md`  mit den geänderten Bildern  online stellen
   
   - [x] Unsere Orgel bleibt, wie sie ist.
