@@ -37,15 +37,30 @@
   - [ ] Die Seite `spirit-of-joy.md`  mit dem Bild `unser_Gospelchor_16_9.jpg`
     online stellen
   
-  - [ ] Folgende Bilder bearbeiten:
-    - `unser_Kirchgebaeude-außen_16-9.jpg` zu `unser_gotteshaus-aussen_16-9.jpg` umbenennen und auf ---angebrachte Größe--- verkleinern.
-    - `unser_Kirchgebaeude-innen1_16-9.jpg` zu `unser_gotteshaus-lara_16-9.jpg` umbenennen und auf ---angebrachte Größe--- verkleinern.
-    - `unser_gemeindezentrum_16-9.jpg` auf ---angebrachte Größe--- verkleinern.
-    - `unser_Kirchgebaeude-innen2_16-9.jpg` zu `unser_gotteshaus-leer_16-9.jpg` umbenennen und auf ---angebrachte Größe--- verkleinern.
- - [ ] Die Seite `gotteshaus.md`  mit den geänderten Bildern  online stellen
-  
   - [x] Unsere Orgel bleibt, wie sie ist.
   
+## 2024-01-20 21:14 (MtLam)
+
+__Erledigt:__
+
+- [x] Folgende Bilder bearbeiten:
+    - `unser_Kirchgebaeude-außen_16-9.jpg` zu
+      `unser_gemeindezentrum-aussen__16-9.jpg` umbenennen und auf `900x`px
+      verkleinern.
+    - `unser_Kirchgebaeude-innen1_16-9.jpg` zu
+      `unser_gemeindezentrum-leute__16-9.jpg` umbenennen und auf `900x`px
+      verkleinern.
+    - `unser_gemeindezentrum_16-9.jpg` auf `900x`px verkleinern.
+    - `unser_Kirchgebaeude-innen2_16-9.jpg` zu
+      `unser_gemeindezentrum-leer_16-9.jpg` umbenennen und auf `900x`px
+      verkleinern.
+- [x] Die Seite `gotteshaus.md`  mit den geänderten Bildern  online stellen
+
+aus der Seite `gotteshaus.md` ist dann doch `unser-gemeindezentrum.md`
+geworden. Das ging überraschend glatt, weil ich die Arbeit durch die
+_Shortcodes_ `img-left` bzw. `img-right` schon länger vorher gut vorbereitet
+habe.
+
 ## 2024-01-20 12:06 (MtLam)
 
 __Erledigt:__

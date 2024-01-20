@@ -22,7 +22,7 @@ liturgischen Formen:
 - klassisch (mit den liturgischen Melodien der Lutherischen Agende)
 - popmusikalisch (nach einer Liturgie von Albert Frey)
 - gospelmäßig (mit Liturgie gestaltet von unserem [Gospelchor Spirit of
-  Joy](../spirit-of-joy))
+  Joy](https://www.spiritofjoy-online.de/))
 - schwedisch (in einer Form aus der Lutherischen Kirche in Schweden – natürlich
   auf Deutsch).
 
