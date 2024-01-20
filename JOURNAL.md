@@ -38,7 +38,10 @@
     online stellen
   
   - [x] Unsere Orgel bleibt, wie sie ist.
-  
+
+- [ ] Zum Abschluss die Querverbindungen mit `prev` und `next` in der Section
+  „Über Uns“ noch einmal einstellen.
+
 ## 2024-01-20 21:14 (MtLam)
 
 __Erledigt:__
