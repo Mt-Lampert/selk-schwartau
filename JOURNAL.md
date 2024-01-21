@@ -16,10 +16,6 @@
   einbinden und sie dann online stellen
   
   
-  - [ ] Das Bild `unser_Kirchenvorstand_16.9.jpg` auf ---angebrachte Größe--- verkleinern.
-  - [ ] Die Seite `unser-kirchenvorstand.md`  mit dem Bild
-    `unser_Kirchenvorstand_16.9.jpg` neu erstellen und dann online stellen
-
   - [ ] Das Bild `unser_Gospelchor_16_9.jpg` auf ---angebrachte Größe--- verkleinern.
   - [ ] Die Seite `spirit-of-joy.md`  mit dem Bild `unser_Gospelchor_16_9.jpg`
     online stellen
@@ -28,6 +24,18 @@
 
 - [ ] Zum Abschluss die Querverbindungen mit `prev` und `next` in der Section
   „Über Uns“ noch einmal einstellen.
+
+## 2024-01-21 18:51 (MtLam)
+
+__Erledigt:__
+  
+- [x] Das Bild `unser_Kirchenvorstand_16.9.jpg` zu
+  `unser_kirchenvorstand__16x9.jpg` umbenennen und auf `900x` verkleinern.
+- [x] Die Seite `vorstand.md` zu `unser-kirchenvorstand.md` umbenennen und mit
+  dem Bild `unser_kirchenvorstand__16x9.jpg` überarbeiten sowie online stellen
+- [x] In der Navbar den entsprechenden Eintrag updaten.
+
+Außer dem Bild keine Änderungen
 
 ## 2024-01-21 16:34 (MtLam)
 
