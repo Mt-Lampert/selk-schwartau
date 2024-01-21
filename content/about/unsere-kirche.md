@@ -2,18 +2,14 @@
 title: "Unsere Kirche, die SELK"
 date: 2023-09-18T07:27:09+02:00
 layout: narrow
+BigPic: "../images/unsere_selk__16x9.jpg"
 prev: "../unsere-orgel"
 draft: false
 ---
 {{< abstand >}}
 
-{{% image-in-p 
-  image="../images/selk-logo_300.jpg"
-  alt="SELK-Logo"
-  pos="right"
-  %}}
-Die Martin-Luther-Gemeinde ist Glied der Selbständigen Evangelisch-Lutherischen
-Kirche (SELK). Die SELK ist...
+Die Martin-Luther-Gemeinde ist Glied der [Selbständigen
+Evangelisch-Lutherischen Kirche (SELK)](https://www.selk.de). Die SELK ist...
 
 ## ...Selbstständig
 
@@ -35,7 +31,6 @@ ist, das keinerlei menschliche Heilsmitwirkung bedarf, werden in der SELK in der
 Regel Säuglinge getauft. Im Abendmahl wird durch die Leibhaftige Gegenwart des
 auferstandenen Jesus Christus die Vergebung der Sünden und die glaubensstärkende
 Gemeinschaft mit ihm immer wieder erfahren.
-{{% /image-in-p %}}
 
 ## ...Lutherisch
 
@@ -54,3 +49,5 @@ mit lutherischen Bekenntniskirchen in der ganzen Welt. In der Ökumene ist die
 SELK mit vielen anderen Kirchen im Gespräch. Die SELK versteht sich als "offene
 Kirche" für alle: für Menschen, die glauben, aber auch für Menschen, die suchen
 und fragen.
+
+{{< abstand >}}

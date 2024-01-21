@@ -15,9 +15,6 @@
 - [ ] Die geänderten Seiten von Klaus mit den neuen Bildern in die Seite
   einbinden und sie dann online stellen
   
-  - [ ] Das Bild `unsere_SELK_16-9.jpg` auf `900x` verkleinern.
-  - [ ] Die Seite  `unsere-kirche.md`  mit dem Bild `unsere_SELK_16-9.jpg` online stellen
-  
   - [ ] Das Bild `unser_Pastor_16-9.jpg` auf `900x` verkleinern.
   - [ ] Die Seite `unser-pastor.md`  mit dem Bild `unser_Pastor_16-9.jpg` online stellen
   
@@ -38,13 +35,25 @@
 - [ ] Zum Abschluss die Querverbindungen mit `prev` und `next` in der Section
   „Über Uns“ noch einmal einstellen.
 
+## 2024-01-21 16:34 (MtLam)
+
+__Erledigt:__
+
+- [x] Das Bild `unsere_SELK_16-9.jpg` nach `unsere_selk__16x9.jpg` umbenennen
+  und auf `900x` verkleinern.
+- [x] Die Seite  `unsere-kirche.md`  mit dem Bild `unsere_selk__16x9.jpg` online stellen
+  
+___Persönliche Anmerkung MtLam:___ Dieses Bild muss noch einmal überarbeitet
+werden. Das Logo gehört in die Mitte des Bildes, nicht „irgendwie“ nach links
+wie in der vorliegenden Version.
+
 ## 2024-01-21 14:38 (MtLam)
 
 __Erledigt:__
 
-- [ ] Das Bild `unsere_Gemeindekreise_16-9.jpg` auf Projekt-Kriterien umbenennen 
+- [x] Das Bild `unsere_Gemeindekreise_16-9.jpg` auf Projekt-Kriterien umbenennen 
   (`unsere_gemeindekreise__16x9.jpg`) und auf `900x` px verkleinern.
-- [ ] Die Seite `gemeindekreise.md`  mit dem Bild
+- [x] Die Seite `gemeindekreise.md`  mit dem Bild
 `unsere_Gemeindekreise_16-9.jpg` online stellen
   
 ___Persönliche Anmerkung MtLam:___ Die Formatierung dieser Seite ist nicht ganz
@@ -52,7 +61,7 @@ einfach. Auf der einen Seite würden einzelne Bilder die jeweiligen Kreise
 aufwerten, auf der anderen Seite machen zu viele Bilder (wie in der
 Vor-Version) die Seite zu einem bunten Flohzirkus. Und wenn wir drittens nur
 einige Kreise mit einem Bild versehen und andere nicht, werden Fragen
-aufkommen, warum wir die aufwerten und die anderen abwerten wollen.
+aufkommen, warum wir diese aufwerten und die anderen abwerten wollen.
 
 Egal, wie man es macht ...
 
