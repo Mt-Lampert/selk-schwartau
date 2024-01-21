@@ -15,9 +15,6 @@
 - [ ] Die geänderten Seiten von Klaus mit den neuen Bildern in die Seite
   einbinden und sie dann online stellen
   
-  - [ ] Das Bild `unser_Kantor_16-9.jpg` auf ---angebrachte Größe--- verkleinern.
-  - [ ] Die Seite `unser-kantor.md`  mit dem Bild `unser_Kantor_16-9.jpg` erstellen
-    und dann online stellen
   
   - [ ] Das Bild `unser_Kirchenvorstand_16.9.jpg` auf ---angebrachte Größe--- verkleinern.
   - [ ] Die Seite `unser-kirchenvorstand.md`  mit dem Bild
@@ -31,6 +28,18 @@
 
 - [ ] Zum Abschluss die Querverbindungen mit `prev` und `next` in der Section
   „Über Uns“ noch einmal einstellen.
+
+## 2024-01-21 16:34 (MtLam)
+
+__Erledigt:__
+  
+- [x] Das Bild `unser_Kantor_16-9.jpg` zu `unser_kantor__16x9.jpg` umbenennen und auf `900x` verkleinern.
+- [x] Die Seite `unser-kantor.md`  mit dem Bild `unser_kantor__16x9.jpg` neu erstellen
+und dann online stellen
+- [x] In der Navbar einen neuen Eintrag für `unser-kantor` vornehmen.
+
+Kein Kommentar nötig.
+
 
 ## 2024-01-21 16:34 (MtLam)
 
