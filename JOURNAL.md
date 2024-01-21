@@ -29,10 +29,6 @@
   - [ ] Die Seite `unser-kirchenvorstand.md`  mit dem Bild
     `unser_Kirchenvorstand_16.9.jpg` neu erstellen und dann online stellen
 
-  - [ ] Das Bild `unsere_Gemeindekreise_16-9.jpg` auf `900x` px verkleinern.
-  - [ ] Die Seite `gemeindekreise.md`  mit dem Bild
-    `unsere_Gemeindekreise_16-9.jpg` online stellen
-  
   - [ ] Das Bild `unser_Gospelchor_16_9.jpg` auf ---angebrachte Größe--- verkleinern.
   - [ ] Die Seite `spirit-of-joy.md`  mit dem Bild `unser_Gospelchor_16_9.jpg`
     online stellen
@@ -41,6 +37,24 @@
 
 - [ ] Zum Abschluss die Querverbindungen mit `prev` und `next` in der Section
   „Über Uns“ noch einmal einstellen.
+
+## 2024-01-21 14:38 (MtLam)
+
+__Erledigt:__
+
+- [ ] Das Bild `unsere_Gemeindekreise_16-9.jpg` auf Projekt-Kriterien umbenennen 
+  (`unsere_gemeindekreise__16x9.jpg`) und auf `900x` px verkleinern.
+- [ ] Die Seite `gemeindekreise.md`  mit dem Bild
+`unsere_Gemeindekreise_16-9.jpg` online stellen
+  
+___Persönliche Anmerkung MtLam:___ Die Formatierung dieser Seite ist nicht ganz
+einfach. Auf der einen Seite würden einzelne Bilder die jeweiligen Kreise
+aufwerten, auf der anderen Seite machen zu viele Bilder (wie in der
+Vor-Version) die Seite zu einem bunten Flohzirkus. Und wenn wir drittens nur
+einige Kreise mit einem Bild versehen und andere nicht, werden Fragen
+aufkommen, warum wir die aufwerten und die anderen abwerten wollen.
+
+Egal, wie man es macht ...
 
 ## 2024-01-20 21:14 (MtLam)
 
