@@ -2,29 +2,24 @@
 title: "Unser Pastor"
 date: 2023-09-17T11:55:39+02:00
 layout: "narrow"
+BigPic: "unser_pastor__16x9.jpg"
 prev: "../gemeindekreise"
 next: "../vorstand"
 draft: false
 ---
 
 {{< abstand >}}
-{{% img-left
-  image="../images/klaus-bergmann-2023__200.jpg"
-  alt="KlBgm"
-  %}}
+
 Mein Name ist Klaus Bergmann. Seit 2016 bin ich Pastor der
 Martin-Luther-Gemeinde Bad Schwartau. Der Dienst in dieser Gemeinde macht mir
-große Freude. Neben dem Pfarramt (beinhaltet 
-Gottesdienstleitung, Seelsorge, Fortbildung von Mitarbeitern, Leitung einiger
-Gemeindegruppen) habe ich mir folgende Schwerpunkte in der Gemeindearbeit
-gesetzt:
-
-{{% /img-left %}}
+große Freude. Neben dem Pfarramt (beinhaltet Gottesdienstleitung, Seelsorge,
+Fortbildung von Mitarbeitern, Leitung einiger Gemeindegruppen) habe ich mir
+folgende Schwerpunkte in der Gemeindearbeit gesetzt:
 
 
 ## Missionarischer Gemeindedienst
 
-Altbischof Dr. Roth prägte das Motto "nach außen öffnen, nach innen stärken" &ndash;
+Altbischof Dr. Roth prägte das Motto „nach außen öffnen, nach innen stärken“ &ndash;
 eine gute Leitlinie für die Gemindearbeit. In Gottesdiensten, bei
 Gemeindekreisen und durch persönliche Gespräche stärken wir uns untereinander im
 Glauben an Jesus Christus. Bei evangelistischen Veranstantaltungen wie Gospel +
@@ -34,10 +29,12 @@ Möglichkeit, den christlichen Glauben praktisch und lebensnah kennen zu lernen.
 
 ## Radioandachten
 
-2011 wurde ich zum Rundfunkbeauftragten der SELK berufen. In dieser Funktion
-vertrete ich die SELK bei der [Kirche im NDR](http://www.radiokirche.de/) sowie
-beim [Evangelischen Kirchenfunk Niedersachsen](http://www.ekn.de/). Zudem halte
-ich regelmäßig Morgenandachten im Radio.
+2011 wurde ich zum Rundfunkbeauftragten der SELK berufen (und bin aktuell sehr
+dankbar für das Vertrauen der Kirche, denn sie hat mich vor kurzem für weitere
+sechs Jahre mit diesem Dienst beauftragt). Als Rundfunkbeauftragter vertrete
+ich die SELK bei der [Kirche im NDR](http://www.radiokirche.de/) sowie beim
+[Evangelischen Kirchenfunk Niedersachsen](http://www.ekn.de/). Zudem halte ich
+regelmäßig Morgenandachten im Radio.
 
 ## Persönliches
 

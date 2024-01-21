@@ -15,9 +15,6 @@
 - [ ] Die geänderten Seiten von Klaus mit den neuen Bildern in die Seite
   einbinden und sie dann online stellen
   
-  - [ ] Das Bild `unser_Pastor_16-9.jpg` auf `900x` verkleinern.
-  - [ ] Die Seite `unser-pastor.md`  mit dem Bild `unser_Pastor_16-9.jpg` online stellen
-  
   - [ ] Das Bild `unser_Kantor_16-9.jpg` auf ---angebrachte Größe--- verkleinern.
   - [ ] Die Seite `unser-kantor.md`  mit dem Bild `unser_Kantor_16-9.jpg` erstellen
     und dann online stellen
@@ -34,6 +31,18 @@
 
 - [ ] Zum Abschluss die Querverbindungen mit `prev` und `next` in der Section
   „Über Uns“ noch einmal einstellen.
+
+## 2024-01-21 16:34 (MtLam)
+
+__Erledigt:__
+  
+- [x] Das Bild `unser_Pastor_16-9.jpg` zu `unser_pastor__16x9.jpg` umbenennen
+  und auf `900x` verkleinern.
+- [x] Die Seite `unser-pastor.md`  mit dem Bild `unser_Pastor_16-9.jpg` online stellen
+
+___Persönliche Anmerkung MtLam:___ Ich habe noch die aktuelle Verlängerung des
+Auftrags als Rundfunkbeauftragter eingebaut. Ich hoffe das geht in Ordnung.
+([Hier](https://www.selk.de/index.php/aktuelles/aktueller-monat) gefunden.)
 
 ## 2024-01-21 16:34 (MtLam)
 
