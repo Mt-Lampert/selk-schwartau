@@ -12,18 +12,31 @@
 
 - [x] die Materialien von Klaus noch einmal herunterladen
 - [x] die richtige Schrift in Fedora installieren (Helvetica Neue)
-- [ ] Die geänderten Seiten von Klaus mit den neuen Bildern in die Seite
-  einbinden und sie dann online stellen
   
-  
-  - [ ] Das Bild `unser_Gospelchor_16_9.jpg` auf ---angebrachte Größe--- verkleinern.
-  - [ ] Die Seite `spirit-of-joy.md`  mit dem Bild `unser_Gospelchor_16_9.jpg`
-    online stellen
   
   - [x] Unsere Orgel bleibt, wie sie ist.
 
 - [ ] Zum Abschluss die Querverbindungen mit `prev` und `next` in der Section
   „Über Uns“ noch einmal einstellen.
+
+## 2024-01-21 19:13 (MtLam)
+
+- [x] Die geänderten Seiten von Klaus mit den neuen Bildern in die Seite
+  einbinden und sie dann online stellen
+
+__Es ist vollbracht!__ Alle Änderungen und Updates sind vorgenommen! Jetzt muss
+nur die „innere Navigation“ mit `prev` und `next` überarbeitet werden. Dann
+kann ich die ganze Chose endlich hochladen! (Und mir Käsegebäck mit einem
+süffigen Rheinhessen gönnen. Das hab ich dann verdient!)
+
+__Erledigt:__
+  
+- [x] Das Bild `unser_Gospelchor_16_9.jpg` nach `unser_gospelchor__16x9.jpg`
+umbenennen und auf `900x` verkleinern.
+- [x] Die Seite `spirit-of-joy.md`  mit dem Bild `unser_gospelchor__16x9.jpg`
+online stellen
+
+Auch fertig! Ich bekomme Routine!
 
 ## 2024-01-21 18:51 (MtLam)
 
