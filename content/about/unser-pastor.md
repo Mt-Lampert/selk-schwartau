@@ -3,7 +3,7 @@ title: "Unser Pastor"
 date: 2023-09-17T11:55:39+02:00
 layout: "narrow"
 BigPic: "unser_pastor__16x9.jpg"
-prev: "../unser-gemeindezentrum"
+prev: "../unsere-gottesdienste"
 next: "../unser-kirchenvorstand"
 draft: false
 ---
