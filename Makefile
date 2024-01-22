@@ -1,7 +1,7 @@
-ROOT = '/home/perrin/Documents/selk-schwartau/'
-THEME_DIR  = '/home/perrin/Documents/selk-schwartau/themes/tw_basic/'
-SOURCE_CSS = '/home/perrin/Documents/selk-schwartau/themes/tw_basic/assets/main.css'
-TARGET_CSS = '/home/perrin/Documents/selk-schwartau/themes/tw_basic/assets/styles.css'
+ROOT = '/home/matthiaslangbart/Documents/GitHub/selk-schwartau/'
+THEME_DIR  = $(ROOT)'/themes/tw_basic/'
+SOURCE_CSS = $(THEME_DIR)'/assets/main.css'
+TARGET_CSS = $(THEME_DIR)'/assets/styles.css'
 
 build: tw
 	rm -rf ./public/*

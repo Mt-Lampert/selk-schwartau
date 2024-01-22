@@ -2,8 +2,8 @@
 title: "Unsere Gottesdienste"
 date: 2023-09-12T20:05:13+02:00
 layout: "single"
-prev: "../unser-bekenntnis"
-next: "../spirit-of-joy"
+prev: "../unser-gemeindezentrum"
+next: "../unser-pastor"
 BigPic: "unsere_gottesdienste__16x9.jpg"
 schedule: "yes"
 draft: false
