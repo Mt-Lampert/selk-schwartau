@@ -2,12 +2,13 @@
 title: "Unsere Orgel"
 date: 2023-09-17T18:37:48+02:00
 layout: "single"
-prev: "../vorstand"
+BigPic: "../images/orgel/orgel-totale.jpg"
+prev: "../gemeindekreise"
 next: "../unsere-kirche"
 draft: false
 ---
 
-{{< wide-pic image="../images/orgel/orgel-totale.jpg" alt="orgel-totale" >}}
+{{< abstand >}}
 
 ## Planung
 
@@ -58,3 +59,5 @@ Folgende Beispiele haben wir für Sie ausgewählt:
   ([Anhören](http://www.selk-schwartau.de/images/stories/mp3/Orgelklang3_BWV642.mp3))
 
 {{< wide-pic image="../images/orgel/orgel-manual-big_600.jpg" alt="Orgel Manual" >}}
+
+{{< abstand >}}

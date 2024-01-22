@@ -3,6 +3,8 @@ title: "Unser Kantor"
 date: 2024-01-21T18:19:35+01:00
 BigPic: "unser_kantor__16x9.jpg"
 layout: "single.html"
+prev: "../spirit-of-joy"
+next: "../gemeindekreise"
 draft: false
 ---
 {{< abstand >}}
@@ -21,3 +23,5 @@ unter der Leitung von Kantor Kläs.
 Neben den musikalischen Aufgaben in unserer Gemeinde ist Nathanael Kläs auch
 noch als Popkantor im Kirchenkreis Lübeck-Lauenburg tätig sowie als Musiker mit
 der Band ___(kommt noch)___ unterwegs.
+
+__Kontakt:__ Kantor Nathanael Kläs | 0162-2100600 | kantor@selk-schwartau.de

@@ -2,6 +2,7 @@
 title: "Details zu unserer Orgel"
 date: 2023-09-17T20:12:18+02:00
 layout: "narrow"
+BigPic: "../images/orgel/orgel-totale.jpg"
 prev: "../unsere-orgel"
 next: "../unsere-orgel"
 draft: false

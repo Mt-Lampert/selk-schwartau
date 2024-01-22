@@ -3,8 +3,8 @@ title: "Unser Gospelchor Spirit of Joy"
 date: 2023-09-15T16:45:10+02:00
 layout: "single.html"
 BigPic: "unser_gospelchor__16x9.jpg"
-prev: "../unsere-gottesdienste"
-next: "../gemeindekreise"
+prev: "../unser-kirchenvorstand"
+next: "../unser-kantor"
 draft: false
 ---
 
@@ -25,8 +25,8 @@ Klette die Konzertreihe [Gospel meets
 HipHop](http://gospel-meets-hiphop.jimdosite.com/) gestaltet.
 
 Gegründet wurde Spirit of Joy im Jahr 1999. Der Chor trifft sich jeden
-Mittwochabend zur Probe. Kontakt: Kantor Nathanael Kläs,
-kantor(at)selk-schwartau.de Weitere Infos zu Spirit of Joy gibt es auf der
-eigenen [Homepage](https://www.spiritofjoy-online.de/).
+Mittwochabend zur Probe. Weitere Infos zu Spirit of Joy gibt es auf der eigenen
+[Homepage](https://www.spiritofjoy-online.de/).
 
+__Kontakt:__ Kantor Nathanael Kläs | 0162-2100600 | kantor@selk-schwartau.de
 {{< abstand >}}

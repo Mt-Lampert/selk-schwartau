@@ -4,7 +4,7 @@ date: 2023-09-17T15:36:30+02:00
 layout: "single"
 BigPic: "unser_kirchenvorstand__16x9.jpg"
 prev: "../unser-pastor"
-next: "../unsere-orgel"
+next: "../spirit-of-joy"
 draft: false
 ---
 

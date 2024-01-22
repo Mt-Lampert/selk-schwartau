@@ -3,8 +3,8 @@ title: "Unsere Gemeindekreise"
 date: 2023-09-16T10:03:18+02:00
 layout: "narrow"
 BigPic: "unsere_gemeindekreise__16x9.jpg"
-prev: "../spirit-of-joy"
-next: "../unser-pastor"
+prev: "../unser-kantor"
+next: "../unsere-orgel"
 draft: false
 ---
 

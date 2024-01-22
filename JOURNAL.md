@@ -10,20 +10,24 @@
 
 ## TODO &mdash; Die nächsten Schritte (MtLam)
 
-- [x] die Materialien von Klaus noch einmal herunterladen
-- [x] die richtige Schrift in Fedora installieren (Helvetica Neue)
-  
-  
-  - [x] Unsere Orgel bleibt, wie sie ist.
+- Alle Aufträge erst mal abgearbeitet.
 
-- [ ] Zum Abschluss die Querverbindungen mit `prev` und `next` in der Section
+
+## 2024-01-22  9:14 (MtLam)
+
+__Erledigt:__
+  
+- [x] Zum Abschluss die Querverbindungen mit `prev` und `next` in der Section
   „Über Uns“ noch einmal einstellen.
+
+Das ist dann jetzt erst einmal die letzte Übung in dieser Auftragsreihe. Ich
+bin froh, es hinter mir zu haben.
 
 ## 2024-01-21 19:13 (MtLam)
 
 - [x] Die geänderten Seiten von Klaus mit den neuen Bildern in die Seite
   einbinden und sie dann online stellen
-
+  
 __Es ist vollbracht!__ Alle Änderungen und Updates sind vorgenommen! Jetzt muss
 nur die „innere Navigation“ mit `prev` und `next` überarbeitet werden. Dann
 kann ich die ganze Chose endlich hochladen! (Und mir Käsegebäck mit einem

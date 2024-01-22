@@ -2,7 +2,7 @@
 title: "Über Uns"
 date: 2023-09-12T10:09:16+02:00
 layout: "single"
-next: "./unser-bekenntnis"
+next: "./unser-gemeindezentrum"
 BigPic: "miteinander-lebendig-glauben__16x9.png"
 draft: false
 ---
