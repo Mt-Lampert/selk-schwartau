@@ -10,10 +10,11 @@
 
 ## TODO &mdash; Die nächsten Schritte (MtLam)
 
-- [ ] „Myriad Pro“ und „Info-Text-Semi-Bold“ aus der Dropbox nach `/static/fonts` kopieren
+- [x] „Myriad Pro“ und „Info-Text-Semi-Bold“ aus der Dropbox nach `/static/fonts` kopieren
 - [ ] Die neuen Schriften mit Hilfe von `@font-face` in die Webseite integrieren.
-      Sicherheits-Rückfrage: Kommen wir urheberrechtlich in die Breduille, wenn
-      wir die neuen Fonts einfach als Web-Fonts verwenden (Myriad Pro)
+      Sicherheits-Rückfrage: Kommen wir urheberrechtlich in die Bredouille, wenn
+      wir die neuen Fonts einfach als Web-Fonts verwenden? Myriad Pro ist z.B.
+      von Adobe.
 - [ ] Die Reihenfolge der Menüeinträge für 'Über Uns' gemäß der offiziellen
       SiteMap korrigieren
 - [ ] In der Kopfzeile Menü und Logo neu gemäß den Vorgaben in
@@ -32,12 +33,39 @@
 - [ ] Die Seitenstreifen auf allen Seiten entfernen, dabei `<header>`, `<main>`
       und `<footer>` auf einheitliche Breite bringen.
 - [ ] Das Dia-Karussell auf die Einheitsbreite vergrößern.
-- [ ] Den Google-Kalender die Einheitsbreite vergrößern.
+- [ ] Den Google-Kalender auf die Einheitsbreite vergrößern.
 
 ### Neues `<footer>`-Design
 
 - [ ] zwei Spalten: Adresse, Paypal, Impressum und Datenschutz in die linke
       Spalte, Gemeindebrief in die rechte Spalte.
+
+### Autoren-Sitzung vorbereiten
+
+- Aufbau eines HUGO-Projekts erklären
+- Wie man HUGO für Autoren installiert.
+- Welche Editoren gut für die Arbeit in HUGO sind (z.B. VS Code oder Notepad++
+  für Windows)
+- Wie man `make` in diesem Projekt nutzt (Kommandozeile!)
+- Welche Rolle `Git` (und damit GitHub) in diesem Projekt spielt und wie man es
+  nutzt (evtl auch Kommandozeile!)
+- Die Verzeichnis-Struktur unseres HUGO-Projekts erklären
+    - In welchem Verhältnis `/content` und `/themes` zueinander stehen
+    - Wo die wichtigen Verzeichnisse sind, die Autoren für ihre Arbeit brauchen
+    - Wie man Bilder und Artikel miteinander verknüpft
+- Wie man eine neue Seite erstellt (und dabei evtl die Kommandozeile kennenlernt)
+    - Welche Rolle das _Front Matter_ spielt.
+- Was _Shortcodes_ sind, welche es gibt und wie man sie einsetzt.
+
+Daraus dürfte sich eine Diskussion ergeben über die traurige Wahrheit von
+„Komfort bedeutet Kosten und Abhängigkeit, großer Komfort bedeutet hohe Kosten
+und immense Abhängigkeit“ für sog. „freie“ Autoren. Die Rede ist von einer
+komfortablen Autoren-Oberfläche wie es sie für WordPress oder Joomla gibt.
+Nennt man für Hugo „CDN“. Alternative: Autoren als kompetente „Heimwerker“ mit
+Editor und Kommandozeile als Werkzeuge (wie Power-Shell auf Windows, Terminal
+auf Mac und Linux). Macht frei, unabhängig und spart eine Menge (Abo-)Kosten.
+Aber das ist dann wie selber kochen und klempnern. Macht auch frei, undabhängig
+und spart eine Menge Kosten – wenn man genau weiß, was man tut!
 
 
 
