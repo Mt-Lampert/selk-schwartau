@@ -10,7 +10,35 @@
 
 ## TODO &mdash; Die nächsten Schritte (MtLam)
 
-- Alle Aufträge erst mal abgearbeitet.
+- [ ] „Myriad Pro“ und „Info-Text-Semi-Bold“ aus der Dropbox nach `/static/fonts` kopieren
+- [ ] Die neuen Schriften mit Hilfe von `@font-face` in die Webseite integrieren.
+      Sicherheits-Rückfrage: Kommen wir urheberrechtlich in die Breduille, wenn
+      wir die neuen Fonts einfach als Web-Fonts verwenden (Myriad Pro)
+- [ ] Die Reihenfolge der Menüeinträge für 'Über Uns' gemäß der offiziellen
+      SiteMap korrigieren
+- [ ] In der Kopfzeile Menü und Logo neu gemäß den Vorgaben in
+      `HUGO-Startseite.png` überarbeiten. Das wird Experimente und Rücksprache
+      erfordern.
+    - Menüleiste auf gleiche Höhe wie „miteinander-lebendig-glauben“ im Logo
+    - Alle Menüpunkte in _Small Caps_.
+- [ ] Die Abstände zwischen Überschriften und BigPics gemäß den Angaben in
+      `HUGO-unserGemeindezentrum.png` überarbeiten
+- [ ] die Bildgrößen in den _Shortcodes_ `img-right` und `img-left` gemäß den
+      Angaben in `HUGO-unserGemeindezentrum.png` überarbeiten (1:1 statt 2:1).
+
+### Neues Seiten-Design
+
+- [ ] Den Haupttext nicht breiter als 70 Zeichen (`70ch`) werden lassen
+- [ ] Die Seitenstreifen auf allen Seiten entfernen, dabei `<header>`, `<main>`
+      und `<footer>` auf einheitliche Breite bringen.
+- [ ] Das Dia-Karussell auf die Einheitsbreite vergrößern.
+- [ ] Den Google-Kalender die Einheitsbreite vergrößern.
+
+### Neues `<footer>`-Design
+
+- [ ] zwei Spalten: Adresse, Paypal, Impressum und Datenschutz in die linke
+      Spalte, Gemeindebrief in die rechte Spalte.
+
 
 
 ## 2024-01-22  9:14 (MtLam)
