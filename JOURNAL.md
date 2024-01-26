@@ -68,6 +68,23 @@ Aber das ist dann wie selber kochen und klempnern. Macht auch frei, undabhängig
 und spart eine Menge Kosten – wenn man genau weiß, was man tut!
 
 
+## 2024-01-26  19:48 (MtLam)
+
+- [ ] Die neuen Schriften mit Hilfe von `@font-face` in die Webseite integrieren.
+      Sicherheits-Rückfrage: Kommen wir urheberrechtlich in die Bredouille, wenn
+      wir die neuen Fonts einfach als Web-Fonts verwenden? Myriad Pro ist z.B.
+      von Adobe.
+
+Ist noch nicht ganz abgeschlossen, aber ich habe jetzt wenigstens „Myriad Pro“ in das
+Projekt integrieren können – nach mehreren frustrierenden, aber dafür lehrreichen
+Fehlversuchen. Folgende Lehre konnte ich bis hierhin ziehen:
+
+1. `@font-face` muss abgeschlossen sein, __noch bevor irgendein CSS-Element auf
+   irgendeine Schrift zugreift!__ Wenn es irgendwann später definiert wird,
+   wird es ignoriert, weil „Vererbung“ dann ins Leere geht. In diesem Projekt
+   war die richtige Stelle ganz oben in der Datei
+   `/themes/tw_basic/layouts/partials/head/css.html`, weil dieses CSS als
+   erstes in den `<head>` geladen wird.
 
 ## 2024-01-22  9:14 (MtLam)
 
