@@ -40,7 +40,24 @@
 - [ ] zwei Spalten: Adresse, Paypal, Impressum und Datenschutz in die linke
       Spalte, Gemeindebrief in die rechte Spalte.
 
-### Autoren-Sitzung vorbereiten
+### Neue Livestream-Seite
+
+- [ ] `Aktuelles|Gottesdienste im Livestream` neu aufbauen.
+
+Dazu habe ich [in den
+Issues](https://github.com/Mt-Lampert/selk-schwartau/issues/3) einen neuen
+Artikel geschrieben. Fürs erste werde ich nur die ersten beiden Punkte
+implementieren. Die Gründe stehen bei den Issues.
+
+1. Den Gottesdienst „vom letzten Mal“ direkt in der Seite zu verfolgen –
+   entweder live oder als Aufzeichnung
+2. In einer Kachel/Card-Tabelle die Gottesdienste der letzten ... sagen wir
+   acht Wochen auf Youtube anzuklicken
+3. Auf einer Extra-Seite („Ältere...“) können dann noch ältere Videos verfolgt
+   werden – je weiter man dort nach unten scrollt, desto weiter kommt man dann
+   in der Vergangenheit zurück.
+
+### Autoren-Schulung vorbereiten
 
 - Aufbau eines HUGO-Projekts erklären
 - Wie man HUGO für Autoren installiert.
