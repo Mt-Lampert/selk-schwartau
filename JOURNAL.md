@@ -11,10 +11,6 @@
 ## TODO &mdash; Die nächsten Schritte (MtLam)
 
 - [x] „Myriad Pro“ und „Info-Text-Semi-Bold“ aus der Dropbox nach `/static/fonts` kopieren
-- [ ] Die neuen Schriften mit Hilfe von `@font-face` in die Webseite integrieren.
-      Sicherheits-Rückfrage: Kommen wir urheberrechtlich in die Bredouille, wenn
-      wir die neuen Fonts einfach als Web-Fonts verwenden? Myriad Pro ist z.B.
-      von Adobe.
 - [ ] Die Reihenfolge der Menüeinträge für 'Über Uns' gemäß der offiziellen
       SiteMap korrigieren
 - [ ] In der Kopfzeile Menü und Logo neu gemäß den Vorgaben in
@@ -83,6 +79,20 @@ Editor und Kommandozeile als Werkzeuge (wie Power-Shell auf Windows, Terminal
 auf Mac und Linux). Macht frei, unabhängig und spart eine Menge (Abo-)Kosten.
 Aber das ist dann wie selber kochen und klempnern. Macht auch frei, undabhängig
 und spart eine Menge Kosten – wenn man genau weiß, was man tut!
+
+## 2024-01-27 22:20 (MtLam)
+
+__Erledigt:__
+
+- [x] Die neuen Schriften mit Hilfe von `@font-face` in die Webseite integrieren.
+
+Ist mir jetzt gelungen, und ich habe sogar die Menüleiste mit Hilfe von
+_InfoText_ in Kapitälchen umzuwandeln. Anders als _Myriad Pro_ hat _Infotext_
+eigene, speziell für diesen Zweck designte Kapitälchen-Schriften. Bei _Myriad
+Pro_ könnte man Kapitälchen sie zwar „automatisch“ generieren, aber dann würden
+sich diese Kapitälchen im Schriftbild genau so verhalten wie die
+Normal-Schrift, und das kommt nie an die Qualität einer „echten“
+Kapitälchen-Schriftart heran.
 
 
 ## 2024-01-26  19:48 (MtLam)
