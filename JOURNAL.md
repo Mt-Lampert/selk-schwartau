@@ -13,11 +13,6 @@
 - [x] „Myriad Pro“ und „Info-Text-Semi-Bold“ aus der Dropbox nach `/static/fonts` kopieren
 - [ ] Die Reihenfolge der Menüeinträge für 'Über Uns' gemäß der offiziellen
       SiteMap korrigieren
-- [ ] In der Kopfzeile Menü und Logo neu gemäß den Vorgaben in
-      `HUGO-Startseite.png` überarbeiten. Das wird Experimente und Rücksprache
-      erfordern.
-    - Menüleiste auf gleiche Höhe wie „miteinander-lebendig-glauben“ im Logo
-    - Alle Menüpunkte in _Small Caps_.
 - [ ] Die Abstände zwischen Überschriften und BigPics gemäß den Angaben in
       `HUGO-unserGemeindezentrum.png` überarbeiten
 - [ ] die Bildgrößen in den _Shortcodes_ `img-right` und `img-left` gemäß den
@@ -79,6 +74,19 @@ Editor und Kommandozeile als Werkzeuge (wie Power-Shell auf Windows, Terminal
 auf Mac und Linux). Macht frei, unabhängig und spart eine Menge (Abo-)Kosten.
 Aber das ist dann wie selber kochen und klempnern. Macht auch frei, undabhängig
 und spart eine Menge Kosten – wenn man genau weiß, was man tut!
+
+## 2024-01-27 22:44 (MtLam)
+
+__Erledigt:__
+
+- [x] In der Kopfzeile Menü und Logo neu gemäß den Vorgaben in
+      `HUGO-Startseite.png` überarbeiten. Das wird Experimente und Rücksprache
+      erfordern.
+    - Menüleiste auf gleiche Höhe wie „miteinander-lebendig-glauben“ im Logo
+    - Alle Menüpunkte in _Small Caps_.
+
+Jawoll! War dank _TailwindCSS_ eine Sache von sagenhaften 21 Zeichen, die
+geändert werden mussten! Mehr nicht!
 
 ## 2024-01-27 22:20 (MtLam)
 
