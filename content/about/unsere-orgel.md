@@ -3,12 +3,10 @@ title: "Unsere Orgel"
 date: 2023-09-17T18:37:48+02:00
 layout: "single"
 BigPic: "../images/orgel/orgel-totale.jpg"
-prev: "../gemeindekreise"
-next: "../unsere-kirche"
+prev: "../unsere-kirche"
+next: "../unsere-geschichte"
 draft: false
 ---
-
-{{< abstand >}}
 
 ## Planung
 
@@ -60,4 +58,3 @@ Folgende Beispiele haben wir für Sie ausgewählt:
 
 {{< wide-pic image="../images/orgel/orgel-manual-big_600.jpg" alt="Orgel Manual" >}}
 
-{{< abstand >}}

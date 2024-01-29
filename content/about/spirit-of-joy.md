@@ -3,12 +3,10 @@ title: "Unser Gospelchor Spirit of Joy"
 date: 2023-09-15T16:45:10+02:00
 layout: "single.html"
 BigPic: "unser_gospelchor__16x9.jpg"
-prev: "../unser-kirchenvorstand"
-next: "../unser-kantor"
+prev: "../gemeindekreise"
+next: "../unser-gemeindezentrum"
 draft: false
 ---
-
-{{< abstand >}}
 
 ___Spirit of Joy.___ Das ist spritziger Gospelsound mit Lebensgefühl und
 Glaubenswahrheit, das ist der Geist der Freude, der uns anstecken will.

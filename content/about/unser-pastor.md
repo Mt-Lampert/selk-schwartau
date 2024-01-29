@@ -4,18 +4,15 @@ date: 2023-09-17T11:55:39+02:00
 layout: "narrow"
 BigPic: "unser_pastor__16x9.jpg"
 prev: "../unsere-gottesdienste"
-next: "../unser-kirchenvorstand"
+next: "../unser-kantor"
 draft: false
 ---
-
-{{< abstand >}}
 
 Mein Name ist Klaus Bergmann. Seit 2016 bin ich Pastor der
 Martin-Luther-Gemeinde Bad Schwartau. Der Dienst in dieser Gemeinde macht mir
 große Freude. Neben dem Pfarramt (beinhaltet Gottesdienstleitung, Seelsorge,
 Fortbildung von Mitarbeitern, Leitung einiger Gemeindegruppen) habe ich mir
 folgende Schwerpunkte in der Gemeindearbeit gesetzt:
-
 
 ## Missionarischer Gemeindedienst
 

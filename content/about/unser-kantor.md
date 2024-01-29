@@ -3,11 +3,10 @@ title: "Unser Kantor"
 date: 2024-01-21T18:19:35+01:00
 BigPic: "unser_kantor__16x9.jpg"
 layout: "single.html"
-prev: "../spirit-of-joy"
-next: "../gemeindekreise"
+prev: "../unser-pastor"
+next: "../unser-kirchenvorstand"
 draft: false
 ---
-{{< abstand >}}
 
 Im Jahr 2003 hat Nathanael (Adi) Kläs das Kantorenamt in der
 Martin-Luther-Gemeinde von seiner Vorgängerin Christine Fauteck übernommen.
@@ -16,8 +15,8 @@ in Lübeck. Im Anschluss an seinen Bachelor folgte ein Master-Studium in
 Chorleitung für Popularmusik an der königlichen Hochschule in Aalborg/Dänemark.
 
 Als Kantor gestaltet Nathanael Kläs die Gemeindegottesdienste am Klavier und an
-der Orgel. Er singt die liturgische Stücke und koordiniert die Begleitung
-weiterer Musiker im Gottesdienst an. Der Gospelchor Spirit of Joy steht auch
+der Orgel. Er singt die liturgischen Stücke und koordiniert die Begleitung
+weiterer Musiker im Gottesdienst. Der Gospelchor _Spirit of Joy_ steht auch
 unter der Leitung von Kantor Kläs.
 
 Neben den musikalischen Aufgaben in unserer Gemeinde ist Nathanael Kläs auch

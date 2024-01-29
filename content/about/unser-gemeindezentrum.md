@@ -3,8 +3,8 @@ title: "Unser Gemeindezentrum"
 date: 2024-01-20T19:13:12+01:00
 BigPic: "unser_gotteshaus-aussen__16x9.jpg"
 layout: "single.html"
-prev: "../"
-next: "../unsere-gottesdienste"
+prev: "../spirit-of-joy"
+next: "../unsere-kirche"
 draft: false
 ---
 

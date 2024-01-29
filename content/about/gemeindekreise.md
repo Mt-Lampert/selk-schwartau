@@ -3,12 +3,10 @@ title: "Unsere Gemeindekreise"
 date: 2023-09-16T10:03:18+02:00
 layout: "narrow"
 BigPic: "unsere_gemeindekreise__16x9.jpg"
-prev: "../unser-kantor"
-next: "../unsere-orgel"
+prev: "../unser-kirchenvorstand"
+next: "../spirit-of-joy"
 draft: false
 ---
-
-{{< abstand >}}
 
 ## SchnackMahl
 
@@ -93,5 +91,4 @@ wöchentlich sonntags während des Gemeindegottesdienstes
 
 Kontakt: Stephan Otten | 0171-5762937
 
-{{< abstand >}}
 
