@@ -11,8 +11,6 @@
 ## TODO &mdash; Die nächsten Schritte (MtLam)
 
 - [x] „Myriad Pro“ und „Info-Text-Semi-Bold“ aus der Dropbox nach `/static/fonts` kopieren
-- [ ] die Bildgrößen in den _Shortcodes_ `img-right` und `img-left` gemäß den
-      Angaben in `HUGO-unserGemeindezentrum.png` überarbeiten (1:1 statt 2:1).
 
 ### Neues Seiten-Design
 
@@ -70,6 +68,21 @@ Editor und Kommandozeile als Werkzeuge (wie Power-Shell auf Windows, Terminal
 auf Mac und Linux). Macht frei, unabhängig und spart eine Menge (Abo-)Kosten.
 Aber das ist dann wie selber kochen und klempnern. Macht auch frei, undabhängig
 und spart eine Menge Kosten – wenn man genau weiß, was man tut!
+
+## 2024-01-29 18:53 (MtLam)
+
+__Erledigt:__
+
+- [x] die Bildgrößen in den _Shortcodes_ `img-right` und `img-left` gemäß den
+      Angaben in `HUGO-unserGemeindezentrum.png` überarbeiten (1:1 statt 2:1).
+
+War recht einfach. Problem ist jetzt leider, dass Bild und Text nicht mehr
+gleich lang sind und sich unter dem Text neben dem Bild eine Lücke auftut.
+Fließtext ist leider keine Lösung, weil er zu einer Reihe von üblen Problemen
+führt, sobald ein Benutzer das Browser-Fenster auf nicht-Standardgröße bringt. 
+
+Auf dem Papier ist Fließtext kein Problem, weil dort eine Seite eine
+verlässliche Breite hat (z.B. beim DINA4-Format).
 
 ## 2024-01-29 18:53 (MtLam)
 
