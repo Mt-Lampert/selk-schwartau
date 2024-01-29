@@ -25,12 +25,14 @@
 {{   end }}
 {{ end }}
 
-<div class="pb-8 px-8">
-  <h1 class="text-center font-semibold text-2xl py-8">{{ .Title }}</h1>
+<div class=" px-8 pb-12">
+  <h1 class="text-center font-semibold text-2xl pt-8 pb-8">{{ .Title }}</h1>
 
-  <div class="py-8 flex justify-center items-center w-full">
+{{ with .Params.BigPic }}
+  <div class="pb-12 flex justify-center items-center w-full">
     <img src="{{ $bigPic }}" alt="{{ $alt }}">
   </div>
+{{ end }}
 
 {{ .Content }}
 

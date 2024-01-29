@@ -11,8 +11,6 @@
 ## TODO &mdash; Die nächsten Schritte (MtLam)
 
 - [x] „Myriad Pro“ und „Info-Text-Semi-Bold“ aus der Dropbox nach `/static/fonts` kopieren
-- [ ] Die Abstände zwischen Überschriften und BigPics gemäß den Angaben in
-      `HUGO-unserGemeindezentrum.png` überarbeiten
 - [ ] die Bildgrößen in den _Shortcodes_ `img-right` und `img-left` gemäß den
       Angaben in `HUGO-unserGemeindezentrum.png` überarbeiten (1:1 statt 2:1).
 
@@ -72,6 +70,26 @@ Editor und Kommandozeile als Werkzeuge (wie Power-Shell auf Windows, Terminal
 auf Mac und Linux). Macht frei, unabhängig und spart eine Menge (Abo-)Kosten.
 Aber das ist dann wie selber kochen und klempnern. Macht auch frei, undabhängig
 und spart eine Menge Kosten – wenn man genau weiß, was man tut!
+
+## 2024-01-29 18:53 (MtLam)
+
+__Erledigt:__
+
+- [x] Die Abstände zwischen Überschriften und BigPics gemäß den Angaben in
+      `HUGO-unserGemeindezentrum.png` überarbeiten
+
+War ein härteres Stück Arbeit als ich dachte, weil ich mit einer bösen
+Überraschung zu kämpfen hatte. Die Überschriften für die _Markdown_-Texte
+müssen __einheitlich__ formatiert werden, und zwar _ohne_ TailwindCSS. Das
+hatte Auswirkungen auf Unter-Überschriften: Zwischen zwei Absätzen brauchen sie
+eine Zeile Abstand nach oben und eine Zeile Abstand nach unten. Das musste ich
+einheitlich so einstellen. 
+
+Direkt unter einem großen Bild sorgt das allerdings für zuviel Abstand
+gegenüber einer Seite, die nicht mit einer Unter-Überschrift beginnt. (Vgl.
+„Unsere Gottesdienste“ und „Unser Pastor“). Leider habe ich noch keine Lösung
+für dieses Problem gefunden. 
+
 
 ## 2024-01-29 18:47 (MtLam)
 
