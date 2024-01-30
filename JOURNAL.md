@@ -12,13 +12,6 @@
 
 - [x] „Myriad Pro“ und „Info-Text-Semi-Bold“ aus der Dropbox nach `/static/fonts` kopieren
 
-### Neues Seiten-Design
-
-- [ ] Den Haupttext nicht breiter als 70 Zeichen (`70ch`) werden lassen
-- [ ] Die Seitenstreifen auf allen Seiten entfernen, dabei `<header>`, `<main>`
-      und `<footer>` auf einheitliche Breite bringen.
-- [ ] Das Dia-Karussell auf die Einheitsbreite vergrößern.
-- [ ] Den Google-Kalender auf die Einheitsbreite vergrößern.
 
 ### Neues `<footer>`-Design
 
@@ -68,6 +61,33 @@ Editor und Kommandozeile als Werkzeuge (wie Power-Shell auf Windows, Terminal
 auf Mac und Linux). Macht frei, unabhängig und spart eine Menge (Abo-)Kosten.
 Aber das ist dann wie selber kochen und klempnern. Macht auch frei, undabhängig
 und spart eine Menge Kosten – wenn man genau weiß, was man tut!
+
+## 2024-01-30 18:53 (MtLam)
+
+__Erledigt:__
+
+- [x] Den Haupttext nicht breiter als 70 Zeichen (`70ch`) werden lassen
+- [x] Die Seitenstreifen auf allen Seiten entfernen, dabei `<header>`, `<main>`
+      und `<footer>` auf einheitliche Breite bringen.
+- [x] Das Dia-Karussell auf die Einheitsbreite vergrößern.
+- [x] Den Google-Kalender auf die Einheitsbreite vergrößern.
+
+Hier hat sich gerächt, dass ich die Seite wie ein Gärtner angegangen bin und
+nicht wie ein Architekt. Ein Gärtner macht keine Pläne, sondern fängt sofort
+an, zu gärtnern. Wenn ihn später was stört, wird es angepasst, geändert, evtl.
+entfernt. Anders der Architekt. Er investiert ganze Arbeitswochen damit, sein
+Projekt bis ins allerkleinste Detail durchzurechnen, zu planen und am besten
+absolut nichts dem Zufall zu überlassen. Erst dann kann er es „wagen“, die
+eigenen Pläne in konkrete Bauwerke umzusetzen.
+
+„Hätte ich dieses Projekt doch von Anfang an besser geplant! Dann hätte ich
+nicht an Dutzenden Stellen nach der richtigen Stelle suchen müssen, um diese
+Änderungen einheitlich vornehmen zu können.“ – Diesen Satz habe ich bestimmt
+hundert mal gesagt, als ich diese Änderungen vorgenommen habe.
+
+Diese Umstellun hat mich wegen der vielen kleinen „Baustellen“ jetzt mehrere
+Tage gekostet, 90% hatte mit Sucherei zu tun. Aber nu is' fertig. Halleluja!
+
 
 ## 2024-01-29 18:53 (MtLam)
 
