@@ -15,8 +15,6 @@
 
 ### Neues `<footer>`-Design
 
-- [ ] zwei Spalten: Adresse, Paypal, Impressum und Datenschutz in die linke
-      Spalte, Gemeindebrief in die rechte Spalte.
 
 ### Neue Livestream-Seite
 
@@ -61,6 +59,16 @@ Editor und Kommandozeile als Werkzeuge (wie Power-Shell auf Windows, Terminal
 auf Mac und Linux). Macht frei, unabhängig und spart eine Menge (Abo-)Kosten.
 Aber das ist dann wie selber kochen und klempnern. Macht auch frei, undabhängig
 und spart eine Menge Kosten – wenn man genau weiß, was man tut!
+
+## 2024-01-31 07:07 (MtLam)
+
+__Erledigt:__
+
+- [x] Neues Footer-Design mit zwei Spalten: Adresse, Paypal, Impressum und
+      Datenschutz in die linke Spalte, Gemeindebrief in die rechte Spalte.
+
+Ist jetzt ein einfaches _Flexbox_-Design geworden. Gut, solide und für den
+Moment absolut ausreichend, wie ich finde.
 
 ## 2024-01-30 18:53 (MtLam)
 
