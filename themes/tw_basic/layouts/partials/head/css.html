@@ -8,32 +8,32 @@
       /* 2. the 'woff2' fonts we provided in '/static/fonts' */
       /* 3. the 'woff' fonts  we provided in '/static/fonts' */
       src: local("Myriad Pro"), 
-          url("/fonts/myriadpro-regular-webfont.woff2") format('woff2'),
-          url("/fonts/myriadpro-regular-webfont.woff") format('woff');
+      url("{{ site.BaseURL }}/fonts/myriadpro-regular-webfont.woff2") format('woff2'),
+      url("{{ site.BaseURL }}/fonts/myriadpro-regular-webfont.woff") format('woff');
   }
 
   @font-face {
     font-family: "InfoText";
     font-weight: 400;
     src: local("Infotext"),
-        url("/fonts/infot-webfont.woff2") format('woff2'),
-        url("/fonts/infot-webfont.woff") format('woff');
+    url("{{ site.BaseURL }}/fonts/infot-webfont.woff2") format('woff2'),
+    url("{{ site.BaseURL }}/fonts/infot-webfont.woff") format('woff');
   }
 
   @font-face {
     font-family: "InfoText SemiBold";
     font-weight: 400;
     src: local("Infotext SemiBold Normal"),
-        url("/fonts/infotsb-webfont.woff2") format('woff2'),
-        url("/fonts/infotsb-webfont.woff") format('woff');
+    url("{{ site.BaseURL }}/fonts/infotsb-webfont.woff2") format('woff2'),
+    url("{{ site.BaseURL }}/fonts/infotsb-webfont.woff") format('woff');
   }
 
   @font-face {
     font-family: "InfoText Normal Caps";
     font-weight: 400;
     src: local("Infotext NormalCaps"),
-        url("/fonts/infotc-webfont.woff2") format('woff2'),
-        url("/fonts/infotc-webfont.woff") format('woff');
+    url("{{ site.BaseURL }}/fonts/infotc-webfont.woff2") format('woff2'),
+    url("{{ site.BaseURL }}/fonts/infotc-webfont.woff") format('woff');
   }
 
   body {
