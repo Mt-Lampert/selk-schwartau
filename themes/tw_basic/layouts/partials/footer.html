@@ -1,45 +1,51 @@
 <style>
 </style>
 
-<div class="footer-grid">
-  <!-- Address tile -->
-  <div class="text-left f-address">
-    <p>
-      Martin-Luther-Gemeinde<br>
-      <span style="font-size:.9em">Selbst. Ev-Luth. Kirche (SELK)</span><br>
-      Kaltenhöfer Straße 42<br>
-      Tel: (0451) 21559<br>
-      info[at]selk-schwartau.de
-    </p>
-    <p class="italic">
-     Finden Sie uns über 
-     <a href="https://maps.app.goo.gl/tHvqnsxj83JRkSmA8" 
-       class="text-stone-600 underline"
-       target="_blank">
-       diesen Link
-     </a>.
-    </p>
-  </div>
+<div class="flex flex-col md:flex-row md:justify-evenly md:pt-8">
+  <!-- left-side -->
+  <div class="flex flex-col flex-start justify-center">
+    <!-- Address tile -->
+    <div class="text-left f-address">
+      <p>
+        Martin-Luther-Gemeinde<br>
+        <span style="font-size:.9em">Selbst. Ev-Luth. Kirche (SELK)</span><br>
+        Kaltenhöfer Straße 42<br>
+        Tel: (0451) 21559<br>
+        info[at]selk-schwartau.de
+      </p>
+      <p class="italic">
+       Finden Sie uns über 
+       <a href="https://maps.app.goo.gl/tHvqnsxj83JRkSmA8" 
+         class="text-stone-600 underline"
+         target="_blank">
+         diesen Link
+       </a>.
+      </p>
+    </div>
 
-  <!-- Donation Tile -->
-  <div class="pt-4 f-donate">
-    <img src="{{ site.BaseURL }}/images/SpendenButton.png" alt="Spendenbutton" width="200">
-  </div>
+    <!-- Donation Tile -->
+    <div class="pt-4 f-donate">
+      <img src="{{ site.BaseURL }}/images/SpendenButton.png" alt="Spendenbutton" width="200">
+    </div>
 
+    <!-- Legal Stuff -->
+    <div class="pt-4 f-impressum"><a href="#">Impressum</a></div>
+    <div class="pt-4 f-datenschutz"><a href="#">Datenschutz</a></div>
+
+  </div>
+  
+  <!-- right side -->
+  <div class="flex flex-col flex-start">
   <!-- Epistle Tile -->
-  <div class="text-center mt-8 f-epistle">
-    <h2 class="font-semibold text-sm pb-4">Unser Gemeindebrief (PDF)</h2>
+  <div class="text-center f-epistle">
+    <h2 class="font-semibold pb-4">Unser Gemeindebrief (PDF)</h2>
     <div class="">
       <img src="{{ site.BaseURL }}/images/Gemeindebrief-09-23.png" alt="Gemeindebrief" width="200">
     </div>
   </div>
 
-  <!-- Central Cross -->
-  <div class="p-20 f-mittelkreuz">
-    <img src="{{ site.BaseURL }}/images/sswt-kreuz__skizze.svg" alt="central cross">
   </div>
+  
 
-  <!-- Legal Part -->
-  <div class="pt-4 f-impressum"><a href="#">Impressum</a></div>
-  <div class="pt-4 f-datenschutz"><a href="#">Datenschutz</a></div>
+
 </div>
