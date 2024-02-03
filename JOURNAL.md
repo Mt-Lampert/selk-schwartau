@@ -10,36 +10,37 @@
 
 ## TODO &mdash; Die nächsten Schritte (MtLam)
 
-- [x] „Myriad Pro“ und „Info-Text-Semi-Bold“ aus der Dropbox nach `/static/fonts` kopieren
-
-
-### Neues `<footer>`-Design
-
-
 ### Neue Livestream-Seite
 
-- [ ] `Aktuelles|Gottesdienste im Livestream` neu aufbauen.
-
-Dazu habe ich [in den
-Issues](https://github.com/Mt-Lampert/selk-schwartau/issues/3) einen neuen
-Artikel geschrieben. Fürs erste werde ich nur die ersten beiden Punkte
-implementieren. Die Gründe stehen bei den Issues.
-
-1. Den Gottesdienst „vom letzten Mal“ direkt in der Seite zu verfolgen –
-   entweder live oder als Aufzeichnung
-2. In einer Kachel/Card-Tabelle die Gottesdienste der letzten ... sagen wir
-   acht Wochen auf Youtube anzuklicken
-3. Auf einer Extra-Seite („Ältere...“) können dann noch ältere Videos verfolgt
-   werden – je weiter man dort nach unten scrollt, desto weiter kommt man dann
-   in der Vergangenheit zurück.
+- [ ] Die Livestream-Seite in der Navbar eintragen
+- [ ] im Theme das Template für die Livestreamseite vorbereiten (`livestreams.html`)
+- [ ] im Template das Youtube-Video des letzten Livestreams einbauen (mit hart
+      einkodierten Daten)
+- [ ] im Theme ein _Partial_ für die „neueren Streams“ entwerfen: als _Card_
+      mit hart einkodierten Beispieldaten)
+- [ ] Das _Partial_ im Template in ein 4x2 Flexbox-Grid einbauen.
+- [ ] Die Datei `/data/livestreams.yaml` einrichten:
+    - ein Datenblock `aktuell:` mit einem einzigen Datenblock ⇒  das wird der
+      Datenblock für das Youtube-Video des letzten Livestreams
+    - ein Datenblock `neuere:` mit 8 Elementen: – das wird der Datenblock für
+      das Flexbox-Grid.
+    - ein Datenblock `aeltere:` mit _n_ Elementen – das wird der Datenblock für
+      den ganzen „Rest“.
+- [ ] Im Template die hart einkodierten Daten in „Aktuell“ und „Neuere“ durch
+      die Daten in `livestreams.yaml` ersetzen.
+- [ ] Kerze anzünden, die neue Seite hochladen und beten, dass sie auch live funktioniert.
+- [ ] die Kollegen informieren
 
 ### Autoren-Schulung vorbereiten
 
-- Aufbau eines HUGO-Projekts erklären
 - Wie man HUGO für Autoren installiert.
 - Welche Editoren gut für die Arbeit in HUGO sind (z.B. VS Code oder Notepad++
+- Aufbau eines HUGO-Projekts erklären
   für Windows)
-- Wie man `make` in diesem Projekt nutzt (Kommandozeile!)
+- Wie man `make` in diesem Projekt nutzt (Kommandozeile!), und wie man `make`
+  auf Windows installiert ([Chocolatey](https://chocolatey.org/) dürfte hier
+  das Mittel der Wahl sein.)
+  
 - Welche Rolle `Git` (und damit GitHub) in diesem Projekt spielt und wie man es
   nutzt (evtl auch Kommandozeile!)
 - Die Verzeichnis-Struktur unseres HUGO-Projekts erklären
@@ -171,7 +172,7 @@ Kapitälchen-Schriftart heran.
 
 ## 2024-01-26  19:48 (MtLam)
 
-- [ ] Die neuen Schriften mit Hilfe von `@font-face` in die Webseite integrieren.
+- [x] Die neuen Schriften mit Hilfe von `@font-face` in die Webseite integrieren.
       Sicherheits-Rückfrage: Kommen wir urheberrechtlich in die Bredouille, wenn
       wir die neuen Fonts einfach als Web-Fonts verwenden? Myriad Pro ist z.B.
       von Adobe.
