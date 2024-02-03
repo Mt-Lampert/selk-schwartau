@@ -12,7 +12,6 @@
 
 ### Neue Livestream-Seite
 
-- [ ] Die Livestream-Seite in der Navbar eintragen
 - [ ] im Theme das Template für die Livestreamseite vorbereiten (`livestreams.html`)
 - [ ] im Template das Youtube-Video des letzten Livestreams einbauen (mit hart
       einkodierten Daten)
@@ -60,6 +59,15 @@ Editor und Kommandozeile als Werkzeuge (wie Power-Shell auf Windows, Terminal
 auf Mac und Linux). Macht frei, unabhängig und spart eine Menge (Abo-)Kosten.
 Aber das ist dann wie selber kochen und klempnern. Macht auch frei, undabhängig
 und spart eine Menge Kosten – wenn man genau weiß, was man tut!
+
+## 2024-01-31 07:07 (MtLam)
+
+__Erledigt:__
+
+- [x] Die Livestream-Seite in der Navbar eintragen
+
+War kein großes Problem. Ich musste nur das gleiche machen wie bei „Aktuell“,
+im Effekt also kopieren und anpassen. Fertig war der Lack.
 
 ## 2024-01-31 07:07 (MtLam)
 
