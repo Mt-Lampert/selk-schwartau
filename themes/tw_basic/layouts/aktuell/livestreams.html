@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ $next := printf "%s/about/%s" site.BaseURL .Params.next }}
+{{ $prevUrl := "" }}
+{{ $nextUrl := "" }}
+{{ $prevClasses := "px-2 py-1 rounded-lg bg-inherit border border-stone-300 text-stone-300"}}
+{{ $nextClasses := $prevClasses }}
+{{ if .Params.prev }}
+  {{ $prevClasses = "py-1 px-2 bg-stone-300 hover:bg-stone-50 hover:border rounded-lg text-stone-900"}}      
+  {{ $prevUrl = .Params.prev }}
+{{ end }}
+{{ if .Params.next }}
+  {{ $nextClasses = "py-1 px-2 bg-stone-300 hover:bg-stone-50 hover:border rounded-lg text-stone-900"}}      
+  {{ $nextUrl = .Params.next }}
+{{ end }}
+
+
+<div class="pb-8 px-8 max-w-3xl mx-auto">
+  <h1 class="text-center font-semibold text-2xl py-8">{{ .Title }}</h1>
+  <!-- <div class="pb-12 flex justify-center items-center w-2/3"> -->
+   <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/x31ZH4MuVVs?si=fqGaTtXfBvoDn9ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+   <!-- <!-1- width="560" height="315" -1-> -->
+  <!-- </div> -->
+
+{{ .Content }}
+
+  <div class="flex flex-row justify-around mt-8">
+    <div>
+      <a href="{{ $prevUrl }}"><button class="{{ $prevClasses }}">Prev</button></a>
+    </div>
+    <div>
+      <a href="{{ $nextUrl }}"><button class="{{ $nextClasses }}">Next</button></a>
+    </div>
+  </div>
+</div>
+{{ end }}

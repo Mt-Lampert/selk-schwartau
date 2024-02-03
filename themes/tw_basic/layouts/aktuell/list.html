@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{ $next := printf "%s/about/%s" site.BaseURL .Params.next }}
+{{ $prevUrl := "" }}
+{{ $nextUrl := "" }}
+{{ $prevClasses := "px-2 py-1 rounded-lg bg-inherit border border-stone-300 text-stone-300"}}
+{{ $nextClasses := $prevClasses }}
+{{ if .Params.prev }}
+  {{ $prevClasses = "py-1 px-2 bg-stone-300 hover:bg-stone-50 hover:border rounded-lg text-stone-900"}}      
+  {{ $prevUrl = .Params.prev }}
+{{ end }}
+{{ if .Params.next }}
+  {{ $nextClasses = "py-1 px-2 bg-stone-300 hover:bg-stone-50 hover:border rounded-lg text-stone-900"}}      
+  {{ $nextUrl = .Params.next }}
+{{ end }}
+
+<div class="flex flex-col md:flex-row md:justify-between py-8">
+  <div class="pb-8 md:pb-0 md:w-1/3 flex flex-col justify-center items-center">
+    <img src="{{ .Params.image }}" alt="MLG-Logo">
+  </div>
+  <div class="px-8 py-4 md:w-2/3">
+    {{ .Content }}
+  </div>
+</div>
+<div class="flex flex-row justify-evenly pb-8">
+  <div>
+    <a href="{{ $prevUrl }}"><button class="{{ $prevClasses }}">Prev</button></a>
+  </div>
+  <div>
+    <a href="{{ $nextUrl }}"><button class="{{ $nextClasses}}">Next</button></a>
+  </div>
+</div>
+{{ end }}

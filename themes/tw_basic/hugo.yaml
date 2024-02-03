@@ -19,3 +19,9 @@ module:
   hugoVersion:
     extended: true
     min: "0.116.0"
+
+# needed to allow raw html (including Shortcodes!) in Markdown.
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

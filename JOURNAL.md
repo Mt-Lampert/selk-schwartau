@@ -12,18 +12,15 @@
 
 ### Neue Livestream-Seite
 
-- [ ] im Theme das Template für die Livestreamseite vorbereiten (`livestreams.html`)
-- [ ] im Template das Youtube-Video des letzten Livestreams einbauen (mit hart
-      einkodierten Daten)
 - [ ] im Theme ein _Partial_ für die „neueren Streams“ entwerfen: als _Card_
       mit hart einkodierten Beispieldaten)
 - [ ] Das _Partial_ im Template in ein 4x2 Flexbox-Grid einbauen.
 - [ ] Die Datei `/data/livestreams.yaml` einrichten:
-    - ein Datenblock `aktuell:` mit einem einzigen Datenblock ⇒  das wird der
+    - ein Datenblock `aktuell` mit einem einzigen Element – das wird der
       Datenblock für das Youtube-Video des letzten Livestreams
-    - ein Datenblock `neuere:` mit 8 Elementen: – das wird der Datenblock für
+    - ein Datenblock `neuere` mit 8 Elementen: – das wird der Datenblock für
       das Flexbox-Grid.
-    - ein Datenblock `aeltere:` mit _n_ Elementen – das wird der Datenblock für
+    - ein Datenblock `aeltere` mit _n_ Elementen – das wird der Datenblock für
       den ganzen „Rest“.
 - [ ] Im Template die hart einkodierten Daten in „Aktuell“ und „Neuere“ durch
       die Daten in `livestreams.yaml` ersetzen.
@@ -60,13 +57,37 @@ auf Mac und Linux). Macht frei, unabhängig und spart eine Menge (Abo-)Kosten.
 Aber das ist dann wie selber kochen und klempnern. Macht auch frei, undabhängig
 und spart eine Menge Kosten – wenn man genau weiß, was man tut!
 
-## 2024-01-31 07:07 (MtLam)
+## 2024-02-03 13:12 (MtLam)
+
+__Erledigt:__
+
+- [x] im Theme das Template für die Livestreamseite vorbereiten (`livestreams.html`)
+- [x] im Template das Youtube-Video des letzten Livestreams einbauen (mit hart
+      einkodierten Daten)
+
+Hat am Ende geklappt, mit Hilfe des hauseigenen _Youtube_-Shortcodes von Hugo.
+Was mich durchaus ärgert. Als ich versuchte, den Youtube-`<iframe>` direkt ins
+Template hineinzukopieren, wurde es von Hugo beim Rendern ... einfach gelöscht.
+Kann allerdings mit Risikomanagement auf der Seite der _Hugo_-Macher
+zusammenhängen. Mit Hilfe eines `<iframes>` kann mit dem nötigen Know-How auch
+veritabler Schadcode in unsere Seite eingeschleust werden. Deshalb dürfen nur
+‘hauseigene’ `iframes` von Hugo selbst benutzt werden – und dann auch nur im
+Markdown, nicht im Markup.
+
+Das macht allerdings die „einfache“ Lösung unmöglich, die ich mir für
+`/data/livestreams.yaml` überlegt habe. Durch den Shortcode ist es jetzt
+unabdinglich, dass die Daten für das „richtige“ Live-Videos in
+`/content/aktuell/livestreams.md` eingetragen werden und nicht bequem ganz oben
+in `/data/livestreams.yaml`.
+
+
+## 2024-02-03 09:42 (MtLam)
 
 __Erledigt:__
 
 - [x] Die Livestream-Seite in der Navbar eintragen
 
-War kein großes Problem. Ich musste nur das gleiche machen wie bei „Aktuell“,
+War kein großes Problem. Ich musste nur das gleiche machen wie bei „Über Uns“,
 im Effekt also kopieren und anpassen. Fertig war der Lack.
 
 ## 2024-01-31 07:07 (MtLam)

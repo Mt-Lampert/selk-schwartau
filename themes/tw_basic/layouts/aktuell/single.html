@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ $next := printf "%s/about/%s" site.BaseURL .Params.next }}
+{{ $prevUrl := "" }}
+{{ $nextUrl := "" }}
+{{ $prevClasses := "px-2 py-1 rounded-lg bg-inherit border border-stone-300 text-stone-300"}}
+{{ $nextClasses := $prevClasses }}
+{{ if .Params.prev }}
+  {{ $prevClasses = "py-1 px-2 bg-stone-300 hover:bg-stone-50 hover:border rounded-lg text-stone-900"}}      
+  {{ $prevUrl = .Params.prev }}
+{{ end }}
+{{ if .Params.next }}
+  {{ $nextClasses = "py-1 px-2 bg-stone-300 hover:bg-stone-50 hover:border rounded-lg text-stone-900"}}      
+  {{ $nextUrl = .Params.next }}
+{{ end }}
+
+{{ $bigPic := "" }}
+{{ $alt := printf "%s Big Picture" .Title }}
+{{ if .Params.BigPic }}
+{{   if eq (slice .Params.BigPic 0 1) '/' }}
+{{     $bigPic = printf "%s%s" .site.BaseURL $bigPic  }}
+{{   else if eq .File.BaseFileName "_index" }}
+{{     $bigPic = printf "images/%s" .Params.BigPic }}
+{{   else }}
+{{     $bigPic = printf "../images/%s" .Params.BigPic }}
+{{   end }}
+{{ end }}
+
+<div class="max-w-3xl pb-12 mx-auto">
+  <h1 class="text-center font-semibold text-2xl pt-8 pb-8">{{ .Title }}</h1>
+
+{{ with .Params.BigPic }}
+  <div class="pb-12 flex justify-center items-center w-full">
+    <img src="{{ $bigPic }}" alt="{{ $alt }}">
+  </div>
+{{ end }}
+
+{{ .Content }}
+
+  <div class="flex flex-row justify-around mt-8">
+    <div>
+      <a href="{{ $prevUrl }}"><button class="{{ $prevClasses }}">Prev</button></a>
+    </div>
+    <div>
+      <a href="{{ $nextUrl }}"><button class="{{ $nextClasses }}">Next</button></a>
+    </div>
+  </div>
+</div>
+{{ end }}
