@@ -12,9 +12,6 @@
 
 ### Neue Livestream-Seite
 
-- [ ] im Theme ein _Partial_ für die „neueren Streams“ entwerfen: als _Card_
-      mit hart einkodierten Beispieldaten)
-- [ ] Das _Partial_ im Template in ein 4x2 Flexbox-Grid einbauen.
 - [ ] Die Datei `/data/livestreams.yaml` einrichten:
     - ein Datenblock `aktuell` mit einem einzigen Element – das wird der
       Datenblock für das Youtube-Video des letzten Livestreams
@@ -57,10 +54,30 @@ auf Mac und Linux). Macht frei, unabhängig und spart eine Menge (Abo-)Kosten.
 Aber das ist dann wie selber kochen und klempnern. Macht auch frei, undabhängig
 und spart eine Menge Kosten – wenn man genau weiß, was man tut!
 
+## 2024-02-04 18:36 (MtLam)
+
+__Erledigt:__
+
+- [x] im Theme ein _Partial_ für die „neueren Streams“ entwerfen: als _Card_
+      mit hart einkodierten Beispieldaten)
+- [x] Das _Partial_ im Template in ein 4x2 Flexbox-Grid einbauen.
+
+War natürlich ein Experiment, das seine Zeit gebraucht hat – bis ich die
+richtige Card-Größe und das richtige Design für das Flex-Gitter gefunden habe.
+Gut Ding wollte Weile haben, aber die zu investieren hat sich gelohnt.
+
 ## 2024-02-04 10:44 (MtLam)
 
 Hab gerade unfreiwillig Lehrgeld gezahlt. `<iframe>` funktioniert _doch!_ in
 einem Layout. Man muss im _Front Matter_ nur das richtige Layout auswählen ... 
+
+```yaml
+---
+# ...
+layout: "livestreams"
+# ...
+---
+```
 
 ## 2024-02-03 13:12 (MtLam)
 
