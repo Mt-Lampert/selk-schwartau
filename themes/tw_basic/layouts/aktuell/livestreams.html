@@ -16,20 +16,19 @@
 
 <div class="pb-8 px-8 max-w-3xl mx-auto">
   <h1 class="text-center font-semibold text-2xl py-8">{{ .Title }}</h1>
-  <!-- <div class="pb-12 flex justify-center items-center w-2/3"> -->
-   <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/x31ZH4MuVVs?si=fqGaTtXfBvoDn9ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-   <!-- <!-1- width="560" height="315" -1-> -->
-  <!-- </div> -->
+  <div class="pb-12 flex justify-center items-center max-width">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/AurLg6hjM88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <!-- width="560" height="315" -->
+  </div>
 
 {{ .Content }}
 
-  <div class="flex flex-row justify-around mt-8">
-    <div>
-      <a href="{{ $prevUrl }}"><button class="{{ $prevClasses }}">Prev</button></a>
-    </div>
-    <div>
-      <a href="{{ $nextUrl }}"><button class="{{ $nextClasses }}">Next</button></a>
-    </div>
-  </div>
+  <!--   <div> -->
+  <!--     <a href="{{ $prevUrl }}"><button class="{{ $prevClasses }}">Prev</button></a> -->
+  <!--   </div> -->
+  <!--   <div> -->
+  <!--     <a href="{{ $nextUrl }}"><button class="{{ $nextClasses }}">Next</button></a> -->
+  <!--   </div> -->
+  <!-- </div> -->
 </div>
 {{ end }}

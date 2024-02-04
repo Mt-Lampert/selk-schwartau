@@ -57,6 +57,11 @@ auf Mac und Linux). Macht frei, unabhängig und spart eine Menge (Abo-)Kosten.
 Aber das ist dann wie selber kochen und klempnern. Macht auch frei, undabhängig
 und spart eine Menge Kosten – wenn man genau weiß, was man tut!
 
+## 2024-02-04 10:44 (MtLam)
+
+Hab gerade unfreiwillig Lehrgeld gezahlt. `<iframe>` funktioniert _doch!_ in
+einem Layout. Man muss im _Front Matter_ nur das richtige Layout auswählen ... 
+
 ## 2024-02-03 13:12 (MtLam)
 
 __Erledigt:__
