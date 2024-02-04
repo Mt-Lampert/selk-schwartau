@@ -17,19 +17,20 @@
 <div class="pb-8 px-8 max-w-3xl mx-auto">
   <h1 class="text-center font-semibold text-2xl py-8">{{ .Title }}</h1>
   <div class="pb-12 flex justify-center items-center max-width">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/AurLg6hjM88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ .Params.video_id }}" title="{{ .Title }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    <!-- width="560" height="315" -->
   </div>
 
 {{ .Content }}
 
-  <div class="flex flex-wrap justify-between py-12 gap-8">
-    {{ partial "ls-card.html" . }}
-    {{ partial "ls-card.html" . }}
-    {{ partial "ls-card.html" . }}
-    {{ partial "ls-card.html" . }}
-    {{ partial "ls-card.html" . }}
-    {{ partial "ls-card.html" . }}
+  <div class="py-4"></div>
+  <h2 class="text-center">Ältere Gottesdienste</h2>
+  <div class="py-4"></div>
+  
+  <div class="flex flex-wrap justify-between pb-12 gap-8">
+{{  range $.Site.Data.livestreams.neuere }}
+{{      partial "ls-card.html" . }}
+{{  end }}
   </div>
   <!--   <div> -->
   <!--     <a href="{{ $prevUrl }}"><button class="{{ $prevClasses }}">Prev</button></a> -->

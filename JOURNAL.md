@@ -12,15 +12,6 @@
 
 ### Neue Livestream-Seite
 
-- [ ] Die Datei `/data/livestreams.yaml` einrichten:
-    - ein Datenblock `aktuell` mit einem einzigen Element – das wird der
-      Datenblock für das Youtube-Video des letzten Livestreams
-    - ein Datenblock `neuere` mit 8 Elementen: – das wird der Datenblock für
-      das Flexbox-Grid.
-    - ein Datenblock `aeltere` mit _n_ Elementen – das wird der Datenblock für
-      den ganzen „Rest“.
-- [ ] Im Template die hart einkodierten Daten in „Aktuell“ und „Neuere“ durch
-      die Daten in `livestreams.yaml` ersetzen.
 - [ ] Kerze anzünden, die neue Seite hochladen und beten, dass sie auch live funktioniert.
 - [ ] die Kollegen informieren
 
@@ -53,6 +44,26 @@ Editor und Kommandozeile als Werkzeuge (wie Power-Shell auf Windows, Terminal
 auf Mac und Linux). Macht frei, unabhängig und spart eine Menge (Abo-)Kosten.
 Aber das ist dann wie selber kochen und klempnern. Macht auch frei, undabhängig
 und spart eine Menge Kosten – wenn man genau weiß, was man tut!
+
+## 2024-02-04 20:56 (MtLam)
+
+__Erledigt:__
+
+- [x] Die Datei `/data/livestreams.yaml` einrichten:
+    - ein Datenblock `aktuell` mit einem einzigen Element – das wird der
+      Datenblock für das Youtube-Video des letzten Livestreams
+    - ein Datenblock `neuere` mit 8 Elementen: – das wird der Datenblock für
+      das Flexbox-Grid.
+    - ein Datenblock `aeltere` mit _n_ Elementen – das wird der Datenblock für
+      den ganzen „Rest“.
+- [x] Im Template die hart einkodierten Daten in „Aktuell“ und „Neuere“ durch
+      die Daten in `livestreams.yaml` ersetzen.
+
+Jawoll, hat geklappt. Keine großen Kämpfe wegen Erfahrung auf meiner Seite. Aus
+den 8 geplanten Elementen sind 9 geworden, wegen des Cardgitter-Designs.
+Außerdem muss in `/content/aktuell/livestreams.md` immer die Video-ID für den
+aktuellen Livestream eingetragen werden, und zwar gewissenhaft!
+
 
 ## 2024-02-04 18:36 (MtLam)
 

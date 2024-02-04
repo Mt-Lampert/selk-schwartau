@@ -1,0 +1,66 @@
+---
+#
+# Hier stehen die Daten für das aktuelle Video,
+# das als Livestream sichtbar sein soll.
+#
+aktuell:
+  video_id: AurLg6hjM88
+  datum: 4. Feb 2024
+  sonntag: Sexuagesimae
+  motto: Wachstum hängt an Gottes Segen
+
+# 
+# Bitte darauf achten, dass die Anzahl der Elemente hier durch 3 
+# teilbar ist: 3, 6, 9, 12, 15, ...
+#
+neuere:
+  - video_id: x31ZH4MuVVs
+    datum: 28. Jan 2024
+    sonntag: 2. n. Ep.
+    motto: Lorem Ipsum Dolor Sit amet
+
+  - video_id: JpmmlosaCDM
+    datum: 14. Jan 2024
+    sonntag: 1. n. Ep.
+    motto: Consectetuer adipiscing elit
+
+  - video_id: 8TOeSgI5Pzs
+    datum: 7. Jan 2024
+    sonntag: Epiphanias
+    motto: Porro vanitas tua immensa est
+
+  - video_id: xbAzYwgPyhY
+    datum: 31. Dez 2023
+    sonntag: Silvester
+    motto: Diam nonumy eirmod tempor invidunt
+
+  - video_id: 5bSPpBr8HXE
+    datum: 26. Dez 2023
+    sonntag: Gospelgottesdienst
+    motto: labor et dolor magni erant
+
+  - video_id: 
+    datum: 25. Dez 2023
+    sonntag: Christfest
+    motto: At vero eos et accusam et justo 
+
+  - video_id: hWTPIZ81okg
+    datum: 24. Dez 2023
+    sonntag: Heiligabend
+    motto: Stet clita kasd gubergren
+
+  - video_id: 0iHaejIATs4
+    datum: 17. Dez 2023
+    sonntag: 3. Advent
+    motto: No sea takimata sanctus est
+
+  - video_id: kYjWxH7eRGA
+    datum: 10. Dez 2023
+    sonntag: 2. Advent
+    motto: Duis autem vel eum iriure dolor
+
+#
+# '[]' bedeutet: "Leere Liste" 
+#
+aeltere: []
+
