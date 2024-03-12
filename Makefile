@@ -1,7 +1,7 @@
-ROOT = 'C:/Users/info/OneDrive/Dokumente/WWW_SELK_HP/selk-schwartau'
-THEME_DIR  = 'C:/Users/info/OneDrive/Dokumente/WWW_SELK_HP/selk-schwartau/themes/tw_basic/'
-SOURCE_CSS = 'C:/Users/info/OneDrive/Dokumente/WWW_SELK_HP/selk-schwartau/themes/tw_basic/assets/main.css'
-TARGET_CSS = 'C:/Users/info/OneDrive/Dokumente/WWW_SELK_HP/selk-schwartau/themes/tw_basic/assets/styles.css'
+ROOT = .
+THEME_DIR  = $(ROOT)/themes/tw_basic/
+SOURCE_CSS = assets/main.css
+TARGET_CSS = assets/styles.css
 
 build: tw
 	rm -rf ./public/*
@@ -10,8 +10,14 @@ build: tw
 dev:
 	hugo server -D --disableFastRender
 
+tw-watch:
+	cd $(THEME_DIR) && \
+	pnpm exec tailwindcss -i $(SOURCE_CSS) -o $(TARGET_CSS) --watch
+
 tw:
-	cd $(THEME_DIR) && npx tailwindcss -i $(SOURCE_CSS) -o $(TARGET_CSS) ;cd $(ROOT)
+	cd $(THEME_DIR) && \
+	pnpm exec tailwindcss -i $(SOURCE_CSS) -o $(TARGET_CSS) ;\
+	cd ../../
 
 md-preview:
 	grip ./JOURNAL.md 8888
