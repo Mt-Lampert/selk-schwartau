@@ -10,6 +10,10 @@ build: tw
 dev:
 	hugo server -D --disableFastRender
 
+tw-watch:
+	cd $(THEME_DIR) && \
+	pnpm exec tailwindcss -i $(SOURCE_CSS) -o $(TARGET_CSS) --watch
+
 tw:
 	cd $(THEME_DIR) && \
 	pnpm exec tailwindcss -i $(SOURCE_CSS) -o $(TARGET_CSS) ;\
