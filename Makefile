@@ -1,7 +1,7 @@
-ROOT = '/home/matthiaslangbart/Documents/GitHub/selk-schwartau/'
-THEME_DIR  = $(ROOT)'/themes/tw_basic/'
-SOURCE_CSS = $(THEME_DIR)'/assets/main.css'
-TARGET_CSS = $(THEME_DIR)'/assets/styles.css'
+ROOT = .
+THEME_DIR  = $(ROOT)/themes/tw_basic/
+SOURCE_CSS = assets/main.css
+TARGET_CSS = assets/styles.css
 
 build: tw
 	rm -rf ./public/*
@@ -12,8 +12,8 @@ dev:
 
 tw:
 	cd $(THEME_DIR) && \
-	npx tailwindcss -i $(SOURCE_CSS) -o $(TARGET_CSS) ;\
-	cd $(ROOT)
+	pnpm exec tailwindcss -i $(SOURCE_CSS) -o $(TARGET_CSS) ;\
+	cd ../../
 
 md-preview:
 	grip ./JOURNAL.md 8888
