@@ -22,3 +22,8 @@ tw:
 md-preview:
 	grip ./JOURNAL.md 8888
 
+publish:
+	rm -rf ./public/*
+	hugo
+
+# vim: ts=4 sw=4 fdm=indent
