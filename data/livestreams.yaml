@@ -1,6 +1,6 @@
 ---
 #
-# Hier stehen die Daten für das aktuelle Video,
+# Hier stehen die Daten für das kommende Video,
 # das als Livestream sichtbar sein soll.
 #
 aktuell:
@@ -14,6 +14,11 @@ aktuell:
 # teilbar ist: 3, 6, 9, 12, 15, ...
 #
 neuere:
+  - video_id: AurLg6hjM88
+    datum: 4. Feb 2024
+    sonntag: Sexuagesimae
+    motto: Wachstum hängt an Gottes Segen
+
   - video_id: x31ZH4MuVVs
     datum: 28. Jan 2024
     sonntag: 2. n. Ep.
@@ -54,13 +59,13 @@ neuere:
     sonntag: 3. Advent
     motto: No sea takimata sanctus est
 
-  - video_id: kYjWxH7eRGA
-    datum: 10. Dez 2023
-    sonntag: 2. Advent
-    motto: Duis autem vel eum iriure dolor
+  
 
 #
 # '[]' bedeutet: "Leere Liste" 
 #
-aeltere: []
-
+aeltere: 
+  - video_id: kYjWxH7eRGA
+    datum: 10. Dez 2023
+    sonntag: 2. Advent
+    motto: Duis autem vel eum iriure dolor
