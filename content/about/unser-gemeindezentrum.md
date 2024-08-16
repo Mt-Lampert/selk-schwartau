@@ -18,11 +18,12 @@ Miteinander-Lebendig-Glauben.
    image="../images/unser_gotteshaus-innen_leute__16x9.jpg" 
    alt="kirchraum" 
 %}}
-Lorem ipsum dolor sit amet, consectetuer adipscing elit, sed diam nonumy eirmod
+Lorem ipsum dolor sit amet consectetuer adipscing elit, sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
 vero eos et accusam et justo duo dolores et ea rebum. 
 {{% /img-right %}}
 
+Das hier ist eine Änderung von "Klaus".
 Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
 amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
 eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
