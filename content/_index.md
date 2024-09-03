@@ -5,12 +5,12 @@ draft: false
 ---
 
 {{< index-element 
-  src="./images/Hausgottesdienste-Text-und-Ton.jpg" 
+  img="./images/Hausgottesdienste-Text-und-Ton.jpg" 
   alt="img Hausgottesdienste"
   link="https://www.selk-schwartau.de/index.php/downloads/predigten" />}}
 
 {{% index-element 
-  src="./images/YouTubeKanal500.jpg" 
+  img="./images/YouTubeKanal500.jpg" 
   alt="Youtube-Image" 
   link="https://www.youtube.com/@martin-luther-bad-schwartau/streams" 
   title="Gottesdinste im Internet mitfeiern" %}}
@@ -22,7 +22,7 @@ Die Gottesdiensttermine bitte dem [Terminkalender](/kalender) entnehmen.
 {{% /index-element %}}
 
 {{% index-element 
-  src="./images/23-09-03_Lukas_500.jpg" 
+  img="./images/23-09-03_Lukas_500.jpg" 
   alt="Lukas Klette" 
   title="Generalprobe Für Gospel Meets Hiphop" %}}
 Kürzlich besuchte der Rapper und Pastor Lukas Klette (Hamburg) den Gospelchor
@@ -36,7 +36,7 @@ Klaus Bergmann.
 {{% /index-element %}}
 
 {{% index-element 
-  src="./images/Konfer-Kanutour_500.jpg" 
+  img="./images/Konfer-Kanutour_500.jpg" 
   alt="Konfer-Kanutour" 
   title="Konfirmandenwochenende in Bad Schwartau" %}}
 Unter der Leitung von Vikar Benjamin Lippa und Pfarrer Klaus Bergmann erlebte
@@ -49,7 +49,7 @@ rund um die Altstadtinsel der Hansestadt Lübeck.
 {{% /index-element %}}
 
 {{% index-element 
-  src="./images/10Jahre-Chorleitung-Adi-Klaes500.jpg" 
+  img="./images/10Jahre-Chorleitung-Adi-Klaes500.jpg" 
   alt="10 Jahre Adi" 
   title="Nathanael Kläs: 10 Jahre Chorleitung" %}}
 In den ersten Junitagen verbrachte _Spirit of Joy,_ der Gospelchor der
@@ -63,7 +63,7 @@ Chorleitung.
 {{% /index-element %}}
 
 {{% index-element 
-  src="./images/SchnackMAHL500.jpg" 
+  img="./images/SchnackMAHL500.jpg" 
   alt="SchnackMAHL" 
   title="Schnack MAHL – Essen in Gemeinschaft" %}}
 Seit dem Herbst 2022 bieten wir in unserer Martin-Luther-Gemeinde jeden
@@ -76,7 +76,7 @@ Gemeinschaft!
 {{% /index-element %}}
 
 {{% index-element 
-  src="./images/Beten_um_Frieden-500.jpg" 
+  img="./images/Beten_um_Frieden-500.jpg" 
   alt="Friede Ukraine" 
   title="Gebet um Frieden" %}}
 Gott, Du bist der Herr über die ganze Erde. \
@@ -103,7 +103,7 @@ Amen
 {{% /index-element %}}
 
 {{% index-element 
-  src="./images/Choir_Cartoon.jpg" 
+  img="./images/Choir_Cartoon.jpg" 
   alt="Choir Cartoon" 
   title="Chorwochenende in Krelingen" %}}
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
