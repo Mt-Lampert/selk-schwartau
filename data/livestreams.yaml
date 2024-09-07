@@ -3,6 +3,9 @@
 # Hier stehen die Daten für das kommende Video,
 # das als Livestream sichtbar sein soll.
 #
+# video_id: Der Code im Youtube-URL v=AurLg6hjM88
+#
+#
 aktuell:
   video_id: AurLg6hjM88
   datum: 4. Feb 2024
