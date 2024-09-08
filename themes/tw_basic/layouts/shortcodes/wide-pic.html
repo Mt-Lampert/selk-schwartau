@@ -1,5 +1,11 @@
 {{ $src := .Get "image" }}
-{{ $alt := .Get "alt" }}
+{{ $alt := printf "Image %s" (.Get "alt") }}
+{{ $rawTitle := .Get "title" }}
+{{ $matches := findRE `^/` $src }}
+{{ if gt (len $matches) 0 }}
+{{   $src = printf "%s%s" site.BaseURL $src }}
+{{ end }}
+
 
 <div class="flex flex-row py-6 justify-center items-center">
   <img src="{{ $src }}" alt="{{ $alt }}" class="inline-block">
